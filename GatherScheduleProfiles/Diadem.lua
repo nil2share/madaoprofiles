@@ -1,17 +1,5 @@
 local tbl = 
 {
-	backtoLocation = true,
-	btn = 
-	{
-	},
-	buy = 
-	{
-	},
-	cant = 
-	{
-		[28206] = 6,
-	},
-	craftLocType = "Default",
 	ephs = 
 	{
 		[0] = 
@@ -33,42 +21,63 @@ local tbl =
 		{
 		},
 	},
-	filename = "Deliveries",
-	foodId = 0,
-	foodName = "Use Default",
+	filename = "Diadem",
 	glist = 
 	{
-	},
-	goCollectTurnInAtDone = false,
-	grind = 
-	{
-	},
-	isProgenProf = true,
-	listed = 
-	{
 		
 		{
-			amount = 0,
+			HQamount = 0,
+			amount = 500,
 			collect = false,
-			itemid = 23144,
-			job = 7,
-			name = "[62][CUL]Anti-shark Harpoon",
-			nq = false,
-			recipe = 32971,
+			cordial = true,
+			id = 29928,
+			job = 17,
+			markerid = 9010004,
+			markername = "Grade 2 Skybuilders' Adder",
+			notinlistcaseid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			tasktype = "gather",
+			timerValue = 1100507,
 		},
 		
 		{
-			amount = 6,
+			HQamount = 0,
+			amount = 500,
 			collect = false,
-			itemid = 28196,
-			job = 7,
-			name = "[71][CUL]Honeybee Trappings",
-			nq = false,
-			recipe = 33570,
+			cordial = true,
+			id = 29931,
+			job = 16,
+			markerid = 9010001,
+			markername = "Grade 2 Skybuilders' Cloud Drop Water",
+			notinlistcaseid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			tasktype = "gather",
+			timerValue = 1134602,
 		},
-	},
-	miner = 
-	{
+		
+		{
+			HQamount = 0,
+			amount = 500,
+			collect = false,
+			cordial = true,
+			id = 29930,
+			job = 16,
+			markerid = 9010001,
+			markername = "Grade 2 Skybuilders' Crystal-clear Rock Salt",
+			notinlistcaseid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			tasktype = "gather",
+			timerValue = 945320,
+		},
 	},
 	normalTimebase = 
 	{
@@ -361,63 +370,8 @@ local tbl =
 			tasktype = "empty",
 		},
 	},
-	normalType = "Timebase",
+	normalType = "Amountbase",
 	orders = 
-	{
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 6,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = true,
-			id = 33570,
-			ings = 
-			{
-				[28206] = 1,
-			},
-			ingsHQ = 
-			{
-				[28206] = 0,
-			},
-			item = 28196,
-			madaoprofile = "None",
-			name = "Honeybee Trappings",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[8] = 4,
-				[13] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-	},
-	potId = 0,
-	potName = "Use Default",
-	profileRepeat = false,
-	profileType = "OneTime",
-	reserve = 
-	{
-		[28206] = 1,
-	},
-	reserve2 = false,
-	shards = 
-	{
-		[8] = 24,
-		[13] = 12,
-	},
-	skill = 
-	{
-		dskName = "None",
-		skeName = "None",
-		skillType = "Auto",
-	},
-	tmlist = 
 	{
 	},
 	unspoil = 
@@ -497,11 +451,6 @@ local tbl =
 		[0] = 
 		{
 		},
-	},
-	useFood = true,
-	usePot = true,
-	withdraw = 
-	{
 	},
 }
 
