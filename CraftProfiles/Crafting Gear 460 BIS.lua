@@ -214,7 +214,7 @@ local tbl =
 		},
 		
 		{
-			amount = 2,
+			amount = 0,
 			collect = false,
 			itemid = 28465,
 			job = 1,
@@ -244,7 +244,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 28511,
 			job = 1,
@@ -274,7 +274,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 28462,
 			job = 1,
@@ -306,6 +306,7 @@ local tbl =
 	miner = 
 	{
 	},
+	normalType = "Amountbase",
 	orders = 
 	{
 		
@@ -330,6 +331,46 @@ local tbl =
 			item = 27716,
 			madaoprofile = "None",
 			name = "Tungsten Steel Ingot",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33521,
+			ings = 
+			{
+				[27714] = 1,
+				[27716] = 3,
+				[27814] = 1,
+				[28714] = 3,
+				[28718] = 2,
+			},
+			ingsHQ = 
+			{
+				[27714] = 0,
+				[27716] = 0,
+				[27814] = 0,
+				[28714] = 0,
+				[28718] = 0,
+			},
+			item = 28511,
+			madaoprofile = "None",
+			name = "Facet Pliers",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -386,16 +427,16 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 2,
+			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 33502,
+			id = 33499,
 			ings = 
 			{
 				[27714] = 1,
 				[27716] = 3,
-				[27814] = 1,
+				[27813] = 1,
 				[28714] = 3,
 				[28718] = 2,
 			},
@@ -403,13 +444,13 @@ local tbl =
 			{
 				[27714] = 0,
 				[27716] = 0,
-				[27814] = 0,
+				[27813] = 0,
 				[28714] = 0,
 				[28718] = 0,
 			},
-			item = 28465,
+			item = 28462,
 			madaoprofile = "None",
-			name = "Facet Round Knife",
+			name = "Facet Cross-pein Hammer",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -532,7 +573,8 @@ local tbl =
 	withdraw = 
 	{
 		[27716] = 3,
-		[1027716] = 4,
+		[27718] = 3,
+		[1027716] = 1,
 	},
 }
 

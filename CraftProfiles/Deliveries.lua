@@ -9,7 +9,7 @@ local tbl =
 	},
 	cant = 
 	{
-		[28206] = 6,
+		[28204] = 6,
 	},
 	craftLocType = "Default",
 	ephs = 
@@ -49,7 +49,7 @@ local tbl =
 		
 		{
 			amount = 0,
-			collect = false,
+			collect = true,
 			itemid = 23144,
 			job = 7,
 			name = "[62][CUL]Anti-shark Harpoon",
@@ -58,13 +58,33 @@ local tbl =
 		},
 		
 		{
-			amount = 6,
-			collect = false,
+			amount = 0,
+			collect = true,
 			itemid = 28196,
 			job = 7,
 			name = "[71][CUL]Honeybee Trappings",
 			nq = false,
 			recipe = 33570,
+		},
+		
+		{
+			amount = 0,
+			collect = true,
+			itemid = 23145,
+			job = 7,
+			name = "[63][CUL]Coerthan Cold-weather Gear",
+			nq = false,
+			recipe = 32973,
+		},
+		
+		{
+			amount = 6,
+			collect = true,
+			itemid = 28194,
+			job = 7,
+			name = "[70][CUL]Flyer Printing Set",
+			nq = false,
+			recipe = 33568,
 		},
 	},
 	miner = 
@@ -372,18 +392,18 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
-			id = 33570,
+			id = 33568,
 			ings = 
 			{
-				[28206] = 1,
+				[28204] = 1,
 			},
 			ingsHQ = 
 			{
-				[28206] = 0,
+				[28204] = 0,
 			},
-			item = 28196,
+			item = 28194,
 			madaoprofile = "None",
-			name = "Honeybee Trappings",
+			name = "Flyer Printing Set",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -403,7 +423,7 @@ local tbl =
 	profileType = "OneTime",
 	reserve = 
 	{
-		[28206] = 1,
+		[28204] = 1,
 	},
 	reserve2 = false,
 	shards = 

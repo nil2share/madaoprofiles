@@ -3,14 +3,13 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27784] = 33,
+		[27785] = 50,
 	},
 	buy = 
 	{
 	},
 	cant = 
 	{
-		[29979] = 6,
 	},
 	ephs = 
 	{
@@ -39,10 +38,10 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 33,
+			amount = 50,
 			collect = false,
 			cordial = true,
-			id = 27784,
+			id = 27785,
 			job = 17,
 			markerid = 8132431,
 			markername = "",
@@ -52,9 +51,9 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1583681025,
+			started = 1585150505,
 			tasktype = 1,
-			timerValue = 934727,
+			timerValue = 960811,
 			timeup = false,
 		},
 	},
@@ -127,7 +126,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 150,
 			collect = false,
 			itemid = 29493,
 			job = 6,
@@ -157,7 +156,7 @@ local tbl =
 		},
 		
 		{
-			amount = 99,
+			amount = 0,
 			collect = false,
 			itemid = 29496,
 			job = 6,
@@ -176,26 +175,26 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 33,
+			amount = 50,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 33885,
+			id = 33882,
 			ings = 
 			{
-				[27784] = 1,
+				[27785] = 1,
 				[27811] = 1,
 				[29979] = 2,
 			},
 			ingsHQ = 
 			{
-				[27784] = 0,
+				[27785] = 0,
 				[27811] = 0,
 				[29979] = 0,
 			},
-			item = 29496,
+			item = 29493,
 			madaoprofile = "None",
-			name = "Grade 3 Tinctures of Mind",
+			name = "Grade 3 Tincture of Dexterity",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -212,15 +211,15 @@ local tbl =
 	profileType = "OneTime",
 	reserve = 
 	{
-		[27784] = 1,
+		[27785] = 1,
 		[27811] = 1,
 		[29979] = 1,
 	},
 	reserve2 = false,
 	shards = 
 	{
-		[18] = 66,
-		[19] = 66,
+		[18] = 100,
+		[19] = 100,
 	},
 	skill = 
 	{

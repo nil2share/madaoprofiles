@@ -3,8 +3,8 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27824] = 20,
-		[27837] = 10,
+		[27824] = 160,
+		[27837] = 99,
 	},
 	buy = 
 	{
@@ -12,10 +12,10 @@ local tbl =
 		{
 			id = 4828,
 			memo = "Cinnamon",
-			num = 10,
+			num = 99,
 			one = false,
 			price = 0,
-			vid = 13,
+			vid = 10,
 		},
 	},
 	cant = 
@@ -51,7 +51,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 10,
+			amount = 99,
 			collect = false,
 			cordial = true,
 			id = 27782,
@@ -64,36 +64,15 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1583952755,
+			started = 1584881860,
 			tasktype = 1,
-			timerValue = 1193354,
+			timerValue = 1152044,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 10,
-			collect = false,
-			cordial = true,
-			id = 27837,
-			job = 17,
-			markerid = 8141413,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1583952755,
-			tasktype = 1,
-			timerValue = 984789,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 20,
+			amount = 160,
 			collect = false,
 			cordial = true,
 			id = 27824,
@@ -106,9 +85,30 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1583952755,
+			started = 1584881860,
 			tasktype = 1,
-			timerValue = 1044841,
+			timerValue = 1046800,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 99,
+			collect = false,
+			cordial = true,
+			id = 27837,
+			job = 17,
+			markerid = 8141413,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1584881860,
+			tasktype = 1,
+			timerValue = 975982,
 			timeup = false,
 		},
 	},
@@ -121,7 +121,7 @@ local tbl =
 	{
 		
 		{
-			amount = 10,
+			amount = 99,
 			collect = true,
 			itemid = 27874,
 			job = 7,
@@ -132,7 +132,7 @@ local tbl =
 	},
 	miner = 
 	{
-		[27782] = 10,
+		[27782] = 99,
 	},
 	normalTimebase = 
 	{
@@ -432,7 +432,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 4,
+			amount = 32,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -463,7 +463,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 10,
+			amount = 99,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
@@ -516,8 +516,8 @@ local tbl =
 	reserve2 = false,
 	shards = 
 	{
-		[8] = 94,
-		[13] = 70,
+		[8] = 885,
+		[13] = 693,
 	},
 	skill = 
 	{
@@ -610,6 +610,8 @@ local tbl =
 	usePot = true,
 	withdraw = 
 	{
+		[12894] = 70,
+		[27782] = 99,
 	},
 }
 
