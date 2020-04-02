@@ -3,7 +3,7 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27785] = 50,
+		[27779] = 67,
 	},
 	buy = 
 	{
@@ -38,12 +38,12 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 50,
+			amount = 67,
 			collect = false,
 			cordial = true,
-			id = 27785,
+			id = 27779,
 			job = 17,
-			markerid = 8132431,
+			markerid = 8172725,
 			markername = "",
 			maxlvl = 999,
 			minlvl = 0,
@@ -51,9 +51,9 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1585150505,
+			started = 1585760468,
 			tasktype = 1,
-			timerValue = 960811,
+			timerValue = 1145424,
 			timeup = false,
 		},
 	},
@@ -126,7 +126,7 @@ local tbl =
 		},
 		
 		{
-			amount = 150,
+			amount = 0,
 			collect = false,
 			itemid = 29493,
 			job = 6,
@@ -164,6 +164,16 @@ local tbl =
 			nq = false,
 			recipe = 33885,
 		},
+		
+		{
+			amount = 200,
+			collect = false,
+			itemid = 27995,
+			job = 6,
+			name = "[80][ALC]Grade 2 Tincture of Strength",
+			nq = false,
+			recipe = 33337,
+		},
 	},
 	miner = 
 	{
@@ -175,26 +185,26 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 50,
+			amount = 67,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 33882,
+			id = 33337,
 			ings = 
 			{
-				[27785] = 1,
-				[27811] = 1,
-				[29979] = 2,
+				[27779] = 1,
+				[27796] = 1,
+				[27812] = 3,
 			},
 			ingsHQ = 
 			{
-				[27785] = 0,
-				[27811] = 0,
-				[29979] = 0,
+				[27779] = 0,
+				[27796] = 0,
+				[27812] = 0,
 			},
-			item = 29493,
+			item = 27995,
 			madaoprofile = "None",
-			name = "Grade 3 Tincture of Dexterity",
+			name = "Grade 2 Tincture of Strength",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -211,15 +221,15 @@ local tbl =
 	profileType = "OneTime",
 	reserve = 
 	{
-		[27785] = 1,
-		[27811] = 1,
-		[29979] = 1,
+		[27779] = 1,
+		[27796] = 1,
+		[27812] = 1,
 	},
 	reserve2 = false,
 	shards = 
 	{
-		[18] = 100,
-		[19] = 100,
+		[18] = 134,
+		[19] = 134,
 	},
 	skill = 
 	{

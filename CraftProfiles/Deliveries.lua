@@ -9,7 +9,7 @@ local tbl =
 	},
 	cant = 
 	{
-		[28204] = 6,
+		[28207] = 6,
 	},
 	craftLocType = "Default",
 	ephs = 
@@ -78,13 +78,33 @@ local tbl =
 		},
 		
 		{
-			amount = 6,
+			amount = 0,
 			collect = true,
 			itemid = 28194,
 			job = 7,
 			name = "[70][CUL]Flyer Printing Set",
 			nq = false,
 			recipe = 33568,
+		},
+		
+		{
+			amount = 0,
+			collect = true,
+			itemid = 23143,
+			job = 7,
+			name = "[62][CUL]Gyr Abanian Remedies",
+			nq = false,
+			recipe = 32969,
+		},
+		
+		{
+			amount = 6,
+			collect = true,
+			itemid = 28197,
+			job = 7,
+			name = "[72][CUL]Airship Fittings",
+			nq = false,
+			recipe = 33571,
 		},
 	},
 	miner = 
@@ -392,18 +412,18 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
-			id = 33568,
+			id = 33571,
 			ings = 
 			{
-				[28204] = 1,
+				[28207] = 1,
 			},
 			ingsHQ = 
 			{
-				[28204] = 0,
+				[28207] = 0,
 			},
-			item = 28194,
+			item = 28197,
 			madaoprofile = "None",
-			name = "Flyer Printing Set",
+			name = "Airship Fittings",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -423,7 +443,7 @@ local tbl =
 	profileType = "OneTime",
 	reserve = 
 	{
-		[28204] = 1,
+		[28207] = 1,
 	},
 	reserve2 = false,
 	shards = 

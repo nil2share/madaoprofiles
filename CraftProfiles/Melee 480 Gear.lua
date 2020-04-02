@@ -3,8 +3,6 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27779] = 13,
-		[27785] = 4,
 	},
 	buy = 
 	{
@@ -49,37 +47,12 @@ local tbl =
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
-			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1584193699,
-			tasktype = "gather",
-			timerValue = 1064818,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 4,
-			collect = false,
-			cordial = true,
-			id = 27785,
-			job = 17,
-			markerid = 8132431,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			okgp = 0,
-			skillname = "Leveling.lua",
-			skillnum = 6,
-			skip = false,
-			srange = 0,
-			started = 1584193699,
-			tasktype = "gather",
-			timerValue = 901016,
+			started = 1585447485,
+			tasktype = 1,
+			timerValue = 902911,
 			timeup = false,
 		},
 		
@@ -95,37 +68,12 @@ local tbl =
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
-			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1584193699,
-			tasktype = "gather",
-			timerValue = 1013135,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 13,
-			collect = false,
-			cordial = true,
-			id = 27779,
-			job = 17,
-			markerid = 8172725,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			okgp = 0,
-			skillname = "Leveling.lua",
-			skillnum = 6,
-			skip = false,
-			srange = 0,
-			started = 1584193699,
-			tasktype = "gather",
-			timerValue = 1126042,
+			started = 1585447485,
+			tasktype = 1,
+			timerValue = 1132350,
 			timeup = false,
 		},
 	},
@@ -138,7 +86,7 @@ local tbl =
 	{
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 29428,
 			job = 5,
@@ -178,7 +126,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 29431,
 			job = 5,
@@ -238,7 +186,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 29432,
 			job = 4,
@@ -258,7 +206,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 29470,
 			job = 3,
@@ -298,7 +246,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 29429,
 			job = 2,
@@ -338,7 +286,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 29433,
 			job = 2,
@@ -358,7 +306,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 29407,
 			job = 1,
@@ -449,7 +397,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 10,
+			amount = 3,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -472,6 +420,142 @@ local tbl =
 			shards = 
 			{
 				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 6,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33900,
+			ings = 
+			{
+				[29974] = 4,
+				[29975] = 2,
+			},
+			ingsHQ = 
+			{
+				[29974] = 0,
+				[29975] = 0,
+			},
+			item = 29961,
+			madaoprofile = "None",
+			name = "Duskcourt Cloth",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[16] = 2,
+				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 4,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33901,
+			ings = 
+			{
+				[29976] = 4,
+				[29977] = 2,
+			},
+			ingsHQ = 
+			{
+				[29976] = 0,
+				[29977] = 0,
+			},
+			item = 29962,
+			madaoprofile = "None",
+			name = "Megalania Leather",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 6,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33896,
+			ings = 
+			{
+				[29968] = 4,
+				[29969] = 2,
+			},
+			ingsHQ = 
+			{
+				[29968] = 0,
+				[29969] = 0,
+			},
+			item = 29958,
+			madaoprofile = "None",
+			name = "Cobalt Alloy Ingot",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33898,
+			ings = 
+			{
+				[29970] = 4,
+				[29971] = 2,
+			},
+			ingsHQ = 
+			{
+				[29970] = 0,
+				[29971] = 0,
+			},
+			item = 29959,
+			madaoprofile = "None",
+			name = "Purpure Bead",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[14] = 2,
 				[16] = 2,
 			},
 			skillprofile = "None",
@@ -516,248 +600,36 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 12,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33901,
-			ings = 
-			{
-				[29976] = 4,
-				[29977] = 2,
-			},
-			ingsHQ = 
-			{
-				[29976] = 0,
-				[29977] = 0,
-			},
-			item = 29962,
-			madaoprofile = "None",
-			name = "Megalania Leather",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 13,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33902,
-			ings = 
-			{
-				[27779] = 1,
-				[27812] = 1,
-				[28718] = 1,
-				[29978] = 3,
-			},
-			ingsHQ = 
-			{
-				[27779] = 0,
-				[27812] = 0,
-				[28718] = 0,
-				[29978] = 0,
-			},
-			item = 29963,
-			madaoprofile = "None",
-			name = "Grade 3 Strength Alkahest",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[18] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 4,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33903,
-			ings = 
-			{
-				[27785] = 1,
-				[27812] = 1,
-				[28718] = 1,
-				[29978] = 3,
-			},
-			ingsHQ = 
-			{
-				[27785] = 0,
-				[27812] = 0,
-				[28718] = 0,
-				[29978] = 0,
-			},
-			item = 29964,
-			madaoprofile = "None",
-			name = "Grade 3 Dexterity Alkahest",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[18] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 13,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33896,
-			ings = 
-			{
-				[29968] = 4,
-				[29969] = 2,
-			},
-			ingsHQ = 
-			{
-				[29968] = 0,
-				[29969] = 0,
-			},
-			item = 29958,
-			madaoprofile = "None",
-			name = "Cobalt Alloy Ingot",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 5,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33898,
-			ings = 
-			{
-				[29970] = 4,
-				[29971] = 2,
-			},
-			ingsHQ = 
-			{
-				[29970] = 0,
-				[29971] = 0,
-			},
-			item = 29959,
-			madaoprofile = "None",
-			name = "Purpure Bead",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 10,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33900,
-			ings = 
-			{
-				[29974] = 4,
-				[29975] = 2,
-			},
-			ingsHQ = 
-			{
-				[29974] = 0,
-				[29975] = 0,
-			},
-			item = 29961,
-			madaoprofile = "None",
-			name = "Duskcourt Cloth",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
 			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 33872,
+			id = 33825,
 			ings = 
 			{
-				[27715] = 1,
-				[27813] = 1,
+				[27714] = 1,
+				[27814] = 1,
 				[29959] = 1,
-				[29960] = 1,
-				[29963] = 1,
+				[29961] = 2,
+				[29963] = 2,
 			},
 			ingsHQ = 
 			{
-				[27715] = 0,
-				[27813] = 0,
+				[27714] = 0,
+				[27814] = 0,
 				[29959] = 0,
-				[29960] = 0,
+				[29961] = 0,
 				[29963] = 0,
 			},
-			item = 29475,
+			item = 29428,
 			madaoprofile = "None",
-			name = "Neo-Ishgardian Wristbands of Slaying",
+			name = "Neo-Ishgardian Cap of Maiming",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[14] = 2,
 				[16] = 2,
+				[18] = 2,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -812,72 +684,32 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 33873,
-			ings = 
-			{
-				[27715] = 1,
-				[27813] = 1,
-				[29959] = 1,
-				[29960] = 1,
-				[29964] = 1,
-			},
-			ingsHQ = 
-			{
-				[27715] = 0,
-				[27813] = 0,
-				[29959] = 0,
-				[29960] = 0,
-				[29964] = 0,
-			},
-			item = 29476,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Wristbands of Aiming",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33827,
+			id = 33828,
 			ings = 
 			{
 				[27757] = 1,
 				[27814] = 1,
-				[29958] = 2,
-				[29962] = 1,
+				[29961] = 2,
+				[29962] = 2,
 				[29963] = 2,
 			},
 			ingsHQ = 
 			{
 				[27757] = 0,
 				[27814] = 0,
-				[29958] = 0,
+				[29961] = 0,
 				[29962] = 0,
 				[29963] = 0,
 			},
-			item = 29430,
+			item = 29431,
 			madaoprofile = "None",
-			name = "Neo-Ishgardian Gloves of Maiming",
+			name = "Neo-Ishgardian Bottoms of Maiming",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[15] = 2,
-				[17] = 2,
+				[16] = 2,
+				[18] = 2,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -892,31 +724,31 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 33845,
+			id = 33829,
 			ings = 
 			{
-				[27757] = 1,
-				[27814] = 1,
-				[29958] = 2,
-				[29962] = 1,
-				[29964] = 2,
+				[27693] = 1,
+				[27813] = 1,
+				[29958] = 1,
+				[29962] = 2,
+				[29963] = 2,
 			},
 			ingsHQ = 
 			{
-				[27757] = 0,
-				[27814] = 0,
+				[27693] = 0,
+				[27813] = 0,
 				[29958] = 0,
 				[29962] = 0,
-				[29964] = 0,
+				[29963] = 0,
 			},
-			item = 29448,
+			item = 29432,
 			madaoprofile = "None",
-			name = "Neo-Ishgardian Gloves of Scouting",
+			name = "Neo-Ishgardian Boots of Maiming",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[15] = 2,
+				[16] = 2,
 				[17] = 2,
 			},
 			skillprofile = "None",
@@ -968,428 +800,30 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 2,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33877,
-			ings = 
-			{
-				[27693] = 1,
-				[27815] = 1,
-				[29959] = 1,
-				[29960] = 1,
-				[29963] = 1,
-			},
-			ingsHQ = 
-			{
-				[27693] = 0,
-				[27815] = 0,
-				[29959] = 0,
-				[29960] = 0,
-				[29963] = 0,
-			},
-			item = 29480,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Ring of Slaying",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
 			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 33831,
-			ings = 
-			{
-				[27742] = 1,
-				[27814] = 1,
-				[29959] = 1,
-				[29961] = 2,
-				[29963] = 2,
-			},
-			ingsHQ = 
-			{
-				[27742] = 0,
-				[27814] = 0,
-				[29959] = 0,
-				[29961] = 0,
-				[29963] = 0,
-			},
-			item = 29434,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Hat of Striking",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33847,
-			ings = 
-			{
-				[27693] = 1,
-				[27813] = 1,
-				[29958] = 2,
-				[29962] = 1,
-				[29964] = 2,
-			},
-			ingsHQ = 
-			{
-				[27693] = 0,
-				[27813] = 0,
-				[29958] = 0,
-				[29962] = 0,
-				[29964] = 0,
-			},
-			item = 29450,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Sollerets of Scouting",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33832,
+			id = 33804,
 			ings = 
 			{
 				[27714] = 1,
 				[27813] = 1,
-				[29961] = 2,
-				[29962] = 2,
+				[29958] = 2,
+				[29960] = 2,
 				[29963] = 2,
 			},
 			ingsHQ = 
 			{
 				[27714] = 0,
 				[27813] = 0,
-				[29961] = 0,
-				[29962] = 0,
-				[29963] = 0,
-			},
-			item = 29435,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Top of Striking",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33848,
-			ings = 
-			{
-				[27715] = 1,
-				[27815] = 1,
-				[29961] = 1,
-				[29962] = 1,
-				[29964] = 1,
-			},
-			ingsHQ = 
-			{
-				[27715] = 0,
-				[27815] = 0,
-				[29961] = 0,
-				[29962] = 0,
-				[29964] = 0,
-			},
-			item = 29451,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Leather Belt of Scouting",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33833,
-			ings = 
-			{
-				[27757] = 1,
-				[27814] = 1,
-				[29958] = 2,
-				[29962] = 1,
-				[29963] = 2,
-			},
-			ingsHQ = 
-			{
-				[27757] = 0,
-				[27814] = 0,
-				[29958] = 0,
-				[29962] = 0,
-				[29963] = 0,
-			},
-			item = 29436,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Gloves of Striking",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33834,
-			ings = 
-			{
-				[27742] = 1,
-				[27814] = 1,
-				[29961] = 2,
-				[29962] = 2,
-				[29963] = 2,
-			},
-			ingsHQ = 
-			{
-				[27742] = 0,
-				[27814] = 0,
-				[29961] = 0,
-				[29962] = 0,
-				[29963] = 0,
-			},
-			item = 29437,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Bottoms of Striking",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33835,
-			ings = 
-			{
-				[27757] = 1,
-				[27813] = 1,
-				[29960] = 1,
-				[29962] = 2,
-				[29963] = 2,
-			},
-			ingsHQ = 
-			{
-				[27757] = 0,
-				[27813] = 0,
-				[29960] = 0,
-				[29962] = 0,
-				[29963] = 0,
-			},
-			item = 29438,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Boots of Striking",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33836,
-			ings = 
-			{
-				[27715] = 1,
-				[27815] = 1,
-				[29961] = 1,
-				[29962] = 1,
-				[29963] = 1,
-			},
-			ingsHQ = 
-			{
-				[27715] = 0,
-				[27815] = 0,
-				[29961] = 0,
-				[29962] = 0,
-				[29963] = 0,
-			},
-			item = 29439,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Leather Belt of Striking",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33862,
-			ings = 
-			{
-				[27693] = 1,
-				[27814] = 1,
-				[29960] = 2,
-				[29963] = 1,
-			},
-			ingsHQ = 
-			{
-				[27693] = 0,
-				[27814] = 0,
-				[29960] = 0,
-				[29963] = 0,
-			},
-			item = 29465,
-			madaoprofile = "None",
-			name = "Neo-Ishgardian Earring of Slaying",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33814,
-			ings = 
-			{
-				[27757] = 1,
-				[27813] = 1,
-				[29958] = 2,
-				[29960] = 2,
-				[29963] = 2,
-			},
-			ingsHQ = 
-			{
-				[27757] = 0,
-				[27813] = 0,
 				[29958] = 0,
 				[29960] = 0,
 				[29963] = 0,
 			},
-			item = 29417,
+			item = 29407,
 			madaoprofile = "None",
-			name = "Neo-Ishgardian Blade",
+			name = "Neo-Ishgardian Trident",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -1410,23 +844,17 @@ local tbl =
 		[27693] = 1,
 		[27703] = 1,
 		[27714] = 1,
-		[27715] = 1,
 		[27742] = 1,
 		[27757] = 1,
-		[27779] = 1,
-		[27785] = 1,
-		[27812] = 1,
 		[27813] = 1,
 		[27814] = 1,
 		[27815] = 1,
-		[28718] = 1,
 		[29958] = 1,
 		[29959] = 1,
 		[29960] = 1,
 		[29961] = 1,
 		[29962] = 1,
 		[29963] = 1,
-		[29964] = 1,
 		[29968] = 1,
 		[29969] = 1,
 		[29970] = 1,
@@ -1437,18 +865,16 @@ local tbl =
 		[29975] = 1,
 		[29976] = 1,
 		[29977] = 1,
-		[29978] = 1,
 	},
 	reserve2 = false,
 	shards = 
 	{
 		[8] = 7,
-		[14] = 42,
-		[15] = 38,
-		[16] = 96,
-		[17] = 70,
-		[18] = 60,
-		[19] = 34,
+		[14] = 16,
+		[15] = 10,
+		[16] = 34,
+		[17] = 28,
+		[18] = 16,
 	},
 	skill = 
 	{
@@ -1539,9 +965,8 @@ local tbl =
 	},
 	withdraw = 
 	{
-		[27779] = 13,
-		[27785] = 4,
 		[1027742] = 1,
+		[1027757] = 1,
 	},
 }
 

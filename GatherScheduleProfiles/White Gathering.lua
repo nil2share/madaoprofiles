@@ -1,5 +1,164 @@
 local tbl = 
 {
+	ephs = 
+	{
+		[0] = 
+		{
+			
+			{
+				HQamount = 0,
+				amount = 0,
+				collect = false,
+				cordial = false,
+				crystal = 0,
+				crystalId = 13,
+				gatherNormalDo = false,
+				id = 27543,
+				job = 18,
+				mapid = 816,
+				mapname = "Il Mheg X:20 Y:22",
+				markerid = 8162022,
+				name = "Poecilia",
+				okgp = 0,
+				sand = 27812,
+				shard = 7,
+				skillname = "Leveling.lua",
+				skip = false,
+				sname = "Scuroglow Aethersand",
+				useGift = true,
+			},
+		},
+		[4] = 
+		{
+			
+			{
+				HQamount = 0,
+				amount = 0,
+				collect = false,
+				cordial = false,
+				crystal = 0,
+				crystalId = 13,
+				gatherNormalDo = false,
+				id = 27543,
+				job = 18,
+				mapid = 816,
+				mapname = "Il Mheg X:20 Y:22",
+				markerid = 8162022,
+				name = "Poecilia",
+				okgp = 0,
+				sand = 27812,
+				shard = 7,
+				skillname = "Leveling.lua",
+				skip = false,
+				sname = "Scuroglow Aethersand",
+				useGift = true,
+			},
+		},
+		[8] = 
+		{
+			
+			{
+				HQamount = 0,
+				amount = 0,
+				collect = false,
+				cordial = false,
+				crystal = 0,
+				crystalId = 13,
+				gatherNormalDo = false,
+				id = 27543,
+				job = 18,
+				mapid = 816,
+				mapname = "Il Mheg X:20 Y:22",
+				markerid = 8162022,
+				name = "Poecilia",
+				okgp = 0,
+				sand = 27812,
+				shard = 7,
+				skillname = "Leveling.lua",
+				skip = false,
+				sname = "Scuroglow Aethersand",
+				useGift = true,
+			},
+		},
+		[12] = 
+		{
+			
+			{
+				HQamount = 0,
+				amount = 0,
+				collect = false,
+				cordial = false,
+				crystal = 0,
+				crystalId = 13,
+				gatherNormalDo = false,
+				id = 27543,
+				job = 18,
+				mapid = 816,
+				mapname = "Il Mheg X:20 Y:22",
+				markerid = 8162022,
+				name = "Poecilia",
+				okgp = 0,
+				sand = 27812,
+				shard = 7,
+				skillname = "Leveling.lua",
+				skip = false,
+				sname = "Scuroglow Aethersand",
+				useGift = true,
+			},
+		},
+		[16] = 
+		{
+			
+			{
+				HQamount = 0,
+				amount = 0,
+				collect = false,
+				cordial = false,
+				crystal = 0,
+				crystalId = 13,
+				gatherNormalDo = false,
+				id = 27543,
+				job = 18,
+				mapid = 816,
+				mapname = "Il Mheg X:20 Y:22",
+				markerid = 8162022,
+				name = "Poecilia",
+				okgp = 0,
+				sand = 27812,
+				shard = 7,
+				skillname = "Leveling.lua",
+				skip = false,
+				sname = "Scuroglow Aethersand",
+				useGift = true,
+			},
+		},
+		[20] = 
+		{
+			
+			{
+				HQamount = 0,
+				amount = 0,
+				collect = false,
+				cordial = false,
+				crystal = 0,
+				crystalId = 13,
+				gatherNormalDo = false,
+				id = 27543,
+				job = 18,
+				mapid = 816,
+				mapname = "Il Mheg X:20 Y:22",
+				markerid = 8162022,
+				name = "Poecilia",
+				okgp = 0,
+				sand = 27812,
+				shard = 7,
+				skillname = "Leveling.lua",
+				skip = false,
+				sname = "Scuroglow Aethersand",
+				useGift = true,
+			},
+		},
+	},
 	filename = "White Gathering",
 	normalTimebase = 
 	{
@@ -680,7 +839,7 @@ local tbl =
 			reserve = false,
 			skillname = "Collective_Default.lua",
 			skillnum = 2,
-			skip = true,
+			skip = false,
 			slot = 3,
 			timeChecks = 
 			{

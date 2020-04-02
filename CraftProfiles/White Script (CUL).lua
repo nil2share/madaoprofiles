@@ -12,6 +12,7 @@ local tbl =
 	cant = 
 	{
 	},
+	craftLocType = "Default",
 	ephs = 
 	{
 		[0] = 
@@ -34,29 +35,10 @@ local tbl =
 		},
 	},
 	filename = "White Script (CUL)",
+	foodId = 0,
+	foodName = "Use Default",
 	glist = 
 	{
-		
-		{
-			HQamount = 0,
-			amount = 165,
-			collect = false,
-			cordial = true,
-			id = 27826,
-			job = 17,
-			markerid = 8171427,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1584816096,
-			tasktype = 1,
-			timerValue = 1161208,
-			timeup = false,
-		},
 		
 		{
 			HQamount = 0,
@@ -70,12 +52,37 @@ local tbl =
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
+			okgp = 0,
 			skillname = "Leveling.lua",
+			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1584816096,
-			tasktype = 1,
-			timerValue = 1148912,
+			started = 1585751513,
+			tasktype = "gather",
+			timerValue = 996975,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 165,
+			collect = false,
+			cordial = true,
+			id = 27826,
+			job = 17,
+			markerid = 8171427,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			srange = 0,
+			started = 1585751513,
+			tasktype = "gather",
+			timerValue = 1183768,
 			timeup = false,
 		},
 	},
@@ -100,6 +107,298 @@ local tbl =
 	miner = 
 	{
 	},
+	normalTimebase = 
+	{
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		}, 
+		[0] = 
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+	},
+	normalType = "Amountbase",
 	orders = 
 	{
 		
@@ -172,6 +471,9 @@ local tbl =
 			usequick = false,
 		},
 	},
+	potId = 0,
+	potName = "Use Default",
+	profileRepeat = false,
 	profileType = "OneTime",
 	reserve = 
 	{
@@ -190,19 +492,142 @@ local tbl =
 	skill = 
 	{
 		dskName = "None",
-		skeName = "None",
-		skillType = "Auto",
+		skeName = "Example.lua",
+		skillType = "Default",
 	},
 	tmlist = 
 	{
+		[27828] = 99,
 	},
 	unspoil = 
 	{
+		
+		{
+			HQamount = 0,
+			amount = 99,
+			collect = false,
+			cordial = true,
+			expansion = "Shadow",
+			folklore = false,
+			hold = false,
+			id = 27828,
+			job = 17,
+			mapid = 817,
+			markerid = 8173421,
+			name = "Mist Spinach",
+			okgp = 0,
+			reserve = false,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			slot = 6,
+			timeChecks = 
+			{
+				true, 
+				[0] = true,
+				[12] = true,
+				[13] = true,
+			},
+			timeoks = 
+			{
+				0,
+				1,
+				12,
+				13,
+			},
+			x = 34,
+			y = 21,
+		},
 	},
+	unspoilTimeline = 
+	{
+		
+		{
+			27828,
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+			27828,
+		},
+		
+		{
+			27828,
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		}, 
+		[0] = 
+		{
+			27828,
+		},
+	},
+	useFood = true,
+	usePot = true,
 	withdraw = 
 	{
-		[12895] = 35,
-		[27827] = 51,
+		[12895] = 83,
+		[27826] = 160,
+		[27827] = 99,
+		[27828] = 99,
+		[1012895] = 16,
+		[1027826] = 5,
 	},
 }
 
