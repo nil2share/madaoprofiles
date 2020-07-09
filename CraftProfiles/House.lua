@@ -3,24 +3,13 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[5346] = 8,
-		[12579] = 30,
 	},
 	buy = 
 	{
-		
-		{
-			id = 5728,
-			memo = "Terebinth",
-			num = 4,
-			one = false,
-			price = 0,
-			vid = 12,
-		},
 	},
 	cant = 
 	{
-		[12933] = 5,
+		[19960] = 4,
 	},
 	ephs = 
 	{
@@ -49,69 +38,6 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 8,
-			collect = false,
-			cordial = true,
-			id = 5143,
-			job = 16,
-			markerid = 1451219,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1585327162,
-			tasktype = 1,
-			timerValue = 1096826,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 30,
-			collect = false,
-			cordial = true,
-			id = 12579,
-			job = 17,
-			markerid = 4012534,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1585327162,
-			tasktype = 1,
-			timerValue = 1132570,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 8,
-			collect = false,
-			cordial = true,
-			id = 5346,
-			job = 17,
-			markerid = 1531728,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1585327162,
-			tasktype = 1,
-			timerValue = 1127671,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
 			amount = 1,
 			collect = false,
 			cordial = true,
@@ -122,92 +48,119 @@ local tbl =
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
+			okgp = 0,
 			skillname = "Leveling.lua",
+			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1585327162,
-			tasktype = 1,
-			timerValue = 1115009,
+			started = 1586127977,
+			tasktype = "gather",
+			timerValue = 900045,
 			timeup = false,
 		},
 		
 		{
-			amount = 1,
+			HQamount = 0,
+			amount = 4,
 			collect = false,
-			consumed = false,
-			countHQ = false,
-			done = false,
-			grindAmount = 1,
-			grindItemId = 12609,
-			grindItemMobData = 
-			{
-			},
-			grindItemMobNum = 1,
-			grindItemNum = 0,
-			grindTag = 1585327162,
-			grindTimer = 1311,
-			id = 12609,
-			idnum = 1,
-			job = 98,
-			jobNum = 1,
-			level = 52,
-			lvler = false,
-			mapId = 398,
-			markers = 
-			{
-				
-				{
-					x = 446.74,
-					y = -10.23,
-					z = -553.09,
-				},
-				
-				{
-					x = 339.92,
-					y = -7.42,
-					z = -523.77,
-				},
-				
-				{
-					x = 246.75,
-					y = -18.07,
-					z = -372.84,
-				},
-			},
-			maxtime = 1311713,
-			mobId = 3566,
-			mobIds = 
-			{
-				[3566] = true,
-				[3606] = true,
-			},
-			mskill = true,
-			name = "brown bear <<Map[The Dravanian Forelands] Lvl[52]>> ",
-			prio = 1,
-			prioCount = false,
-			priodo = false,
-			rcount = 0,
-			skill = 1,
+			cordial = true,
+			id = 19957,
+			job = 16,
+			markerid = 6211018,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
 			srange = 0,
-			taskJob = 35,
-			tasktype = "grind",
-			timerBase = 1311713,
+			started = 1586127977,
+			tasktype = "gather",
+			timerValue = 1117591,
 			timeup = false,
-			type = 6,
-			useDefaultJob = true,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 2,
+			collect = false,
+			cordial = true,
+			id = 5115,
+			job = 16,
+			markerid = 1393025,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			srange = 0,
+			started = 1586127977,
+			tasktype = "gather",
+			timerValue = 1141670,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 8,
+			collect = false,
+			cordial = true,
+			id = 19956,
+			job = 16,
+			markerid = 6222915,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			srange = 0,
+			started = 1586127977,
+			tasktype = "gather",
+			timerValue = 1147090,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 3,
+			collect = false,
+			cordial = true,
+			id = 7010,
+			job = 16,
+			markerid = 1392822,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			srange = 0,
+			started = 1586127977,
+			tasktype = "gather",
+			timerValue = 1163589,
+			timeup = false,
 		},
 	},
 	goCollectTurnInAtDone = false,
 	grind = 
 	{
-		[12609] = 1,
 	},
 	isProgenProf = true,
 	listed = 
 	{
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 16781,
 			job = 0,
@@ -215,70 +168,341 @@ local tbl =
 			nq = false,
 			recipe = 32066,
 		},
+		
+		{
+			amount = 1,
+			collect = false,
+			itemid = 15144,
+			job = 3,
+			name = "[70][GSM]Washbasin",
+			nq = false,
+			recipe = 33200,
+		},
 	},
 	miner = 
 	{
+		[5115] = 2,
 		[5116] = 1,
-		[5143] = 8,
+		[7010] = 3,
+		[19956] = 8,
+		[19957] = 4,
 	},
+	normalTimebase = 
+	{
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+		
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		}, 
+		[0] = 
+		{
+			collect = false,
+			cordial = true,
+			id = 0,
+			job = 0,
+			markerid = 0,
+			okgp = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			tasktype = "empty",
+		},
+	},
+	normalType = "Amountbase",
 	orders = 
 	{
 		
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 1,
+			amount = 2,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 31200,
+			id = 3625,
 			ings = 
 			{
-				[5226] = 2,
-				[12609] = 1,
-				[12634] = 2,
+				[5115] = 1,
+				[19956] = 4,
 			},
 			ingsHQ = 
 			{
-				[5226] = 0,
-				[12609] = 0,
-				[12634] = 0,
+				[5115] = 0,
+				[19956] = 0,
 			},
-			item = 12606,
+			item = 19946,
 			madaoprofile = "None",
-			name = "Astral Oil",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[18] = 1,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 6,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 2242,
-			ings = 
-			{
-				[12579] = 5,
-			},
-			ingsHQ = 
-			{
-				[12579] = 0,
-			},
-			item = 12583,
-			madaoprofile = "None",
-			name = "Birch Lumber",
+			name = "Palladium Nugget",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -294,27 +518,29 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 4,
+			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 1147,
+			id = 3626,
 			ings = 
 			{
-				[5346] = 2,
+				[5116] = 1,
+				[19957] = 4,
 			},
 			ingsHQ = 
 			{
-				[5346] = 0,
+				[5116] = 0,
+				[19957] = 0,
 			},
-			item = 5485,
+			item = 19947,
 			madaoprofile = "None",
-			name = "Linseed Oil",
+			name = "Molybdenum Ingot",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[7] = 3,
+				[8] = 5,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -329,28 +555,95 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 30291,
+			id = 1207,
 			ings = 
 			{
-				[5116] = 1,
-				[7588] = 1,
-				[7597] = 1,
+				[5121] = 3,
 			},
 			ingsHQ = 
 			{
-				[5116] = 0,
-				[7588] = 0,
-				[7597] = 0,
+				[5121] = 0,
 			},
-			item = 7607,
+			item = 5061,
 			madaoprofile = "None",
-			name = "Wolfram Ingot",
+			name = "Darksteel Nugget",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[8] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 32427,
+			ings = 
+			{
+				[19947] = 1,
+				[19959] = 4,
+				[19961] = 2,
+			},
+			ingsHQ = 
+			{
+				[19947] = 0,
+				[19959] = 0,
+				[19961] = 0,
+			},
+			item = 19949,
+			madaoprofile = "None",
+			name = "Chromite Ingot",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
 				[14] = 2,
-				[17] = 1,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 32426,
+			ings = 
+			{
+				[19946] = 1,
+				[19958] = 4,
+				[19960] = 2,
+			},
+			ingsHQ = 
+			{
+				[19946] = 0,
+				[19958] = 0,
+				[19960] = 0,
+			},
+			item = 19948,
+			madaoprofile = "None",
+			name = "Palladium Ingot",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -365,63 +658,23 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 30986,
+			id = 1208,
 			ings = 
 			{
-				[12583] = 2,
-				[12606] = 1,
-				[12933] = 5,
+				[5061] = 1,
 			},
 			ingsHQ = 
 			{
-				[12583] = 0,
-				[12606] = 0,
-				[12933] = 0,
+				[5061] = 0,
 			},
-			item = 12584,
+			item = 5095,
 			madaoprofile = "None",
-			name = "Astral Birch Lumber",
+			name = "Darksteel Rivets",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 4,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 1586,
-			ings = 
-			{
-				[5143] = 2,
-				[5485] = 1,
-				[5728] = 1,
-			},
-			ingsHQ = 
-			{
-				[5143] = 0,
-				[5485] = 0,
-				[5728] = 0,
-			},
-			item = 7017,
-			madaoprofile = "None",
-			name = "Varnish",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[7] = 5,
+				[8] = 3,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -436,30 +689,30 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 32066,
+			id = 33200,
 			ings = 
 			{
-				[7017] = 4,
-				[7607] = 4,
-				[12583] = 4,
-				[12584] = 2,
+				[5095] = 1,
+				[7010] = 3,
+				[19948] = 2,
+				[19949] = 1,
 			},
 			ingsHQ = 
 			{
-				[7017] = 0,
-				[7607] = 0,
-				[12583] = 0,
-				[12584] = 0,
+				[5095] = 0,
+				[7010] = 0,
+				[19948] = 0,
+				[19949] = 0,
 			},
-			item = 16781,
+			item = 15144,
 			madaoprofile = "None",
-			name = "Troupe Stage",
+			name = "Washbasin",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[15] = 2,
-				[16] = 2,
+				[8] = 7,
+				[10] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -467,38 +720,35 @@ local tbl =
 			usequick = false,
 		},
 	},
+	profileRepeat = false,
 	profileType = "OneTime",
 	reserve = 
 	{
+		[5061] = 1,
+		[5095] = 1,
+		[5115] = 1,
 		[5116] = 1,
-		[5143] = 1,
-		[5226] = 1,
-		[5346] = 1,
-		[5485] = 1,
-		[5728] = 1,
-		[7017] = 1,
-		[7588] = 1,
-		[7597] = 1,
-		[7607] = 1,
-		[12579] = 1,
-		[12583] = 1,
-		[12584] = 1,
-		[12606] = 1,
-		[12609] = 1,
-		[12634] = 1,
-		[12933] = 1,
+		[5121] = 1,
+		[7010] = 1,
+		[19946] = 1,
+		[19947] = 1,
+		[19948] = 1,
+		[19949] = 1,
+		[19956] = 1,
+		[19957] = 1,
+		[19958] = 1,
+		[19959] = 1,
+		[19960] = 1,
+		[19961] = 1,
 	},
 	reserve2 = false,
 	shards = 
 	{
-		[7] = 32,
-		[10] = 30,
-		[14] = 2,
-		[15] = 4,
+		[8] = 18,
+		[10] = 17,
+		[14] = 6,
 		[16] = 4,
-		[17] = 1,
-		[18] = 1,
-		[19] = 2,
+		[17] = 2,
 	},
 	skill = 
 	{
@@ -508,88 +758,39 @@ local tbl =
 	},
 	tmlist = 
 	{
-		[5226] = 2,
-		[7588] = 1,
-		[12634] = 2,
+		[5121] = 3,
+		[19958] = 8,
+		[19959] = 4,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 1,
+			amount = 800,
 			collect = false,
 			cordial = true,
-			expansion = "ARR",
+			expansion = "SB",
 			folklore = false,
 			hold = false,
-			id = 7588,
+			id = 19958,
 			job = 16,
-			mapid = 147,
-			markerid = 1471619,
-			name = "Ferberite",
+			mapid = 614,
+			markerid = 6142010,
+			name = "Palladium Ore",
 			okgp = 0,
 			reserve = false,
-			skillname = "Leveling.lua",
+			skillname = "Pick Clean + Blessed + Bountiful.lua",
+			skillnum = 9,
 			skip = false,
 			slot = 6,
-			timeoks = 
+			timeChecks = 
 			{
-				3,
-				4,
-				5,
+				[4] = true,
+				[5] = true,
+				[16] = true,
+				[17] = true,
 			},
-			x = 16,
-			y = 19,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 2,
-			collect = false,
-			cordial = true,
-			expansion = "HW",
-			folklore = true,
-			hold = false,
-			id = 5226,
-			job = 16,
-			mapid = 397,
-			markerid = 3973716,
-			name = "Astral Moraine",
-			okgp = 0,
-			reserve = false,
-			skillname = "Leveling.lua",
-			skip = false,
-			slot = 4,
-			timeoks = 
-			{
-				0,
-				1,
-				12,
-				13,
-			},
-			x = 37,
-			y = 16,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 2,
-			collect = false,
-			cordial = true,
-			expansion = "HW",
-			folklore = true,
-			hold = false,
-			id = 12634,
-			job = 17,
-			mapid = 400,
-			markerid = 4001736,
-			name = "Seventh Heaven",
-			okgp = 0,
-			reserve = false,
-			skillname = "Leveling.lua",
-			skip = false,
-			slot = 1,
 			timeoks = 
 			{
 				4,
@@ -597,17 +798,172 @@ local tbl =
 				16,
 				17,
 			},
-			x = 17,
-			y = 36,
+			x = 20,
+			y = 10,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 4,
+			collect = false,
+			cordial = true,
+			expansion = "SB",
+			folklore = false,
+			hold = false,
+			id = 19959,
+			job = 16,
+			mapid = 620,
+			markerid = 6201633,
+			name = "Chromite Ore",
+			okgp = 0,
+			reserve = false,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			slot = 6,
+			timeChecks = 
+			{
+				[10] = true,
+				[11] = true,
+				[22] = true,
+				[23] = true,
+			},
+			timeoks = 
+			{
+				10,
+				11,
+				22,
+				23,
+			},
+			x = 16,
+			y = 33,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 3,
+			collect = false,
+			cordial = true,
+			expansion = "ARR",
+			folklore = false,
+			hold = false,
+			id = 5121,
+			job = 16,
+			mapid = 155,
+			markerid = 1552719,
+			name = "Darksteel Ore",
+			okgp = 0,
+			reserve = false,
+			skillname = "Leveling.lua",
+			skillnum = 6,
+			skip = false,
+			slot = 3,
+			timeChecks = 
+			{
+				true,
+				true,
+				true,
+			},
+			timeoks = 
+			{
+				1,
+				2,
+				3,
+			},
+			x = 27,
+			y = 19,
+		},
+	},
+	unspoilTimeline = 
+	{
+		
+		{
+			5121,
+		},
+		
+		{
+			5121,
+		},
+		
+		{
+			5121,
+		},
+		
+		{
+			19958,
+		},
+		
+		{
+			19958,
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+			19959,
+		},
+		
+		{
+			19959,
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+			19958,
+		},
+		
+		{
+			19958,
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+			19959,
+		},
+		
+		{
+			19959,
+		}, 
+		[0] = 
+		{
 		},
 	},
 	withdraw = 
 	{
-		[5143] = 8,
-		[5728] = 4,
-		[7588] = 1,
-		[7597] = 1,
-		[7607] = 3,
+		[5121] = 3,
+		[19961] = 2,
 	},
 }
 

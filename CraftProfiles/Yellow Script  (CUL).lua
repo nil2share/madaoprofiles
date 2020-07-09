@@ -3,8 +3,8 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[12878] = 51,
-		[27827] = 51,
+		[27826] = 165,
+		[27827] = 99,
 	},
 	buy = 
 	{
@@ -12,10 +12,10 @@ local tbl =
 		{
 			id = 4753,
 			memo = "Buffalo Milk",
-			num = 6,
+			num = 38,
 			one = false,
 			price = 0,
-			vid = 62,
+			vid = 27,
 		},
 	},
 	cant = 
@@ -47,73 +47,8 @@ local tbl =
 	{
 		
 		{
-			amount = 51,
-			collect = false,
-			consumed = false,
-			countHQ = false,
-			done = false,
-			grindAmount = 51,
-			grindItemId = 19878,
-			grindItemMobData = 
-			{
-			},
-			grindItemMobNum = 1,
-			grindItemNum = 0,
-			grindTag = 1583711387,
-			grindTimer = 962,
-			id = 19878,
-			idnum = 1,
-			job = 98,
-			jobNum = 1,
-			level = 65,
-			lvler = false,
-			mapId = 622,
-			markers = 
-			{
-				
-				{
-					x = 298.11,
-					y = -19.04,
-					z = 647.57,
-				},
-				
-				{
-					x = 375.23,
-					y = -2.09,
-					z = 501.71,
-				},
-				
-				{
-					x = 528.25,
-					y = -9.3,
-					z = 611.09,
-				},
-			},
-			maxtime = 962563,
-			mobId = 5773,
-			mobIds = 
-			{
-				[5773] = true,
-			},
-			mskill = true,
-			name = "steppe dzo <<Map[The Azim Steppe] Lvl[65]>> ",
-			prio = 1,
-			prioCount = false,
-			priodo = false,
-			rcount = 0,
-			skill = 1,
-			srange = 0,
-			taskJob = 35,
-			tasktype = "grind",
-			timerBase = 962563,
-			timeup = false,
-			type = 6,
-			useDefaultJob = true,
-		},
-		
-		{
 			HQamount = 0,
-			amount = 51,
+			amount = 99,
 			collect = false,
 			cordial = true,
 			id = 27827,
@@ -126,57 +61,67 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1583711387,
+			started = 1586873113,
 			tasktype = 1,
-			timerValue = 1077480,
+			timerValue = 1195917,
 			timeup = false,
 		},
 		
 		{
-			amount = 34,
+			amount = 99,
 			collect = false,
 			consumed = false,
 			countHQ = false,
 			done = false,
-			grindAmount = 34,
-			grindItemId = 6149,
+			grindAmount = 99,
+			grindItemId = 27852,
 			grindItemMobData = 
 			{
 			},
 			grindItemMobNum = 1,
 			grindItemNum = 0,
-			grindTag = 1583711387,
-			grindTimer = 1447,
-			id = 6149,
+			grindTag = 1586873113,
+			grindTimer = 1027,
+			id = 27852,
 			idnum = 1,
 			job = 98,
 			jobNum = 1,
-			level = 31,
+			level = 76,
 			lvler = false,
-			mapId = 137,
+			mapId = 815,
 			markers = 
 			{
 				
 				{
-					x = 433.67,
-					y = 32.79,
-					z = 529.1,
+					s = "15.5,13.3",
+					x = -294.94,
+					y = 10.52,
+					z = -404.16,
 				},
 				
 				{
-					x = 307.31,
-					y = 40.37,
-					z = 378.68,
+					s = "17.89,11.6",
+					x = -175.37,
+					y = 35.56,
+					z = -491.66,
+				},
+				
+				{
+					s = "19.7,13.1",
+					x = -86.21,
+					y = 34.81,
+					z = -416.69,
 				},
 			},
-			maxtime = 1447334,
-			mobId = 1313,
+			maxtime = 1027807,
+			mobId = 8552,
 			mobIds = 
 			{
-				[1313] = true,
+				[8552] = true,
+				[8553] = true,
 			},
 			mskill = true,
-			name = "large buffalo <<Map[Eastern La Noscea] Lvl[31]>> ",
+			name = "Ovim Billy <<Amh Araeng>><<76>><<15.5,13.8>>",
 			prio = 1,
 			prioCount = false,
 			priodo = false,
@@ -185,7 +130,7 @@ local tbl =
 			srange = 0,
 			taskJob = 35,
 			tasktype = "grind",
-			timerBase = 1447334,
+			timerBase = 1027807,
 			timeup = false,
 			type = 6,
 			useDefaultJob = true,
@@ -193,12 +138,12 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 51,
+			amount = 165,
 			collect = false,
 			cordial = true,
-			id = 12878,
+			id = 27826,
 			job = 17,
-			markerid = 3983620,
+			markerid = 8171427,
 			markername = "",
 			maxlvl = 999,
 			minlvl = 0,
@@ -206,30 +151,69 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1583711387,
+			started = 1586873113,
 			tasktype = 1,
-			timerValue = 979644,
+			timerValue = 1098337,
 			timeup = false,
 		},
 	},
 	goCollectTurnInAtDone = false,
 	grind = 
 	{
-		[6149] = 34,
-		[19878] = 51,
+		[27852] = 99,
 	},
 	isProgenProf = true,
 	listed = 
 	{
 		
 		{
-			amount = 51,
+			amount = 0,
 			collect = true,
 			itemid = 27871,
 			job = 7,
 			name = "[77][CUL]Popotoes au Gratin",
 			nq = false,
 			recipe = 3901,
+		},
+		
+		{
+			amount = 0,
+			collect = true,
+			itemid = 27863,
+			job = 7,
+			name = "[75][CUL]Nut Bake",
+			nq = false,
+			recipe = 3893,
+		},
+		
+		{
+			amount = 0,
+			collect = true,
+			itemid = 27868,
+			job = 7,
+			name = "[76][CUL]Mushroom Skewer",
+			nq = false,
+			recipe = 3898,
+		},
+		
+		{
+			amount = 0,
+			collect = true,
+			itemid = 27858,
+			job = 7,
+			name = "[73][CUL]Broad Bean Salad",
+			nq = false,
+			recipe = 3888,
+		},
+		
+		{
+			amount = 99,
+			collect = true,
+			itemid = 27867,
+			job = 7,
+			name = "[76][CUL]Roast Ovim",
+			nq = false,
+			recipe = 3897,
 		},
 	},
 	miner = 
@@ -242,22 +226,22 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 6,
+			amount = 19,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 912,
+			id = 914,
 			ings = 
 			{
-				[4753] = 1,
+				[4753] = 2,
 			},
 			ingsHQ = 
 			{
 				[4753] = 0,
 			},
-			item = 4852,
+			item = 4853,
 			madaoprofile = "None",
-			name = "Sweet Cream",
+			name = "Smooth Butter",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -273,29 +257,27 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 17,
+			amount = 33,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 983,
+			id = 3882,
 			ings = 
 			{
-				[4852] = 1,
-				[6149] = 2,
+				[27826] = 5,
 			},
 			ingsHQ = 
 			{
-				[4852] = 0,
-				[6149] = 0,
+				[27826] = 0,
 			},
-			item = 4756,
+			item = 27843,
 			madaoprofile = "None",
-			name = "Cream Cheese",
+			name = "Night Vinegar",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[2] = 4,
+				[8] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -306,38 +288,38 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 51,
+			amount = 99,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
-			id = 3901,
+			id = 3897,
 			ings = 
 			{
-				[4756] = 1,
-				[12878] = 1,
-				[19878] = 1,
+				[4853] = 1,
+				[19907] = 1,
 				[27822] = 1,
 				[27827] = 1,
-				[27841] = 1,
+				[27843] = 1,
+				[27852] = 1,
 			},
 			ingsHQ = 
 			{
-				[4756] = 0,
-				[12878] = 0,
-				[19878] = 0,
+				[4853] = 0,
+				[19907] = 0,
 				[27822] = 0,
 				[27827] = 0,
-				[27841] = 0,
+				[27843] = 0,
+				[27852] = 0,
 			},
-			item = 27871,
+			item = 27867,
 			madaoprofile = "None",
-			name = "Popotoes au Gratin",
+			name = "Roast Ovim",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
 				[8] = 7,
-				[13] = 7,
+				[13] = 6,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -345,25 +327,25 @@ local tbl =
 			usequick = false,
 		},
 	},
+	profileRepeat = false,
 	profileType = "OneTime",
 	reserve = 
 	{
 		[4753] = 1,
-		[4756] = 1,
-		[4852] = 1,
-		[6149] = 1,
-		[12878] = 1,
-		[19878] = 1,
+		[4853] = 1,
+		[19907] = 1,
 		[27822] = 1,
+		[27826] = 1,
 		[27827] = 1,
-		[27841] = 1,
+		[27843] = 1,
+		[27852] = 1,
 	},
 	reserve2 = false,
 	shards = 
 	{
-		[2] = 74,
-		[8] = 357,
-		[13] = 357,
+		[2] = 19,
+		[8] = 924,
+		[13] = 594,
 	},
 	skill = 
 	{
@@ -373,49 +355,12 @@ local tbl =
 	},
 	tmlist = 
 	{
-		[27822] = 51,
 	},
 	unspoil = 
 	{
-		
-		{
-			HQamount = 0,
-			amount = 51,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = false,
-			hold = false,
-			id = 27822,
-			job = 17,
-			mapid = 815,
-			markerid = 8151916,
-			name = "Russet Popoto",
-			okgp = 0,
-			reserve = false,
-			skillname = "Leveling.lua",
-			skip = false,
-			slot = 7,
-			timeoks = 
-			{
-				8,
-				9,
-				20,
-				21,
-			},
-			x = 19,
-			y = 16,
-		},
 	},
 	withdraw = 
 	{
-		[4753] = 6,
-		[6149] = 34,
-		[12878] = 51,
-		[19878] = 51,
-		[27822] = 51,
-		[27827] = 51,
-		[1027841] = 51,
 	},
 }
 

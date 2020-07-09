@@ -160,6 +160,9 @@ local tbl =
 		},
 	},
 	filename = "White Gathering",
+	glist = 
+	{
+	},
 	normalTimebase = 
 	{
 		
@@ -443,15 +446,17 @@ local tbl =
 			collect = false,
 			cordial = true,
 			id = 0,
-			job = 0,
-			markerid = 0,
+			job = 16,
+			markerid = 8133514,
+			markername = "Mapname:[Lakeland] Mapid: 813 Normal Level:80 X:35 Y:14",
+			notinlistcaseid = 0,
 			okgp = 0,
 			skillname = "Leveling.lua",
 			skip = false,
 			tasktype = "empty",
 		},
 	},
-	normalType = "Timebase",
+	normalType = "Amountbase",
 	orders = 
 	{
 	},
@@ -681,6 +686,7 @@ local tbl =
 		},
 		
 		{
+			amount = 0,
 			collect = true,
 			cordial = true,
 			expansion = "Shadow",
@@ -753,6 +759,7 @@ local tbl =
 		},
 		
 		{
+			amount = 0,
 			collect = true,
 			cordial = true,
 			expansion = "Shadow",
@@ -825,6 +832,7 @@ local tbl =
 		},
 		
 		{
+			amount = 0,
 			collect = true,
 			cordial = true,
 			expansion = "Shadow",
@@ -860,6 +868,7 @@ local tbl =
 		},
 		
 		{
+			amount = 0,
 			collect = true,
 			cordial = true,
 			expansion = "Shadow",
@@ -895,6 +904,7 @@ local tbl =
 		},
 		
 		{
+			amount = 0,
 			collect = true,
 			cordial = true,
 			expansion = "Shadow",

@@ -220,7 +220,7 @@ local tbl =
 	{
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 29415,
 			job = 6,
@@ -1117,6 +1117,7 @@ local tbl =
 	potName = "Use Default",
 	profileRepeat = false,
 	profileType = "OneTime",
+	profileType_num = 1,
 	reserve = 
 	{
 		[12534] = 1,

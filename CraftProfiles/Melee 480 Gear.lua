@@ -837,7 +837,9 @@ local tbl =
 			usequick = false,
 		},
 	},
+	profileRepeat = false,
 	profileType = "OneTime",
+	profileType_num = 1,
 	reserve = 
 	{
 		[12534] = 1,
