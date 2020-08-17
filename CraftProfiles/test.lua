@@ -283,6 +283,7 @@ local tbl =
 	},
 	profileRepeat = false,
 	profileType = "OneTime",
+	profileType_num = 1,
 	reserve = 
 	{
 		[5111] = 1,

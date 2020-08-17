@@ -15,7 +15,7 @@ local tbl =
 			num = 300,
 			one = false,
 			price = 0,
-			vid = 10,
+			vid = 93,
 		},
 	},
 	cant = 
@@ -50,6 +50,88 @@ local tbl =
 	{
 		
 		{
+			amount = 126,
+			collect = false,
+			consumed = false,
+			countHQ = false,
+			done = false,
+			grindAmount = 126,
+			grindItemId = 12888,
+			grindItemMobData = 
+			{
+			},
+			grindItemMobNum = 1,
+			grindItemNum = 0,
+			grindTag = 1596314273,
+			grindTimer = 1484,
+			id = 12888,
+			idnum = 1,
+			job = 98,
+			jobNum = 1,
+			level = 51,
+			lvler = false,
+			mapId = 397,
+			markers = 
+			{
+				
+				{
+					str = "397_20_15_51",
+					x = -94.45,
+					y = 119.24,
+					z = -356.09,
+				},
+				
+				{
+					str = "397_15_15_51",
+					x = -361.72,
+					y = 110.99,
+					z = -357.01,
+				},
+			},
+			maxtime = 1484938,
+			mobId = 3479,
+			mobIds = 
+			{
+				[3479] = true,
+			},
+			mskill = true,
+			name = "wooly yak <<Map[Coerthas Western Highlands] Lvl[51]>> ",
+			prio = 1,
+			prioCount = false,
+			priodo = false,
+			rcount = 0,
+			skill = 1,
+			srange = 0,
+			taskJob = 32,
+			tasktype = "grind",
+			timerBase = 1484938,
+			timeup = false,
+			type = 6,
+			useDefaultJob = true,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 300,
+			collect = false,
+			cordial = true,
+			id = 27782,
+			job = 16,
+			markerid = 8133514,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1596314273,
+			tasktype = 1,
+			timerValue = 1086709,
+			timeup = false,
+		},
+		
+		{
 			HQamount = 0,
 			amount = 300,
 			collect = false,
@@ -64,30 +146,9 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1586099410,
+			started = 1596314273,
 			tasktype = 1,
-			timerValue = 934827,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 399,
-			collect = false,
-			cordial = true,
-			id = 27782,
-			job = 16,
-			markerid = 8133514,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1586099410,
-			tasktype = 1,
-			timerValue = 912039,
+			timerValue = 1094171,
 			timeup = false,
 		},
 		
@@ -106,15 +167,16 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1586099410,
+			started = 1596314273,
 			tasktype = 1,
-			timerValue = 930836,
+			timerValue = 1093549,
 			timeup = false,
 		},
 	},
 	goCollectTurnInAtDone = true,
 	grind = 
 	{
+		[12888] = 126,
 	},
 	isProgenProf = true,
 	listed = 
@@ -131,7 +193,7 @@ local tbl =
 		},
 		
 		{
-			amount = 99,
+			amount = 0,
 			collect = true,
 			itemid = 27880,
 			job = 7,
@@ -142,7 +204,7 @@ local tbl =
 	},
 	miner = 
 	{
-		[27782] = 399,
+		[27782] = 300,
 	},
 	normalTimebase = 
 	{
@@ -472,6 +534,38 @@ local tbl =
 		
 		{
 			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 42,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 2820,
+			ings = 
+			{
+				[12888] = 3,
+			},
+			ingsHQ = 
+			{
+				[12888] = 0,
+			},
+			item = 12894,
+			madaoprofile = "None",
+			name = "Sour Cream",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[2] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
 			HQingAutoVal = 35,
 			amount = 300,
 			amountInBag = 0,
@@ -534,7 +628,7 @@ local tbl =
 			madaoprofile = "None",
 			name = "Lemonade",
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
 				[8] = 7,
@@ -542,7 +636,7 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
 			usequick = false,
 		},
 	},
@@ -550,7 +644,18 @@ local tbl =
 	potName = "Use Default",
 	profileRepeat = false,
 	profileType = "OneTime",
+	profileType_num = 1,
 	reserve = 
+	{
+		[4828] = 1,
+		[12888] = 1,
+		[12894] = 1,
+		[27782] = 1,
+		[27824] = 1,
+		[27837] = 1,
+		[27839] = 1,
+	},
+	reserve2 = 
 	{
 		[4828] = 1,
 		[12894] = 1,
@@ -561,11 +666,11 @@ local tbl =
 		[27839] = 1,
 		[27842] = 1,
 	},
-	reserve2 = false,
 	shards = 
 	{
-		[8] = 3045,
-		[13] = 2793,
+		[2] = 294,
+		[8] = 2352,
+		[13] = 2100,
 	},
 	skill = 
 	{
@@ -575,7 +680,6 @@ local tbl =
 	},
 	tmlist = 
 	{
-		[27835] = 99,
 	},
 	unspoil = 
 	{
@@ -594,7 +698,7 @@ local tbl =
 			markerid = 8142020,
 			name = "Lemonette",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skip = false,
 			slot = 2,
@@ -688,12 +792,6 @@ local tbl =
 	usePot = true,
 	withdraw = 
 	{
-		[4828] = 294,
-		[12894] = 125,
-		[27835] = 78,
-		[27837] = -138,
-		[1027835] = 21,
-		[1027842] = 198,
 	},
 }
 
