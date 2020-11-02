@@ -6,6 +6,15 @@ local tbl =
 	},
 	buy = 
 	{
+		
+		{
+			id = 21092,
+			memo = "Far Eastern Antique Component",
+			num = 12,
+			one = false,
+			price = 2,
+			vid = 117,
+		},
 	},
 	cant = 
 	{
@@ -33,6 +42,15 @@ local tbl =
 		},
 	},
 	filename = "Deliveries",
+	fish_1 = 
+	{
+	},
+	fish_2 = 
+	{
+	},
+	fish_3 = 
+	{
+	},
 	foodId = 0,
 	foodName = "Use Default",
 	glist = 
@@ -157,7 +175,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 6,
 			collect = true,
 			itemid = 20776,
 			job = 7,
@@ -217,13 +235,63 @@ local tbl =
 		},
 		
 		{
-			amount = 3,
+			amount = 0,
 			collect = false,
 			itemid = 31157,
 			job = 7,
 			name = "[70][CUL]Steel Plate Component",
 			nq = false,
 			recipe = 34345,
+		},
+		
+		{
+			amount = 0,
+			collect = false,
+			itemid = 31139,
+			job = 7,
+			name = "[70][CUL]Brewery Supplies",
+			nq = false,
+			recipe = 34336,
+		},
+		
+		{
+			amount = 0,
+			collect = false,
+			itemid = 20779,
+			job = 7,
+			name = "[63][CUL]Resistance Materiel",
+			nq = false,
+			recipe = 32547,
+		},
+		
+		{
+			amount = 0,
+			collect = false,
+			itemid = 31183,
+			job = 7,
+			name = "[70][CUL]Low-profile Custom Option",
+			nq = false,
+			recipe = 34358,
+		},
+		
+		{
+			amount = 0,
+			collect = false,
+			itemid = 30493,
+			job = 7,
+			name = "[71][CUL]Custom Gathering Tool Components",
+			nq = false,
+			recipe = 33988,
+		},
+		
+		{
+			amount = 0,
+			collect = false,
+			itemid = 30496,
+			job = 7,
+			name = "[74][CUL]Handpicked Culinary Essentials",
+			nq = false,
+			recipe = 33991,
 		},
 	},
 	miner = 
@@ -527,57 +595,26 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 2,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34341,
-			ings = 
-			{
-				[31148] = 1,
-			},
-			ingsHQ = 
-			{
-				[31148] = 0,
-			},
-			item = 31149,
-			madaoprofile = "None",
-			name = "Grooming Kit",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[8] = 6,
-				[13] = 5,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
 			amount = 6,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
-			id = 32977,
+			id = 32541,
 			ings = 
 			{
-				[23157] = 4,
+				[21092] = 2,
 			},
 			ingsHQ = 
 			{
-				[23157] = 0,
+				[21092] = 0,
 			},
-			item = 23147,
+			item = 20776,
 			madaoprofile = "None",
-			name = "Cloud Pearl",
+			name = "Far Eastern Antique",
+			noStop = true,
+			removedo = true,
 			requiredcp = 0,
-			reserved = true,
+			reserved = false,
 			shards = 
 			{
 				[8] = 4,
@@ -585,7 +622,7 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = true,
+			skip = false,
 			usequick = false,
 		},
 		
@@ -624,29 +661,30 @@ local tbl =
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 6,
+			HQingAutoVal = 25,
+			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
-			collect = true,
-			id = 32971,
+			collect = false,
+			id = 34336,
 			ings = 
 			{
-				[23154] = 2,
+				[31138] = 1,
 			},
 			ingsHQ = 
 			{
-				[23154] = 0,
+				[31138] = 0,
 			},
-			item = 23144,
+			item = 31139,
 			madaoprofile = "None",
-			name = "Anti-shark Harpoon",
+			name = "Brewery Supplies",
+			noStop = true,
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
-				[8] = 4,
-				[13] = 2,
+				[8] = 6,
+				[13] = 5,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -661,18 +699,18 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
-			id = 33572,
+			id = 32545,
 			ings = 
 			{
-				[28208] = 1,
+				[21094] = 3,
 			},
 			ingsHQ = 
 			{
-				[28208] = 0,
+				[21094] = 0,
 			},
-			item = 28198,
+			item = 20778,
 			madaoprofile = "None",
-			name = "Beehive Souvenir",
+			name = "M Tribe Sundries",
 			noStop = true,
 			requiredcp = 0,
 			reserved = true,
@@ -756,24 +794,88 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34341,
+			ings = 
+			{
+				[31148] = 1,
+			},
+			ingsHQ = 
+			{
+				[31148] = 0,
+			},
+			item = 31149,
+			madaoprofile = "None",
+			name = "Grooming Kit",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 6,
+				[13] = 5,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
 			amount = 6,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
-			id = 32541,
+			id = 33568,
 			ings = 
 			{
-				[21092] = 2,
+				[28204] = 1,
 			},
 			ingsHQ = 
 			{
-				[21092] = 0,
+				[28204] = 0,
 			},
-			item = 20776,
+			item = 28194,
 			madaoprofile = "None",
-			name = "Far Eastern Antique",
+			name = "Flyer Printing Set",
 			noStop = true,
-			removedo = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 4,
+				[13] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 6,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = true,
+			id = 33570,
+			ings = 
+			{
+				[28206] = 1,
+			},
+			ingsHQ = 
+			{
+				[28206] = 0,
+			},
+			item = 28196,
+			madaoprofile = "None",
+			name = "Honeybee Trappings",
 			requiredcp = 0,
 			reserved = true,
 			shards = 
@@ -794,18 +896,18 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
-			id = 32545,
+			id = 33572,
 			ings = 
 			{
-				[21094] = 3,
+				[28208] = 1,
 			},
 			ingsHQ = 
 			{
-				[21094] = 0,
+				[28208] = 0,
 			},
-			item = 20778,
+			item = 28198,
 			madaoprofile = "None",
-			name = "M Tribe Sundries",
+			name = "Beehive Souvenir",
 			noStop = true,
 			requiredcp = 0,
 			reserved = true,
@@ -813,6 +915,204 @@ local tbl =
 			{
 				[8] = 4,
 				[13] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 3,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34348,
+			ings = 
+			{
+				[31162] = 1,
+			},
+			ingsHQ = 
+			{
+				[31162] = 0,
+			},
+			item = 31163,
+			madaoprofile = "None",
+			name = "Filtration Supplies",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 6,
+				[13] = 5,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34349,
+			ings = 
+			{
+				[31164] = 1,
+			},
+			ingsHQ = 
+			{
+				[31164] = 0,
+			},
+			item = 31165,
+			madaoprofile = "None",
+			name = "Cooling Device Component",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 6,
+				[13] = 5,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 24,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 32476,
+			ings = 
+			{
+				[21100] = 1,
+			},
+			ingsHQ = 
+			{
+				[21100] = 0,
+			},
+			item = 21095,
+			madaoprofile = "None",
+			name = "Resistance Materiel Component",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[9] = 1,
+				[10] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 6,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33988,
+			ings = 
+			{
+				[30503] = 1,
+			},
+			ingsHQ = 
+			{
+				[30503] = 0,
+			},
+			item = 30493,
+			madaoprofile = "None",
+			name = "Custom Gathering Tool Components",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 4,
+				[13] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 3,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34358,
+			ings = 
+			{
+				[31182] = 1,
+			},
+			ingsHQ = 
+			{
+				[31182] = 0,
+			},
+			item = 31183,
+			madaoprofile = "None",
+			name = "Low-profile Custom Option",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 6,
+				[13] = 5,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34337,
+			ings = 
+			{
+				[31140] = 1,
+			},
+			ingsHQ = 
+			{
+				[31140] = 0,
+			},
+			item = 31141,
+			madaoprofile = "None",
+			name = "Crystal Cannon Supplies",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 6,
+				[13] = 5,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -856,39 +1156,6 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 6,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = true,
-			id = 33568,
-			ings = 
-			{
-				[28204] = 1,
-			},
-			ingsHQ = 
-			{
-				[28204] = 0,
-			},
-			item = 28194,
-			madaoprofile = "None",
-			name = "Flyer Printing Set",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[8] = 4,
-				[13] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
 			amount = 2,
 			amountInBag = 0,
 			amountInBagHQ = 0,
@@ -921,23 +1188,88 @@ local tbl =
 		
 		{
 			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 3,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33991,
+			ings = 
+			{
+				[30506] = 1,
+			},
+			ingsHQ = 
+			{
+				[30506] = 0,
+			},
+			item = 30496,
+			madaoprofile = "None",
+			name = "Handpicked Culinary Essentials",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 4,
+				[13] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
 			HQingAutoVal = 35,
 			amount = 6,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = true,
-			id = 33570,
+			id = 32977,
 			ings = 
 			{
-				[28206] = 1,
+				[23157] = 4,
 			},
 			ingsHQ = 
 			{
-				[28206] = 0,
+				[23157] = 0,
 			},
-			item = 28196,
+			item = 23147,
 			madaoprofile = "None",
-			name = "Honeybee Trappings",
+			name = "Cloud Pearl",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 4,
+				[13] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 6,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = true,
+			id = 32971,
+			ings = 
+			{
+				[23154] = 2,
+			},
+			ingsHQ = 
+			{
+				[23154] = 0,
+			},
+			item = 23144,
+			madaoprofile = "None",
+			name = "Anti-shark Harpoon",
 			requiredcp = 0,
 			reserved = true,
 			shards = 
@@ -958,27 +1290,40 @@ local tbl =
 	profileType_num = 1,
 	reserve = 
 	{
-		[31148] = 1,
+		[21092] = 1,
+		[32541] = 1,
 	},
 	reserve2 = 
 	{
 		[21092] = 1,
 		[21094] = 1,
+		[21095] = 1,
 		[21099] = 1,
+		[21100] = 1,
 		[23156] = 1,
 		[23161] = 1,
 		[28204] = 1,
 		[28206] = 1,
 		[28208] = 1,
+		[30503] = 1,
+		[30506] = 1,
 		[31136] = 1,
+		[31138] = 1,
+		[31140] = 1,
 		[31146] = 1,
+		[31148] = 1,
 		[31152] = 1,
 		[31154] = 1,
+		[31162] = 1,
+		[31164] = 1,
+		[31182] = 1,
+		[32541] = 1,
+		[33991] = 1,
 	},
 	shards = 
 	{
-		[8] = 12,
-		[13] = 10,
+		[8] = 24,
+		[13] = 12,
 	},
 	skill = 
 	{

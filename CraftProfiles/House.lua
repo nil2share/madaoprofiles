@@ -3,13 +3,40 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
+		[14160] = 100,
 	},
 	buy = 
 	{
+		
+		{
+			id = 5513,
+			memo = "Potter's Clay",
+			num = 200,
+			one = false,
+			price = 0,
+			vid = 95,
+		},
+		
+		{
+			id = 5487,
+			memo = "Distilled Water",
+			num = 80,
+			one = false,
+			price = 0,
+			vid = 80,
+		},
+		
+		{
+			id = 5526,
+			memo = "Grenade Ash",
+			num = 100,
+			one = false,
+			price = 2,
+			vid = 37,
+		},
 	},
 	cant = 
 	{
-		[19960] = 4,
 	},
 	ephs = 
 	{
@@ -33,121 +60,120 @@ local tbl =
 		},
 	},
 	filename = "House",
+	fish_1 = 
+	{
+	},
+	fish_2 = 
+	{
+	},
+	fish_3 = 
+	{
+	},
 	glist = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 1,
+			amount = 200,
 			collect = false,
 			cordial = true,
-			id = 5116,
+			id = 5231,
 			job = 16,
-			markerid = 1472224,
+			markerid = 1391226,
 			markername = "",
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
-			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1586127977,
-			tasktype = "gather",
-			timerValue = 900045,
+			started = 1604001937,
+			tasktype = 1,
+			timerValue = 966350,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 4,
+			amount = 160,
 			collect = false,
 			cordial = true,
-			id = 19957,
+			id = 5230,
 			job = 16,
-			markerid = 6211018,
+			markerid = 1382624,
 			markername = "",
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
-			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1586127977,
-			tasktype = "gather",
-			timerValue = 1117591,
+			started = 1604001937,
+			tasktype = 1,
+			timerValue = 1068893,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 2,
+			amount = 100,
 			collect = false,
 			cordial = true,
-			id = 5115,
-			job = 16,
-			markerid = 1393025,
+			id = 14160,
+			job = 17,
+			markerid = 4003130,
 			markername = "",
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
-			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1586127977,
-			tasktype = "gather",
-			timerValue = 1141670,
+			started = 1604001937,
+			tasktype = 1,
+			timerValue = 941557,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 8,
+			amount = 200,
 			collect = false,
 			cordial = true,
-			id = 19956,
+			id = 5229,
 			job = 16,
-			markerid = 6222915,
+			markerid = 1382624,
 			markername = "",
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
-			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1586127977,
-			tasktype = "gather",
-			timerValue = 1147090,
+			started = 1604001937,
+			tasktype = 1,
+			timerValue = 996536,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 3,
+			amount = 80,
 			collect = false,
 			cordial = true,
-			id = 7010,
+			id = 5267,
 			job = 16,
-			markerid = 1392822,
+			markerid = 1411423,
 			markername = "",
 			maxlvl = 999,
 			minlvl = 0,
 			notinlistcaseid = 0,
-			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 6,
 			skip = false,
 			srange = 0,
-			started = 1586127977,
-			tasktype = "gather",
-			timerValue = 1163589,
+			started = 1604001937,
+			tasktype = 1,
+			timerValue = 1160924,
 			timeup = false,
 		},
 	},
@@ -170,7 +196,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 15144,
 			job = 3,
@@ -178,14 +204,23 @@ local tbl =
 			nq = false,
 			recipe = 33200,
 		},
+		
+		{
+			amount = 20,
+			collect = false,
+			itemid = 22530,
+			job = 6,
+			name = "[60][ALC]Solid-brick Interior Wall",
+			nq = false,
+			recipe = 32978,
+		},
 	},
 	miner = 
 	{
-		[5115] = 2,
-		[5116] = 1,
-		[7010] = 3,
-		[19956] = 8,
-		[19957] = 4,
+		[5229] = 200,
+		[5230] = 160,
+		[5231] = 200,
+		[5267] = 80,
 	},
 	normalTimebase = 
 	{
@@ -484,197 +519,175 @@ local tbl =
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 2,
+			HQingAutoVal = 25,
+			amount = 20,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3625,
+			id = 31489,
 			ings = 
 			{
-				[5115] = 1,
-				[19956] = 4,
+				[14160] = 5,
 			},
 			ingsHQ = 
 			{
-				[5115] = 0,
-				[19956] = 0,
+				[14160] = 0,
 			},
-			item = 19946,
+			item = 14161,
 			madaoprofile = "None",
-			name = "Palladium Nugget",
+			name = "Camphor",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[10] = 5,
+				[18] = 2,
+				[19] = 2,
 			},
 			skillprofile = "None",
-			skilltype = 2,
+			skilltype = 5,
 			skip = false,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
+			HQingAutoVal = 25,
+			amount = 100,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3626,
+			id = 1582,
 			ings = 
 			{
-				[5116] = 1,
-				[19957] = 4,
+				[5229] = 2,
+				[5513] = 1,
 			},
 			ingsHQ = 
 			{
-				[5116] = 0,
-				[19957] = 0,
+				[5229] = 0,
+				[5513] = 0,
 			},
-			item = 19947,
+			item = 7013,
 			madaoprofile = "None",
-			name = "Molybdenum Ingot",
+			name = "Firebricks",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[8] = 5,
+				[7] = 1,
 			},
 			skillprofile = "None",
-			skilltype = 2,
+			skilltype = 5,
 			skip = false,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
+			HQingAutoVal = 25,
+			amount = 100,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 1207,
+			id = 1583,
 			ings = 
 			{
-				[5121] = 3,
+				[5231] = 2,
+				[5513] = 1,
+				[5526] = 1,
 			},
 			ingsHQ = 
 			{
-				[5121] = 0,
+				[5231] = 0,
+				[5513] = 0,
+				[5526] = 0,
 			},
-			item = 5061,
+			item = 7014,
 			madaoprofile = "None",
-			name = "Darksteel Nugget",
+			name = "Clinker Bricks",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[8] = 3,
+				[7] = 5,
 			},
 			skillprofile = "None",
-			skilltype = 2,
+			skilltype = 5,
 			skip = false,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
+			HQingAutoVal = 25,
+			amount = 80,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 32427,
+			id = 1585,
 			ings = 
 			{
-				[19947] = 1,
-				[19959] = 4,
-				[19961] = 2,
+				[5230] = 2,
+				[5267] = 1,
+				[5487] = 1,
 			},
 			ingsHQ = 
 			{
-				[19947] = 0,
-				[19959] = 0,
-				[19961] = 0,
+				[5230] = 0,
+				[5267] = 0,
+				[5487] = 0,
 			},
-			item = 19949,
+			item = 7016,
 			madaoprofile = "None",
-			name = "Chromite Ingot",
+			name = "Mortar",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[14] = 2,
-				[17] = 2,
+				[7] = 1,
 			},
 			skillprofile = "None",
-			skilltype = 2,
+			skilltype = 5,
 			skip = false,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 2,
+			HQingAutoVal = 25,
+			amount = 20,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 32426,
+			id = 32978,
 			ings = 
 			{
-				[19946] = 1,
-				[19958] = 4,
-				[19960] = 2,
+				[7013] = 5,
+				[7014] = 5,
+				[7016] = 4,
+				[14161] = 3,
 			},
 			ingsHQ = 
 			{
-				[19946] = 0,
-				[19958] = 0,
-				[19960] = 0,
+				[7013] = 0,
+				[7014] = 0,
+				[7016] = 0,
+				[14161] = 0,
 			},
-			item = 19948,
+			item = 22530,
 			madaoprofile = "None",
-			name = "Palladium Ingot",
+			name = "Solid-brick Interior Wall",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 1208,
-			ings = 
-			{
-				[5061] = 1,
-			},
-			ingsHQ = 
-			{
-				[5061] = 0,
-			},
-			item = 5095,
-			madaoprofile = "None",
-			name = "Darksteel Rivets",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[8] = 3,
+				[12] = 7,
+				[13] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -708,7 +721,7 @@ local tbl =
 			madaoprofile = "None",
 			name = "Washbasin",
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
 				[8] = 7,
@@ -716,13 +729,234 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3625,
+			ings = 
+			{
+				[5115] = 1,
+				[19956] = 4,
+			},
+			ingsHQ = 
+			{
+				[5115] = 0,
+				[19956] = 0,
+			},
+			item = 19946,
+			madaoprofile = "None",
+			name = "Palladium Nugget",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[10] = 5,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3626,
+			ings = 
+			{
+				[5116] = 1,
+				[19957] = 4,
+			},
+			ingsHQ = 
+			{
+				[5116] = 0,
+				[19957] = 0,
+			},
+			item = 19947,
+			madaoprofile = "None",
+			name = "Molybdenum Ingot",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 5,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 32427,
+			ings = 
+			{
+				[19947] = 1,
+				[19959] = 4,
+				[19961] = 2,
+			},
+			ingsHQ = 
+			{
+				[19947] = 0,
+				[19959] = 0,
+				[19961] = 0,
+			},
+			item = 19949,
+			madaoprofile = "None",
+			name = "Chromite Ingot",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 1207,
+			ings = 
+			{
+				[5121] = 3,
+			},
+			ingsHQ = 
+			{
+				[5121] = 0,
+			},
+			item = 5061,
+			madaoprofile = "None",
+			name = "Darksteel Nugget",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 1208,
+			ings = 
+			{
+				[5061] = 1,
+			},
+			ingsHQ = 
+			{
+				[5061] = 0,
+			},
+			item = 5095,
+			madaoprofile = "None",
+			name = "Darksteel Rivets",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 32426,
+			ings = 
+			{
+				[19946] = 1,
+				[19958] = 4,
+				[19960] = 2,
+			},
+			ingsHQ = 
+			{
+				[19946] = 0,
+				[19958] = 0,
+				[19960] = 0,
+			},
+			item = 19948,
+			madaoprofile = "None",
+			name = "Palladium Ingot",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
 			usequick = false,
 		},
 	},
 	profileRepeat = false,
 	profileType = "OneTime",
+	profileType_num = 1,
 	reserve = 
+	{
+		[1582] = 1,
+		[1583] = 1,
+		[1585] = 1,
+		[5229] = 1,
+		[5230] = 1,
+		[5231] = 1,
+		[5267] = 1,
+		[5487] = 1,
+		[5513] = 1,
+		[5526] = 1,
+		[7013] = 1,
+		[7014] = 1,
+		[7016] = 1,
+		[14160] = 1,
+		[14161] = 1,
+		[31489] = 1,
+		[32978] = 1,
+	},
+	reserve2 = 
 	{
 		[5061] = 1,
 		[5095] = 1,
@@ -741,14 +975,13 @@ local tbl =
 		[19960] = 1,
 		[19961] = 1,
 	},
-	reserve2 = false,
 	shards = 
 	{
-		[8] = 18,
-		[10] = 17,
-		[14] = 6,
-		[16] = 4,
-		[17] = 2,
+		[7] = 680,
+		[12] = 140,
+		[13] = 140,
+		[18] = 40,
+		[19] = 40,
 	},
 	skill = 
 	{
@@ -758,9 +991,6 @@ local tbl =
 	},
 	tmlist = 
 	{
-		[5121] = 3,
-		[19958] = 8,
-		[19959] = 4,
 	},
 	unspoil = 
 	{
@@ -779,7 +1009,7 @@ local tbl =
 			markerid = 6142010,
 			name = "Palladium Ore",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Pick Clean + Blessed + Bountiful.lua",
 			skillnum = 9,
 			skip = false,
@@ -816,7 +1046,7 @@ local tbl =
 			markerid = 6201633,
 			name = "Chromite Ore",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skillnum = 6,
 			skip = false,
@@ -853,7 +1083,7 @@ local tbl =
 			markerid = 1552719,
 			name = "Darksteel Ore",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skillnum = 6,
 			skip = false,
@@ -962,8 +1192,6 @@ local tbl =
 	},
 	withdraw = 
 	{
-		[5121] = 3,
-		[19961] = 2,
 	},
 }
 
