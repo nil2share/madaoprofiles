@@ -43,48 +43,6 @@ local tbl =
 	},
 	glist = 
 	{
-		
-		{
-			HQamount = 0,
-			amount = 20,
-			collect = false,
-			cordial = true,
-			id = 12534,
-			job = 16,
-			markerid = 3973112,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1603760230,
-			tasktype = 1,
-			timerValue = 929252,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 80,
-			collect = false,
-			cordial = true,
-			id = 27703,
-			job = 16,
-			markerid = 8133514,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1603760230,
-			tasktype = 1,
-			timerValue = 950254,
-			timeup = false,
-		},
 	},
 	grind = 
 	{
@@ -204,7 +162,7 @@ local tbl =
 		},
 		
 		{
-			amount = 20,
+			amount = 0,
 			collect = false,
 			itemid = 31111,
 			job = 2,
@@ -244,7 +202,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 20,
 			collect = false,
 			itemid = 31109,
 			job = 0,
@@ -255,8 +213,6 @@ local tbl =
 	},
 	miner = 
 	{
-		[12534] = 20,
-		[27703] = 80,
 	},
 	orders = 
 	{
@@ -268,61 +224,27 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3821,
+			id = 34367,
 			ings = 
 			{
-				[12534] = 1,
-				[27703] = 4,
+				[27693] = 1,
+				[31117] = 1,
 			},
 			ingsHQ = 
 			{
-				[12534] = 0,
-				[27703] = 0,
+				[27693] = 0,
+				[31117] = 0,
 			},
-			item = 27714,
+			item = 31109,
 			madaoprofile = "None",
-			name = "Dwarven Mythril Ingot",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[8] = 7,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 20,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34369,
-			ings = 
-			{
-				[27714] = 1,
-				[31119] = 1,
-			},
-			ingsHQ = 
-			{
-				[27714] = 0,
-				[31119] = 0,
-			},
-			item = 31111,
-			madaoprofile = "None",
-			name = "Oddly Specific Mythril Plate",
+			name = "Oddly Specific Cedar Plank",
 			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
 				[9] = 7,
-				[11] = 7,
+				[10] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -403,33 +325,104 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 19,
+			amount = 20,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3865,
+			id = 34368,
 			ings = 
 			{
-				[19907] = 1,
-				[27776] = 1,
+				[27714] = 1,
+				[31118] = 1,
 			},
 			ingsHQ = 
 			{
-				[19907] = 0,
-				[27776] = 0,
+				[27714] = 0,
+				[31118] = 0,
 			},
-			item = 27777,
+			item = 31110,
 			madaoprofile = "None",
-			name = "Refined Natron",
+			name = "Oddly Specific Iron Ingot",
 			noStop = true,
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
-				[13] = 7,
+				[8] = 7,
+				[11] = 7,
 			},
 			skillprofile = "None",
-			skilltype = 5,
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 20,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34369,
+			ings = 
+			{
+				[27714] = 1,
+				[31119] = 1,
+			},
+			ingsHQ = 
+			{
+				[27714] = 0,
+				[31119] = 0,
+			},
+			item = 31111,
+			madaoprofile = "None",
+			name = "Oddly Specific Mythril Plate",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[9] = 7,
+				[11] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 15,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34370,
+			ings = 
+			{
+				[27715] = 1,
+				[31120] = 1,
+			},
+			ingsHQ = 
+			{
+				[27715] = 0,
+				[31120] = 0,
+			},
+			item = 31112,
+			madaoprofile = "None",
+			name = "Oddly Specific Silver Ingot",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 7,
+				[10] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
 			skip = true,
 			usequick = false,
 		},
@@ -611,6 +604,40 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
+			amount = 17,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3821,
+			ings = 
+			{
+				[12534] = 1,
+				[27703] = 4,
+			},
+			ingsHQ = 
+			{
+				[12534] = 0,
+				[27703] = 0,
+			},
+			item = 27714,
+			madaoprofile = "None",
+			name = "Dwarven Mythril Ingot",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
 			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
@@ -681,26 +708,26 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 34363,
+			id = 34361,
 			ings = 
 			{
-				[27817] = 2,
-				[31121] = 1,
+				[27703] = 2,
+				[31119] = 1,
 			},
 			ingsHQ = 
 			{
-				[27817] = 0,
-				[31121] = 0,
+				[27703] = 0,
+				[31119] = 0,
 			},
-			item = 31105,
+			item = 31103,
 			madaoprofile = "None",
-			name = "Oddly Specific Gaganaskin Strap",
+			name = "Oddly Specific Mythril Rings",
 			noStop = true,
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
-				[10] = 7,
+				[9] = 7,
 				[11] = 7,
 			},
 			skillprofile = "None",
@@ -747,34 +774,133 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3882,
+			ings = 
+			{
+				[27826] = 5,
+			},
+			ingsHQ = 
+			{
+				[27826] = 0,
+			},
+			item = 27843,
+			madaoprofile = "None",
+			name = "Night Vinegar",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
 			amount = 21,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 34361,
+			id = 34359,
 			ings = 
 			{
-				[27703] = 2,
-				[31119] = 1,
+				[27687] = 2,
+				[31117] = 1,
 			},
 			ingsHQ = 
 			{
-				[27703] = 0,
-				[31119] = 0,
+				[27687] = 0,
+				[31117] = 0,
 			},
-			item = 31103,
+			item = 31101,
 			madaoprofile = "None",
-			name = "Oddly Specific Mythril Rings",
+			name = "Oddly Specific Cedar Lumber",
 			noStop = true,
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
 				[9] = 7,
+				[10] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34360,
+			ings = 
+			{
+				[27703] = 2,
+				[31118] = 1,
+			},
+			ingsHQ = 
+			{
+				[27703] = 0,
+				[31118] = 0,
+			},
+			item = 31102,
+			madaoprofile = "None",
+			name = "Oddly Specific Iron Nails",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 7,
 				[11] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 50,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3816,
+			ings = 
+			{
+				[27687] = 4,
+			},
+			ingsHQ = 
+			{
+				[27687] = 0,
+			},
+			item = 27693,
+			madaoprofile = "None",
+			name = "Lignum Vitae Lumber",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[10] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 5,
 			skip = true,
 			usequick = false,
 		},
@@ -817,31 +943,34 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 2,
+			amount = 21,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3882,
+			id = 34363,
 			ings = 
 			{
-				[27826] = 5,
+				[27817] = 2,
+				[31121] = 1,
 			},
 			ingsHQ = 
 			{
-				[27826] = 0,
+				[27817] = 0,
+				[31121] = 0,
 			},
-			item = 27843,
+			item = 31105,
 			madaoprofile = "None",
-			name = "Night Vinegar",
+			name = "Oddly Specific Gaganaskin Strap",
 			noStop = true,
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
-				[8] = 7,
+				[10] = 7,
+				[11] = 7,
 			},
 			skillprofile = "None",
-			skilltype = 5,
+			skilltype = 2,
 			skip = true,
 			usequick = false,
 		},
@@ -881,34 +1010,33 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 15,
+			amount = 19,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 34370,
+			id = 3865,
 			ings = 
 			{
-				[27715] = 1,
-				[31120] = 1,
+				[19907] = 1,
+				[27776] = 1,
 			},
 			ingsHQ = 
 			{
-				[27715] = 0,
-				[31120] = 0,
+				[19907] = 0,
+				[27776] = 0,
 			},
-			item = 31112,
+			item = 27777,
 			madaoprofile = "None",
-			name = "Oddly Specific Silver Ingot",
+			name = "Refined Natron",
 			noStop = true,
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
-				[8] = 7,
-				[10] = 7,
+				[13] = 7,
 			},
 			skillprofile = "None",
-			skilltype = 2,
+			skilltype = 5,
 			skip = true,
 			usequick = false,
 		},
@@ -918,15 +1046,13 @@ local tbl =
 	profileType_num = 1,
 	reserve = 
 	{
-		[3821] = 1,
-		[12534] = 1,
-		[27703] = 1,
-		[27714] = 1,
-		[31119] = 1,
-		[34369] = 1,
+		[27693] = 1,
+		[31117] = 1,
+		[34367] = 1,
 	},
 	reserve2 = 
 	{
+		[3816] = 1,
 		[3821] = 1,
 		[3831] = 1,
 		[3844] = 1,
@@ -937,6 +1063,8 @@ local tbl =
 		[12531] = 1,
 		[12534] = 1,
 		[19907] = 1,
+		[27687] = 1,
+		[27693] = 1,
 		[27702] = 1,
 		[27703] = 1,
 		[27714] = 1,
@@ -953,18 +1081,24 @@ local tbl =
 		[27820] = 1,
 		[27826] = 1,
 		[27843] = 1,
+		[31117] = 1,
+		[31118] = 1,
 		[31119] = 1,
 		[31120] = 1,
 		[31121] = 1,
 		[31122] = 1,
 		[31123] = 1,
 		[31124] = 1,
+		[34359] = 1,
+		[34360] = 1,
 		[34361] = 1,
 		[34362] = 1,
 		[34363] = 1,
 		[34364] = 1,
 		[34365] = 1,
 		[34366] = 1,
+		[34367] = 1,
+		[34368] = 1,
 		[34369] = 1,
 		[34370] = 1,
 		[34371] = 1,
@@ -974,9 +1108,8 @@ local tbl =
 	},
 	shards = 
 	{
-		[8] = 140,
 		[9] = 140,
-		[11] = 140,
+		[10] = 140,
 	},
 	skill = 
 	{
