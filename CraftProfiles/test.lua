@@ -6,18 +6,10 @@ local tbl =
 	},
 	buy = 
 	{
-		
-		{
-			id = 5111,
-			memo = "Iron Ore",
-			num = 1,
-			one = false,
-			price = 0,
-			vid = 48,
-		},
 	},
 	cant = 
 	{
+		[27762] = 4,
 	},
 	ephs = 
 	{
@@ -41,121 +33,21 @@ local tbl =
 		},
 	},
 	filename = "test",
+	fish_1 = 
+	{
+	},
+	fish_2 = 
+	{
+	},
+	fish_3 = 
+	{
+	},
 	glist = 
 	{
-		
-		{
-			amount = 6,
-			collect = false,
-			consumed = false,
-			countHQ = false,
-			done = false,
-			grindAmount = 6,
-			grindItemId = 19999,
-			grindItemMobData = 
-			{
-			},
-			grindItemMobNum = 2,
-			grindItemNum = 0,
-			grindTag = 1588880651,
-			grindTimer = 915,
-			id = 19999,
-			idnum = 1,
-			job = 98,
-			jobNum = 1,
-			level = 67,
-			lvler = false,
-			mapId = 612,
-			markers = 
-			{
-				
-				{
-					x = 288.86,
-					y = 81.65,
-					z = -179.18,
-				},
-				
-				{
-					x = 362.67,
-					y = 92.31,
-					z = -310.04,
-				},
-				
-				{
-					x = 527.63,
-					y = 137.72,
-					z = -261.27,
-				},
-			},
-			maxtime = 915085,
-			mobId = 5692,
-			mobIds = 
-			{
-				[5672] = true,
-				[5692] = true,
-			},
-			mskill = true,
-			name = "gagana <<Map[The Fringes] Lvl[67]>> ",
-			prio = 1,
-			prioCount = false,
-			priodo = false,
-			rcount = 0,
-			skill = 1,
-			srange = 0,
-			taskJob = 35,
-			tasktype = "grind",
-			timerBase = 915085,
-			timeup = false,
-			type = 6,
-			useDefaultJob = true,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 4,
-			collect = false,
-			cordial = true,
-			id = 19950,
-			job = 16,
-			markerid = 6202113,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1588880651,
-			tasktype = 1,
-			timerValue = 1068160,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 2,
-			collect = false,
-			cordial = true,
-			id = 19910,
-			job = 16,
-			markerid = 6121512,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1588880651,
-			tasktype = 1,
-			timerValue = 1125630,
-			timeup = false,
-		},
 	},
 	goCollectTurnInAtDone = false,
 	grind = 
 	{
-		[19999] = 6,
 	},
 	isProgenProf = true,
 	listed = 
@@ -164,17 +56,15 @@ local tbl =
 		{
 			amount = 1,
 			collect = false,
-			itemid = 18059,
-			job = 4,
-			name = "[61][LTW]Gaganaskin Leg Guards of Maiming",
+			itemid = 28590,
+			job = 5,
+			name = "[80][WVR]Rebel Coat",
 			nq = false,
-			recipe = 2982,
+			recipe = 33685,
 		},
 	},
 	miner = 
 	{
-		[19910] = 2,
-		[19950] = 4,
 	},
 	orders = 
 	{
@@ -186,58 +76,66 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3644,
+			id = 33331,
 			ings = 
 			{
-				[19910] = 1,
-				[19999] = 3,
+				[27761] = 4,
+				[27762] = 2,
 			},
 			ingsHQ = 
 			{
-				[19910] = 0,
-				[19999] = 0,
+				[27761] = 0,
+				[27762] = 0,
 			},
-			item = 19993,
+			item = 27760,
 			madaoprofile = "None",
-			name = "Gagana Leather",
+			name = "Ethereal Silk",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[11] = 3,
+				[16] = 2,
+				[18] = 2,
 			},
 			skillprofile = "None",
-			skilltype = 2,
+			skilltype = 5,
 			skip = false,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
+			HQingAutoVal = 25,
 			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3614,
+			id = 33685,
 			ings = 
 			{
-				[5111] = 1,
-				[19950] = 4,
+				[19986] = 2,
+				[27710] = 1,
+				[27760] = 2,
+				[28905] = 3,
 			},
 			ingsHQ = 
 			{
-				[5111] = 0,
-				[19950] = 0,
+				[19986] = 0,
+				[27710] = 0,
+				[27760] = 0,
+				[28905] = 0,
 			},
-			item = 19939,
+			item = 28590,
 			madaoprofile = "None",
-			name = "High Steel Nugget",
+			name = "Rebel Coat",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[8] = 3,
+				[10] = 7,
+				[12] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -269,7 +167,7 @@ local tbl =
 			madaoprofile = "None",
 			name = "Gaganaskin Leg Guards of Maiming",
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
 				[10] = 2,
@@ -277,7 +175,107 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3614,
+			ings = 
+			{
+				[5111] = 1,
+				[19950] = 4,
+			},
+			ingsHQ = 
+			{
+				[5111] = 0,
+				[19950] = 0,
+			},
+			item = 19939,
+			madaoprofile = "None",
+			name = "High Steel Nugget",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3829,
+			ings = 
+			{
+				[5113] = 1,
+				[27699] = 4,
+			},
+			ingsHQ = 
+			{
+				[5113] = 0,
+				[27699] = 0,
+			},
+			item = 27710,
+			madaoprofile = "None",
+			name = "Manasilver Nugget",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[10] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3644,
+			ings = 
+			{
+				[19910] = 1,
+				[19999] = 3,
+			},
+			ingsHQ = 
+			{
+				[19910] = 0,
+				[19999] = 0,
+			},
+			item = 19993,
+			madaoprofile = "None",
+			name = "Gagana Leather",
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[11] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
 			usequick = false,
 		},
 	},
@@ -286,19 +284,41 @@ local tbl =
 	profileType_num = 1,
 	reserve = 
 	{
+		[19986] = 1,
+		[27710] = 1,
+		[27760] = 1,
+		[27761] = 1,
+		[27762] = 1,
+		[28905] = 1,
+		[33331] = 1,
+		[33685] = 1,
+	},
+	reserve2 = 
+	{
+		[3829] = 1,
 		[5111] = 1,
+		[5113] = 1,
 		[19910] = 1,
 		[19939] = 1,
 		[19950] = 1,
+		[19986] = 1,
 		[19993] = 1,
 		[19999] = 1,
+		[27699] = 1,
+		[27710] = 1,
+		[27760] = 1,
+		[27761] = 1,
+		[27762] = 1,
+		[28905] = 1,
+		[33331] = 1,
+		[33685] = 1,
 	},
-	reserve2 = false,
 	shards = 
 	{
-		[8] = 3,
-		[10] = 2,
-		[11] = 9,
+		[10] = 7,
+		[12] = 7,
+		[16] = 4,
+		[18] = 4,
 	},
 	skill = 
 	{
@@ -311,10 +331,38 @@ local tbl =
 	},
 	unspoil = 
 	{
+		
+		{
+			HQamount = 0,
+			amount = 8,
+			collect = false,
+			cordial = true,
+			expansion = "Shadow",
+			folklore = true,
+			hold = false,
+			id = 27761,
+			job = 17,
+			mapid = 813,
+			markerid = 8132710,
+			name = "Ethereal Cocoon",
+			okgp = 0,
+			reserve = true,
+			skillname = "Leveling.lua",
+			skip = false,
+			slot = 4,
+			timeoks = 
+			{
+				8,
+				9,
+				20,
+				21,
+			},
+			x = 27,
+			y = 10,
+		},
 	},
 	withdraw = 
 	{
-		[5111] = 1,
 	},
 }
 

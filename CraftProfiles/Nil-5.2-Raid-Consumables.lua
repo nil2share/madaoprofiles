@@ -3,15 +3,40 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27780] = 10,
-		[27785] = 10,
+		[12878] = 33,
+		[27779] = 33,
+		[27780] = 33,
+		[27784] = 33,
+		[27785] = 33,
+		[27823] = 66,
+		[27825] = 66,
+		[27826] = 35,
+		[27829] = 33,
 	},
 	buy = 
 	{
+		
+		{
+			id = 4830,
+			memo = "Black Pepper",
+			num = 66,
+			one = false,
+			price = 0,
+			vid = 62,
+		},
+		
+		{
+			id = 4785,
+			memo = "Paprika",
+			num = 33,
+			one = false,
+			price = 0,
+			vid = 89,
+		},
 	},
 	cant = 
 	{
-		[27796] = 10,
+		[27852] = 38,
 	},
 	craftLocHouseNum = 1,
 	craftLocType = "Default",
@@ -39,7 +64,7 @@ local tbl =
 		{
 		},
 	},
-	filename = "Raid Consumables",
+	filename = "Nil-5.2-Raid-Consumables",
 	fish_1 = 
 	{
 	},
@@ -56,7 +81,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 10,
+			amount = 33,
 			collect = false,
 			cordial = true,
 			id = 27785,
@@ -69,15 +94,162 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1601909823,
+			started = 1605544202,
 			tasktype = 1,
-			timerValue = 1176333,
+			timerValue = 998395,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 10,
+			amount = 33,
+			collect = false,
+			cordial = true,
+			id = 12878,
+			job = 17,
+			markerid = 3983620,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1605544202,
+			tasktype = 1,
+			timerValue = 1024708,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 66,
+			collect = false,
+			cordial = true,
+			id = 27782,
+			job = 16,
+			markerid = 8133514,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1605544202,
+			tasktype = 1,
+			timerValue = 1075036,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 33,
+			collect = false,
+			cordial = true,
+			id = 27779,
+			job = 17,
+			markerid = 8172725,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1605544202,
+			tasktype = 1,
+			timerValue = 927659,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 35,
+			collect = false,
+			cordial = true,
+			id = 27826,
+			job = 17,
+			markerid = 8171427,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1605544202,
+			tasktype = 1,
+			timerValue = 914255,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 66,
+			collect = false,
+			cordial = true,
+			id = 27823,
+			job = 17,
+			markerid = 8161122,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1605544202,
+			tasktype = 1,
+			timerValue = 1152291,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 66,
+			collect = false,
+			cordial = true,
+			id = 27825,
+			job = 17,
+			markerid = 8161122,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1605544202,
+			tasktype = 1,
+			timerValue = 1172689,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 33,
+			collect = false,
+			cordial = true,
+			id = 27829,
+			job = 17,
+			markerid = 8171427,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1605544202,
+			tasktype = 1,
+			timerValue = 1164678,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 33,
 			collect = false,
 			cordial = true,
 			id = 27780,
@@ -90,9 +262,30 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1601909823,
+			started = 1605544202,
 			tasktype = 1,
-			timerValue = 1179410,
+			timerValue = 1141011,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 33,
+			collect = false,
+			cordial = true,
+			id = 27784,
+			job = 17,
+			markerid = 8132431,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1605544202,
+			tasktype = 1,
+			timerValue = 1027335,
 			timeup = false,
 		},
 	},
@@ -115,7 +308,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 99,
 			collect = false,
 			itemid = 29501,
 			job = 7,
@@ -125,7 +318,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 99,
 			collect = false,
 			itemid = 29503,
 			job = 7,
@@ -135,7 +328,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 99,
 			collect = false,
 			itemid = 29502,
 			job = 7,
@@ -155,7 +348,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 99,
 			collect = false,
 			itemid = 29504,
 			job = 7,
@@ -165,7 +358,7 @@ local tbl =
 		},
 		
 		{
-			amount = 30,
+			amount = 99,
 			collect = false,
 			itemid = 29493,
 			job = 6,
@@ -175,7 +368,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 99,
 			collect = false,
 			itemid = 29492,
 			job = 6,
@@ -185,7 +378,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 99,
 			collect = false,
 			itemid = 29495,
 			job = 6,
@@ -195,7 +388,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 99,
 			collect = false,
 			itemid = 29496,
 			job = 6,
@@ -225,7 +418,7 @@ local tbl =
 		},
 		
 		{
-			amount = 30,
+			amount = 0,
 			collect = false,
 			itemid = 27998,
 			job = 6,
@@ -233,9 +426,30 @@ local tbl =
 			nq = false,
 			recipe = 33340,
 		},
+		
+		{
+			amount = 0,
+			collect = false,
+			itemid = 27876,
+			job = 7,
+			name = "[79][CUL]Blood Bouillabaisse",
+			nq = false,
+			recipe = 3906,
+		},
+		
+		{
+			amount = 0,
+			collect = false,
+			itemid = 27959,
+			job = 6,
+			name = "[77][ALC]Cunning Craftsman's Syrup",
+			nq = false,
+			recipe = 3875,
+		},
 	},
 	miner = 
 	{
+		[27782] = 66,
 	},
 	normalType = "Amountbase",
 	orders = 
@@ -243,9 +457,114 @@ local tbl =
 		
 		{
 			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 7,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3882,
+			ings = 
+			{
+				[27826] = 5,
+			},
+			ingsHQ = 
+			{
+				[27826] = 0,
+			},
+			item = 27843,
+			madaoprofile = "None",
+			name = "Night Vinegar",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[8] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 33,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33885,
+			ings = 
+			{
+				[27784] = 1,
+				[27811] = 1,
+				[29979] = 2,
+			},
+			ingsHQ = 
+			{
+				[27784] = 0,
+				[27811] = 0,
+				[29979] = 0,
+			},
+			item = 29496,
+			madaoprofile = "None",
+			name = "Grade 3 Tincture of Mind",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[18] = 2,
+				[19] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 33,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33881,
+			ings = 
+			{
+				[27779] = 1,
+				[27811] = 1,
+				[29979] = 2,
+			},
+			ingsHQ = 
+			{
+				[27779] = 0,
+				[27811] = 0,
+				[29979] = 0,
+			},
+			item = 29492,
+			madaoprofile = "None",
+			name = "Grade 3 Tincture of Strength",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[18] = 2,
+				[19] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
 			HQingAutoVal = 35,
 			HQmanual = false,
-			amount = 10,
+			amount = 33,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			cmreq = 0,
@@ -285,302 +604,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 10,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33340,
-			ings = 
-			{
-				[27780] = 1,
-				[27796] = 1,
-				[27812] = 3,
-			},
-			ingsHQ = 
-			{
-				[27780] = 0,
-				[27796] = 0,
-				[27812] = 0,
-			},
-			item = 27998,
-			madaoprofile = "None",
-			name = "Grade 2 Tincture of Intelligence",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[18] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 7,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33884,
-			ings = 
-			{
-				[27780] = 1,
-				[27811] = 1,
-				[29979] = 2,
-			},
-			ingsHQ = 
-			{
-				[27780] = 0,
-				[27811] = 0,
-				[29979] = 0,
-			},
-			item = 29495,
-			madaoprofile = "None",
-			name = "Grade 3 Tincture of Intelligence",
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[18] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 14,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33892,
-			ings = 
-			{
-				[4785] = 1,
-				[12878] = 1,
-				[27823] = 2,
-				[27835] = 2,
-				[27838] = 1,
-				[29510] = 2,
-			},
-			ingsHQ = 
-			{
-				[4785] = 0,
-				[12878] = 0,
-				[27823] = 0,
-				[27835] = 0,
-				[27838] = 0,
-				[29510] = 0,
-			},
-			item = 29503,
-			madaoprofile = "None",
-			name = "Pickled Herring",
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[14] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 7,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33885,
-			ings = 
-			{
-				[27784] = 1,
-				[27811] = 1,
-				[29979] = 2,
-			},
-			ingsHQ = 
-			{
-				[27784] = 0,
-				[27811] = 0,
-				[29979] = 0,
-			},
-			item = 29496,
-			madaoprofile = "None",
-			name = "Grade 3 Tincture of Mind",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[18] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 17,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33893,
-			ings = 
-			{
-				[19907] = 1,
-				[27782] = 2,
-				[27828] = 2,
-				[27829] = 1,
-				[27841] = 1,
-				[29510] = 2,
-			},
-			ingsHQ = 
-			{
-				[19907] = 0,
-				[27782] = 0,
-				[27828] = 0,
-				[27829] = 0,
-				[27841] = 0,
-				[29510] = 0,
-			},
-			item = 29504,
-			madaoprofile = "None",
-			name = "Herring Pie",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[14] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 5,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3882,
-			ings = 
-			{
-				[27826] = 5,
-			},
-			ingsHQ = 
-			{
-				[27826] = 0,
-			},
-			item = 27843,
-			madaoprofile = "None",
-			name = "Night Vinegar",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[8] = 7,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 7,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33881,
-			ings = 
-			{
-				[27779] = 1,
-				[27811] = 1,
-				[29979] = 2,
-			},
-			ingsHQ = 
-			{
-				[27779] = 0,
-				[27811] = 0,
-				[29979] = 0,
-			},
-			item = 29492,
-			madaoprofile = "None",
-			name = "Grade 3 Tincture of Strength",
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[18] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 11,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3877,
-			ings = 
-			{
-				[27820] = 5,
-			},
-			ingsHQ = 
-			{
-				[27820] = 0,
-			},
-			item = 27838,
-			madaoprofile = "None",
-			name = "Frantoio Oil",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[8] = 6,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 17,
+			amount = 33,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -608,7 +632,7 @@ local tbl =
 			name = "Sausage and Sauerkraut",
 			noStop = true,
 			requiredcp = 0,
-			reserved = true,
+			reserved = false,
 			shards = 
 			{
 				[14] = 2,
@@ -616,7 +640,7 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = true,
+			skip = false,
 			usequick = false,
 		},
 		
@@ -651,7 +675,7 @@ local tbl =
 			name = "Stuffed Highland Cabbage",
 			noStop = true,
 			requiredcp = 0,
-			reserved = true,
+			reserved = false,
 			shards = 
 			{
 				[14] = 2,
@@ -659,7 +683,128 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = true,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 33,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33892,
+			ings = 
+			{
+				[4785] = 1,
+				[12878] = 1,
+				[27823] = 2,
+				[27835] = 2,
+				[27838] = 1,
+				[29510] = 2,
+			},
+			ingsHQ = 
+			{
+				[4785] = 0,
+				[12878] = 0,
+				[27823] = 0,
+				[27835] = 0,
+				[27838] = 0,
+				[29510] = 0,
+			},
+			item = 29503,
+			madaoprofile = "None",
+			name = "Pickled Herring",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[14] = 2,
+				[19] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 33,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33893,
+			ings = 
+			{
+				[19907] = 1,
+				[27782] = 2,
+				[27828] = 2,
+				[27829] = 1,
+				[27841] = 1,
+				[29510] = 2,
+			},
+			ingsHQ = 
+			{
+				[19907] = 0,
+				[27782] = 0,
+				[27828] = 0,
+				[27829] = 0,
+				[27841] = 0,
+				[29510] = 0,
+			},
+			item = 29504,
+			madaoprofile = "None",
+			name = "Herring Pie",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[14] = 2,
+				[19] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 33,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33884,
+			ings = 
+			{
+				[27780] = 1,
+				[27811] = 1,
+				[29979] = 2,
+			},
+			ingsHQ = 
+			{
+				[27780] = 0,
+				[27811] = 0,
+				[29979] = 0,
+			},
+			item = 29495,
+			madaoprofile = "None",
+			name = "Grade 3 Tincture of Intelligence",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[18] = 2,
+				[19] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
 			usequick = false,
 		},
 		
@@ -694,6 +839,157 @@ local tbl =
 			skip = true,
 			usequick = false,
 		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 22,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3877,
+			ings = 
+			{
+				[27820] = 5,
+			},
+			ingsHQ = 
+			{
+				[27820] = 0,
+			},
+			item = 27838,
+			madaoprofile = "None",
+			name = "Frantoio Oil",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 6,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 33,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3875,
+			ings = 
+			{
+				[19853] = 2,
+				[27782] = 1,
+				[27785] = 2,
+				[27799] = 2,
+			},
+			ingsHQ = 
+			{
+				[19853] = 0,
+				[27782] = 0,
+				[27785] = 0,
+				[27799] = 0,
+			},
+			item = 27959,
+			madaoprofile = "None",
+			name = "Cunning Craftsman's Syrup",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[12] = 7,
+				[13] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 33,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3906,
+			ings = 
+			{
+				[4843] = 1,
+				[12878] = 1,
+				[27451] = 1,
+				[27513] = 2,
+				[27825] = 2,
+				[27838] = 1,
+			},
+			ingsHQ = 
+			{
+				[4843] = 0,
+				[12878] = 0,
+				[27451] = 0,
+				[27513] = 0,
+				[27825] = 0,
+				[27838] = 0,
+			},
+			item = 27876,
+			madaoprofile = "None",
+			name = "Blood Bouillabaisse",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 7,
+				[13] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 10,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33340,
+			ings = 
+			{
+				[27780] = 1,
+				[27796] = 1,
+				[27812] = 3,
+			},
+			ingsHQ = 
+			{
+				[27780] = 0,
+				[27796] = 0,
+				[27812] = 0,
+			},
+			item = 27998,
+			madaoprofile = "None",
+			name = "Grade 2 Tincture of Intelligence",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[18] = 2,
+				[19] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
 	},
 	potId = 0,
 	potName = "Use Default",
@@ -702,19 +998,6 @@ local tbl =
 	profileType_num = 1,
 	reserve = 
 	{
-		[27780] = 1,
-		[27785] = 1,
-		[27796] = 1,
-		[27811] = 1,
-		[27812] = 1,
-		[29979] = 1,
-		[33340] = 1,
-		[33882] = 1,
-	},
-	reserve2 = 
-	{
-		[3877] = 1,
-		[3880] = 1,
 		[3882] = 1,
 		[4785] = 1,
 		[4830] = 1,
@@ -726,6 +1009,54 @@ local tbl =
 		[27784] = 1,
 		[27785] = 1,
 		[27811] = 1,
+		[27823] = 1,
+		[27825] = 1,
+		[27826] = 1,
+		[27828] = 1,
+		[27829] = 1,
+		[27835] = 1,
+		[27836] = 1,
+		[27838] = 1,
+		[27841] = 1,
+		[27843] = 1,
+		[27849] = 1,
+		[27852] = 1,
+		[29509] = 1,
+		[29510] = 1,
+		[29979] = 1,
+		[33881] = 1,
+		[33882] = 1,
+		[33884] = 1,
+		[33885] = 1,
+		[33890] = 1,
+		[33891] = 1,
+		[33892] = 1,
+		[33893] = 1,
+	},
+	reserve2 = 
+	{
+		[3875] = 1,
+		[3877] = 1,
+		[3880] = 1,
+		[3882] = 1,
+		[3906] = 1,
+		[4785] = 1,
+		[4830] = 1,
+		[4843] = 1,
+		[12878] = 1,
+		[19853] = 1,
+		[19907] = 1,
+		[27451] = 1,
+		[27513] = 1,
+		[27779] = 1,
+		[27780] = 1,
+		[27782] = 1,
+		[27784] = 1,
+		[27785] = 1,
+		[27796] = 1,
+		[27799] = 1,
+		[27811] = 1,
+		[27812] = 1,
 		[27820] = 1,
 		[27823] = 1,
 		[27825] = 1,
@@ -743,18 +1074,22 @@ local tbl =
 		[29509] = 1,
 		[29510] = 1,
 		[29979] = 1,
+		[33340] = 1,
 		[33881] = 1,
 		[33882] = 1,
 		[33884] = 1,
 		[33885] = 1,
 		[33890] = 1,
 		[33891] = 1,
+		[33892] = 1,
 		[33893] = 1,
 	},
 	shards = 
 	{
-		[18] = 40,
-		[19] = 40,
+		[8] = 49,
+		[14] = 264,
+		[18] = 264,
+		[19] = 528,
 	},
 	skill = 
 	{
@@ -764,9 +1099,47 @@ local tbl =
 	},
 	tmlist = 
 	{
+		[27836] = 66,
 	},
 	unspoil = 
 	{
+		
+		{
+			HQamount = 0,
+			amount = 66,
+			collect = false,
+			cordial = true,
+			expansion = "Shadow",
+			folklore = false,
+			hold = false,
+			id = 27836,
+			job = 17,
+			mapid = 813,
+			markerid = 8132620,
+			name = "Peppermint",
+			okgp = 0,
+			reserve = false,
+			skillname = "Pick Clean + Blessed + Bountiful.lua",
+			skillnum = 10,
+			skip = false,
+			slot = 6,
+			timeChecks = 
+			{
+				[10] = true,
+				[11] = true,
+				[22] = true,
+				[23] = true,
+			},
+			timeoks = 
+			{
+				10,
+				11,
+				22,
+				23,
+			},
+			x = 26,
+			y = 20,
+		},
 		
 		{
 			HQamount = 0,
@@ -799,7 +1172,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 66,
+			amount = 132,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -828,38 +1201,30 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 34,
+			amount = 66,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
 			folklore = false,
 			hold = false,
-			id = 27836,
+			id = 27835,
 			job = 17,
-			mapid = 813,
-			markerid = 8132620,
-			name = "Peppermint",
+			mapid = 814,
+			markerid = 8142020,
+			name = "Lemonette",
 			okgp = 0,
 			reserve = true,
-			skillname = "Pick Clean + Blessed + Bountiful.lua",
-			skillnum = 10,
+			skillname = "Leveling.lua",
 			skip = false,
-			slot = 6,
-			timeChecks = 
-			{
-				[10] = true,
-				[11] = true,
-				[22] = true,
-				[23] = true,
-			},
+			slot = 2,
 			timeoks = 
 			{
-				10,
-				11,
-				22,
-				23,
+				6,
+				7,
+				18,
+				19,
 			},
-			x = 26,
+			x = 20,
 			y = 20,
 		},
 	},
