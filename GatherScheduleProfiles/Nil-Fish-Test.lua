@@ -30,7 +30,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 100,
+			amount = 120,
 			baits = "27590,",
 			collect = false,
 			cordial = false,
