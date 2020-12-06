@@ -3,8 +3,11 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27824] = 10,
-		[27837] = 12,
+		[12878] = 50,
+		[27824] = 85,
+		[27827] = 50,
+		[27832] = 85,
+		[27837] = 100,
 	},
 	buy = 
 	{
@@ -12,15 +15,23 @@ local tbl =
 		{
 			id = 4828,
 			memo = "Cinnamon",
+			num = 50,
+			one = false,
+			price = 0,
+			vid = 134,
+		},
+		
+		{
+			id = 4753,
+			memo = "Buffalo Milk",
 			num = 6,
 			one = false,
 			price = 0,
-			vid = 96,
+			vid = 114,
 		},
 	},
 	cant = 
 	{
-		[12888] = 6,
 	},
 	ephs = 
 	{
@@ -58,7 +69,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 10,
+			amount = 85,
 			collect = false,
 			cordial = true,
 			id = 27824,
@@ -71,36 +82,15 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1605635568,
+			started = 1607092822,
 			tasktype = 1,
-			timerValue = 920764,
+			timerValue = 1040117,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 6,
-			collect = false,
-			cordial = true,
-			id = 27782,
-			job = 16,
-			markerid = 8133514,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1605635568,
-			tasktype = 1,
-			timerValue = 1002460,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 12,
+			amount = 100,
 			collect = false,
 			cordial = true,
 			id = 27837,
@@ -113,22 +103,299 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1605635568,
+			started = 1607092822,
 			tasktype = 1,
-			timerValue = 1000308,
+			timerValue = 947700,
 			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 50,
+			collect = false,
+			cordial = true,
+			id = 12878,
+			job = 17,
+			markerid = 3983620,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607092822,
+			tasktype = 1,
+			timerValue = 1000629,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 85,
+			collect = false,
+			cordial = true,
+			id = 27832,
+			job = 17,
+			markerid = 8141635,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607092822,
+			tasktype = 1,
+			timerValue = 1005692,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 50,
+			collect = false,
+			cordial = true,
+			id = 27782,
+			job = 16,
+			markerid = 8133514,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607092822,
+			tasktype = 1,
+			timerValue = 1130986,
+			timeup = false,
+		},
+		
+		{
+			amount = 34,
+			collect = false,
+			consumed = false,
+			countHQ = false,
+			done = false,
+			grindAmount = 34,
+			grindItemId = 6149,
+			grindItemMobData = 
+			{
+			},
+			grindItemMobNum = 1,
+			grindItemNum = 0,
+			grindTag = 1607092822,
+			grindTimer = 1495,
+			id = 6149,
+			idnum = 1,
+			job = 98,
+			jobNum = 1,
+			level = 31,
+			lvler = false,
+			mapId = 137,
+			markers = 
+			{
+				
+				{
+					str = "137_30_32_31",
+					x = 433.67,
+					y = 32.79,
+					z = 529.1,
+				},
+				
+				{
+					str = "137_27_29_31",
+					x = 307.31,
+					y = 40.37,
+					z = 378.68,
+				},
+			},
+			maxtime = 1495546,
+			mobId = 1313,
+			mobIds = 
+			{
+				[1313] = true,
+			},
+			mskill = true,
+			name = "large buffalo <<Map[Eastern La Noscea] Lvl[31]>> ",
+			prio = 1,
+			prioCount = false,
+			priodo = false,
+			rcount = 0,
+			skill = 1,
+			srange = 0,
+			taskJob = 30,
+			tasktype = "grind",
+			timerBase = 1495546,
+			timeup = false,
+			type = 6,
+			useDefaultJob = true,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 50,
+			collect = false,
+			cordial = true,
+			id = 27827,
+			job = 17,
+			markerid = 8153217,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607092822,
+			tasktype = 1,
+			timerValue = 928006,
+			timeup = false,
+		},
+		
+		{
+			amount = 51,
+			collect = false,
+			consumed = false,
+			countHQ = false,
+			done = false,
+			grindAmount = 51,
+			grindItemId = 12888,
+			grindItemMobData = 
+			{
+			},
+			grindItemMobNum = 1,
+			grindItemNum = 0,
+			grindTag = 1607092822,
+			grindTimer = 1153,
+			id = 12888,
+			idnum = 1,
+			job = 98,
+			jobNum = 1,
+			level = 51,
+			lvler = false,
+			mapId = 397,
+			markers = 
+			{
+				
+				{
+					str = "397_20_15_51",
+					x = -94.45,
+					y = 119.24,
+					z = -356.09,
+				},
+				
+				{
+					str = "397_15_15_51",
+					x = -361.72,
+					y = 110.99,
+					z = -357.01,
+				},
+			},
+			maxtime = 1153015,
+			mobId = 3479,
+			mobIds = 
+			{
+				[3479] = true,
+			},
+			mskill = true,
+			name = "wooly yak <<Map[Coerthas Western Highlands] Lvl[51]>> ",
+			prio = 1,
+			prioCount = false,
+			priodo = false,
+			rcount = 0,
+			skill = 1,
+			srange = 0,
+			taskJob = 30,
+			tasktype = "grind",
+			timerBase = 1153015,
+			timeup = false,
+			type = 6,
+			useDefaultJob = true,
+		},
+		
+		{
+			amount = 50,
+			collect = false,
+			consumed = false,
+			countHQ = false,
+			done = false,
+			grindAmount = 50,
+			grindItemId = 19878,
+			grindItemMobData = 
+			{
+			},
+			grindItemMobNum = 1,
+			grindItemNum = 0,
+			grindTag = 1607092822,
+			grindTimer = 937,
+			id = 19878,
+			idnum = 1,
+			job = 98,
+			jobNum = 1,
+			level = 65,
+			lvler = false,
+			mapId = 622,
+			markers = 
+			{
+				
+				{
+					str = "622_27_34_65",
+					x = 298.11,
+					y = -19.04,
+					z = 647.57,
+				},
+				
+				{
+					str = "622_28_31_65",
+					x = 375.23,
+					y = -2.09,
+					z = 501.71,
+				},
+				
+				{
+					str = "622_32_33_65",
+					x = 528.25,
+					y = -9.3,
+					z = 611.09,
+				},
+			},
+			maxtime = 937232,
+			mobId = 5773,
+			mobIds = 
+			{
+				[5773] = true,
+			},
+			mskill = true,
+			name = "steppe dzo <<Map[The Azim Steppe] Lvl[65]>> ",
+			prio = 1,
+			prioCount = false,
+			priodo = false,
+			rcount = 0,
+			skill = 1,
+			srange = 0,
+			taskJob = 30,
+			tasktype = "grind",
+			timerBase = 937232,
+			timeup = false,
+			type = 6,
+			useDefaultJob = true,
 		},
 	},
 	goCollectTurnInAtDone = false,
 	grind = 
 	{
+		[6149] = 34,
+		[12888] = 51,
+		[19878] = 50,
 	},
 	isProgenProf = true,
 	listed = 
 	{
 		
 		{
-			amount = 6,
+			amount = 50,
 			collect = false,
 			itemid = 31089,
 			job = 7,
@@ -138,7 +405,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 50,
 			collect = false,
 			itemid = 31088,
 			job = 7,
@@ -149,7 +416,7 @@ local tbl =
 	},
 	miner = 
 	{
-		[27782] = 6,
+		[27782] = 50,
 	},
 	normalType = "Amountbase",
 	orders = 
@@ -158,28 +425,28 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 2,
+			amount = 6,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3878,
+			id = 912,
 			ings = 
 			{
-				[27824] = 5,
+				[4753] = 1,
 			},
 			ingsHQ = 
 			{
-				[27824] = 0,
+				[4753] = 0,
 			},
-			item = 27839,
+			item = 4852,
 			madaoprofile = "None",
-			name = "Garden Beet Sugar",
+			name = "Sweet Cream",
 			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[8] = 6,
+				[2] = 1,
 			},
 			skillprofile = "None",
 			skilltype = 5,
@@ -190,7 +457,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 2,
+			amount = 17,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -222,7 +489,105 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 6,
+			amount = 17,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 983,
+			ings = 
+			{
+				[4852] = 1,
+				[6149] = 2,
+			},
+			ingsHQ = 
+			{
+				[4852] = 0,
+				[6149] = 0,
+			},
+			item = 4756,
+			madaoprofile = "None",
+			name = "Cream Cheese",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[2] = 4,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 17,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3880,
+			ings = 
+			{
+				[27832] = 5,
+			},
+			ingsHQ = 
+			{
+				[27832] = 0,
+			},
+			item = 27841,
+			madaoprofile = "None",
+			name = "Upland Wheat Flour",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[8] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 17,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3878,
+			ings = 
+			{
+				[27824] = 5,
+			},
+			ingsHQ = 
+			{
+				[27824] = 0,
+			},
+			item = 27839,
+			madaoprofile = "None",
+			name = "Garden Beet Sugar",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[8] = 6,
+			},
+			skillprofile = "None",
+			skilltype = 5,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 50,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -263,57 +628,65 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 7,
+			amount = 50,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 983,
+			id = 34165,
 			ings = 
 			{
-				[4852] = 1,
-				[6149] = 2,
+				[4756] = 1,
+				[12878] = 1,
+				[19878] = 1,
+				[27822] = 1,
+				[27827] = 1,
+				[27841] = 1,
 			},
 			ingsHQ = 
 			{
-				[4852] = 0,
-				[6149] = 0,
+				[4756] = 0,
+				[12878] = 0,
+				[19878] = 0,
+				[27822] = 0,
+				[27827] = 0,
+				[27841] = 0,
 			},
-			item = 4756,
+			item = 31088,
 			madaoprofile = "None",
-			name = "Cream Cheese",
+			name = "Rarefied Popotoes au Gratin",
 			noStop = true,
 			requiredcp = 0,
-			reserved = true,
+			reserved = false,
 			shards = 
 			{
-				[2] = 4,
+				[8] = 7,
+				[13] = 6,
 			},
 			skillprofile = "None",
-			skilltype = 5,
-			skip = true,
+			skilltype = 2,
+			skip = false,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 3,
+			HQingAutoVal = 35,
+			amount = 19,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 912,
+			id = 914,
 			ings = 
 			{
-				[4753] = 1,
+				[4753] = 2,
 			},
 			ingsHQ = 
 			{
 				[4753] = 0,
 			},
-			item = 4852,
+			item = 4853,
 			madaoprofile = "None",
-			name = "Sweet Cream",
-			noStop = true,
+			name = "Smooth Butter",
 			requiredcp = 0,
 			reserved = true,
 			shards = 
@@ -321,39 +694,7 @@ local tbl =
 				[2] = 1,
 			},
 			skillprofile = "None",
-			skilltype = 5,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 7,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3880,
-			ings = 
-			{
-				[27832] = 5,
-			},
-			ingsHQ = 
-			{
-				[27832] = 0,
-			},
-			item = 27841,
-			madaoprofile = "None",
-			name = "Upland Wheat Flour",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[8] = 7,
-			},
-			skillprofile = "None",
-			skilltype = 5,
+			skilltype = 2,
 			skip = true,
 			usequick = false,
 		},
@@ -386,91 +727,6 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 5,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 20,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34165,
-			ings = 
-			{
-				[4756] = 1,
-				[12878] = 1,
-				[19878] = 1,
-				[27822] = 1,
-				[27827] = 1,
-				[27841] = 1,
-			},
-			ingsHQ = 
-			{
-				[4756] = 0,
-				[12878] = 0,
-				[19878] = 0,
-				[27822] = 0,
-				[27827] = 0,
-				[27841] = 0,
-			},
-			item = 31088,
-			madaoprofile = "None",
-			name = "Rarefied Popotoes au Gratin",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[8] = 7,
-				[13] = 6,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 99,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = true,
-			id = 3897,
-			ings = 
-			{
-				[4853] = 1,
-				[19907] = 1,
-				[27822] = 1,
-				[27827] = 1,
-				[27843] = 1,
-				[27852] = 1,
-			},
-			ingsHQ = 
-			{
-				[4853] = 0,
-				[19907] = 0,
-				[27822] = 0,
-				[27827] = 0,
-				[27843] = 0,
-				[27852] = 0,
-			},
-			item = 27867,
-			madaoprofile = "None",
-			name = "Roast Ovim",
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[8] = 7,
-				[13] = 6,
-			},
-			skillprofile = "None",
-			skilltype = 2,
 			skip = true,
 			usequick = false,
 		},
@@ -548,27 +804,38 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 19,
+			amount = 99,
 			amountInBag = 0,
 			amountInBagHQ = 0,
-			collect = false,
-			id = 914,
+			collect = true,
+			id = 3897,
 			ings = 
 			{
-				[4753] = 2,
+				[4853] = 1,
+				[19907] = 1,
+				[27822] = 1,
+				[27827] = 1,
+				[27843] = 1,
+				[27852] = 1,
 			},
 			ingsHQ = 
 			{
-				[4753] = 0,
+				[4853] = 0,
+				[19907] = 0,
+				[27822] = 0,
+				[27827] = 0,
+				[27843] = 0,
+				[27852] = 0,
 			},
-			item = 4853,
+			item = 27867,
 			madaoprofile = "None",
-			name = "Smooth Butter",
+			name = "Roast Ovim",
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
-				[2] = 1,
+				[8] = 7,
+				[13] = 6,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -581,15 +848,29 @@ local tbl =
 	profileType_num = 2,
 	reserve = 
 	{
+		[912] = 1,
+		[983] = 1,
 		[2820] = 1,
 		[3878] = 1,
+		[3880] = 1,
+		[4753] = 1,
+		[4756] = 1,
 		[4828] = 1,
+		[4852] = 1,
+		[6149] = 1,
+		[12878] = 1,
 		[12888] = 1,
 		[12894] = 1,
+		[19878] = 1,
 		[27782] = 1,
+		[27822] = 1,
 		[27824] = 1,
+		[27827] = 1,
+		[27832] = 1,
 		[27837] = 1,
 		[27839] = 1,
+		[27841] = 1,
+		[34165] = 1,
 		[34166] = 1,
 	},
 	reserve2 = 
@@ -630,11 +911,20 @@ local tbl =
 		[34166] = 1,
 		[34430] = 1,
 	},
+	s_c = 
+	{
+	},
+	s_g = 
+	{
+	},
+	scripitemdemands = 
+	{
+	},
 	shards = 
 	{
-		[2] = 14,
-		[8] = 54,
-		[13] = 42,
+		[2] = 193,
+		[8] = 921,
+		[13] = 650,
 	},
 	skill = 
 	{
@@ -644,13 +934,14 @@ local tbl =
 	},
 	tmlist = 
 	{
+		[27822] = 50,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 20,
+			amount = 50,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -662,7 +953,7 @@ local tbl =
 			markerid = 8151916,
 			name = "Russet Popoto",
 			okgp = 0,
-			reserve = true,
+			reserve = false,
 			skillname = "Leveling.lua",
 			skip = false,
 			slot = 7,
@@ -706,9 +997,13 @@ local tbl =
 			y = 20,
 		},
 	},
+	unspoilTimeline = 
+	{
+	},
 	withdraw = 
 	{
 	},
+	withpdata = true,
 }
 
 

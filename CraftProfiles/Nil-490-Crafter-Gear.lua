@@ -9,13 +9,6 @@ local tbl =
 	},
 	cant = 
 	{
-		[28718] = 121,
-		[29969] = 182,
-		[29971] = 80,
-		[29973] = 88,
-		[29975] = 64,
-		[29977] = 92,
-		[31320] = 121,
 	},
 	ephs = 
 	{
@@ -51,6 +44,7 @@ local tbl =
 	glist = 
 	{
 	},
+	goCollectTurnInAtDone = false,
 	grind = 
 	{
 	},
@@ -59,7 +53,7 @@ local tbl =
 	{
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30454,
 			job = 0,
@@ -69,7 +63,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30456,
 			job = 0,
@@ -79,7 +73,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30450,
 			job = 0,
@@ -89,7 +83,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30477,
 			job = 0,
@@ -99,7 +93,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30478,
 			job = 0,
@@ -109,7 +103,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30479,
 			job = 0,
@@ -119,7 +113,7 @@ local tbl =
 		},
 		
 		{
-			amount = 2,
+			amount = 0,
 			collect = false,
 			itemid = 30480,
 			job = 0,
@@ -129,7 +123,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30440,
 			job = 1,
@@ -139,7 +133,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30451,
 			job = 1,
@@ -159,7 +153,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30452,
 			job = 1,
@@ -169,7 +163,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30442,
 			job = 1,
@@ -179,7 +173,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30453,
 			job = 1,
@@ -189,7 +183,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30443,
 			job = 1,
@@ -199,7 +193,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30444,
 			job = 1,
@@ -209,7 +203,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30455,
 			job = 1,
@@ -219,7 +213,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30457,
 			job = 1,
@@ -229,7 +223,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30458,
 			job = 1,
@@ -239,7 +233,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30448,
 			job = 1,
@@ -249,7 +243,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30459,
 			job = 1,
@@ -259,7 +253,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30449,
 			job = 1,
@@ -269,7 +263,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30460,
 			job = 1,
@@ -279,7 +273,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30446,
 			job = 2,
@@ -289,7 +283,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30447,
 			job = 2,
@@ -299,7 +293,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30445,
 			job = 3,
@@ -309,7 +303,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30472,
 			job = 3,
@@ -319,7 +313,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30473,
 			job = 3,
@@ -329,7 +323,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30474,
 			job = 3,
@@ -339,7 +333,7 @@ local tbl =
 		},
 		
 		{
-			amount = 2,
+			amount = 0,
 			collect = false,
 			itemid = 30475,
 			job = 3,
@@ -349,7 +343,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30467,
 			job = 4,
@@ -359,7 +353,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30463,
 			job = 4,
@@ -369,7 +363,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30468,
 			job = 4,
@@ -379,7 +373,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30471,
 			job = 4,
@@ -389,7 +383,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30476,
 			job = 4,
@@ -399,7 +393,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30465,
 			job = 4,
@@ -409,7 +403,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30470,
 			job = 4,
@@ -419,7 +413,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30461,
 			job = 5,
@@ -429,7 +423,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30466,
 			job = 5,
@@ -439,7 +433,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30462,
 			job = 5,
@@ -449,7 +443,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30464,
 			job = 5,
@@ -459,7 +453,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30469,
 			job = 5,
@@ -477,149 +471,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 44,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33899,
-			ings = 
-			{
-				[29972] = 4,
-				[29973] = 2,
-			},
-			ingsHQ = 
-			{
-				[29972] = 0,
-				[29973] = 0,
-			},
-			item = 29960,
-			madaoprofile = "None",
-			name = "Merbau Lumber",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 32,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33900,
-			ings = 
-			{
-				[29974] = 4,
-				[29975] = 2,
-			},
-			ingsHQ = 
-			{
-				[29974] = 0,
-				[29975] = 0,
-			},
-			item = 29961,
-			madaoprofile = "None",
-			name = "Duskcourt Cloth",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 46,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33901,
-			ings = 
-			{
-				[29976] = 4,
-				[29977] = 2,
-			},
-			ingsHQ = 
-			{
-				[29976] = 0,
-				[29977] = 0,
-			},
-			item = 29962,
-			madaoprofile = "None",
-			name = "Megalania Leather",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 48,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33952,
-			ings = 
-			{
-				[28718] = 1,
-				[30485] = 3,
-				[30590] = 1,
-			},
-			ingsHQ = 
-			{
-				[28718] = 0,
-				[30485] = 0,
-				[30590] = 0,
-			},
-			item = 30484,
-			madaoprofile = "None",
-			name = "Defthand's Dissolvent",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[18] = 2,
-				[19] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 91,
+			amount = 5,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -637,1599 +489,6 @@ local tbl =
 			item = 29958,
 			madaoprofile = "None",
 			name = "Cobalt Alloy Ingot",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 40,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33898,
-			ings = 
-			{
-				[29970] = 4,
-				[29971] = 2,
-			},
-			ingsHQ = 
-			{
-				[29970] = 0,
-				[29971] = 0,
-			},
-			item = 29959,
-			madaoprofile = "None",
-			name = "Purpure Bead",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 73,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33951,
-			ings = 
-			{
-				[28718] = 1,
-				[30486] = 3,
-				[30590] = 1,
-			},
-			ingsHQ = 
-			{
-				[28718] = 0,
-				[30486] = 0,
-				[30590] = 0,
-			},
-			item = 30483,
-			madaoprofile = "None",
-			name = "Brashgold Plate",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 5,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33911,
-			ings = 
-			{
-				[29958] = 5,
-				[29960] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30443,
-			madaoprofile = "None",
-			name = "Aesthete's Mallet",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33912,
-			ings = 
-			{
-				[29958] = 5,
-				[29962] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29962] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30444,
-			madaoprofile = "None",
-			name = "Aesthete's Round Knife",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33913,
-			ings = 
-			{
-				[29959] = 5,
-				[29961] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29961] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30445,
-			madaoprofile = "None",
-			name = "Aesthete's Needle",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33914,
-			ings = 
-			{
-				[29958] = 5,
-				[29959] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29959] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30446,
-			madaoprofile = "None",
-			name = "Aesthete's Alembic",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33915,
-			ings = 
-			{
-				[29958] = 5,
-				[29959] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29959] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30447,
-			madaoprofile = "None",
-			name = "Aesthete's Frypan",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33916,
-			ings = 
-			{
-				[29958] = 5,
-				[29959] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29959] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30448,
-			madaoprofile = "None",
-			name = "Aesthete's Pickaxe",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33917,
-			ings = 
-			{
-				[29958] = 5,
-				[29960] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30449,
-			madaoprofile = "None",
-			name = "Aesthete's Hatchet",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33918,
-			ings = 
-			{
-				[29958] = 2,
-				[29960] = 5,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30450,
-			madaoprofile = "None",
-			name = "Aesthete's Fishing Rod",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33919,
-			ings = 
-			{
-				[29958] = 5,
-				[29960] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30451,
-			madaoprofile = "None",
-			name = "Aesthete's Claw Hammer",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33920,
-			ings = 
-			{
-				[29958] = 5,
-				[29959] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29959] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30452,
-			madaoprofile = "None",
-			name = "Aesthete's File",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33921,
-			ings = 
-			{
-				[29958] = 5,
-				[29959] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29959] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30453,
-			madaoprofile = "None",
-			name = "Aesthete's Pliers",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33922,
-			ings = 
-			{
-				[29958] = 2,
-				[29960] = 5,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30454,
-			madaoprofile = "None",
-			name = "Aesthete's Grinding Wheel",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33923,
-			ings = 
-			{
-				[29958] = 5,
-				[29962] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29962] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30455,
-			madaoprofile = "None",
-			name = "Aesthete's Awl",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33924,
-			ings = 
-			{
-				[29959] = 2,
-				[29960] = 5,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30456,
-			madaoprofile = "None",
-			name = "Aesthete's Spinning Wheel",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33925,
-			ings = 
-			{
-				[29958] = 5,
-				[29959] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29959] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30457,
-			madaoprofile = "None",
-			name = "Aesthete's Mortar",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33926,
-			ings = 
-			{
-				[29958] = 5,
-				[29960] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30458,
-			madaoprofile = "None",
-			name = "Aesthete's Culinary Knife",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33927,
-			ings = 
-			{
-				[29958] = 5,
-				[29960] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30459,
-			madaoprofile = "None",
-			name = "Aesthete's Sledgehammer",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33928,
-			ings = 
-			{
-				[29958] = 5,
-				[29960] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29960] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30460,
-			madaoprofile = "None",
-			name = "Aesthete's Scythe",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33929,
-			ings = 
-			{
-				[29961] = 4,
-				[29962] = 1,
-				[30484] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29961] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30461,
-			madaoprofile = "None",
-			name = "Aesthete's Cap of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33930,
-			ings = 
-			{
-				[29961] = 5,
-				[29962] = 2,
-				[30484] = 4,
-				[31320] = 4,
-			},
-			ingsHQ = 
-			{
-				[29961] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30462,
-			madaoprofile = "None",
-			name = "Aesthete's Doublet of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33931,
-			ings = 
-			{
-				[29961] = 1,
-				[29962] = 4,
-				[30484] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29961] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30463,
-			madaoprofile = "None",
-			name = "Aesthete's Fingerless Gloves of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33932,
-			ings = 
-			{
-				[29961] = 5,
-				[29962] = 2,
-				[30484] = 4,
-				[31320] = 4,
-			},
-			ingsHQ = 
-			{
-				[29961] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30464,
-			madaoprofile = "None",
-			name = "Aesthete's Trousers of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33933,
-			ings = 
-			{
-				[29958] = 1,
-				[29962] = 4,
-				[30484] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30465,
-			madaoprofile = "None",
-			name = "Aesthete's Boots of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33934,
-			ings = 
-			{
-				[29961] = 4,
-				[29962] = 1,
-				[30484] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29961] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30466,
-			madaoprofile = "None",
-			name = "Aesthete's Hat of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33935,
-			ings = 
-			{
-				[29959] = 2,
-				[29962] = 5,
-				[30484] = 4,
-				[31320] = 4,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30467,
-			madaoprofile = "None",
-			name = "Aesthete's Doublet of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33936,
-			ings = 
-			{
-				[29961] = 1,
-				[29962] = 4,
-				[30484] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29961] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30468,
-			madaoprofile = "None",
-			name = "Aesthete's Halfgloves of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33937,
-			ings = 
-			{
-				[29961] = 5,
-				[29962] = 2,
-				[30484] = 4,
-				[31320] = 4,
-			},
-			ingsHQ = 
-			{
-				[29961] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30469,
-			madaoprofile = "None",
-			name = "Aesthete's Trousers of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[18] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33938,
-			ings = 
-			{
-				[29958] = 1,
-				[29962] = 4,
-				[30484] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30470,
-			madaoprofile = "None",
-			name = "Aesthete's Boots of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33939,
-			ings = 
-			{
-				[29959] = 1,
-				[29962] = 3,
-				[30484] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30471,
-			madaoprofile = "None",
-			name = "Aesthete's Tool Belt",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33940,
-			ings = 
-			{
-				[29959] = 3,
-				[29961] = 1,
-				[30483] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29961] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30472,
-			madaoprofile = "None",
-			name = "Aesthete's Ear Cuffs of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33941,
-			ings = 
-			{
-				[29959] = 3,
-				[29961] = 1,
-				[30483] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29961] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30473,
-			madaoprofile = "None",
-			name = "Aesthete's Choker of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33942,
-			ings = 
-			{
-				[29959] = 3,
-				[29961] = 1,
-				[30483] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29961] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30474,
-			madaoprofile = "None",
-			name = "Aesthete's Bracelets of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 2,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33943,
-			ings = 
-			{
-				[29959] = 3,
-				[29961] = 1,
-				[30483] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29961] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30475,
-			madaoprofile = "None",
-			name = "Aesthete's Ring of Crafting",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33944,
-			ings = 
-			{
-				[29959] = 1,
-				[29962] = 3,
-				[30484] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29959] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30476,
-			madaoprofile = "None",
-			name = "Aesthete's Belt of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33945,
-			ings = 
-			{
-				[29960] = 3,
-				[29962] = 1,
-				[30484] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29960] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30477,
-			madaoprofile = "None",
-			name = "Aesthete's Earrings of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33946,
-			ings = 
-			{
-				[29960] = 3,
-				[29962] = 1,
-				[30484] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29960] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30478,
-			madaoprofile = "None",
-			name = "Aesthete's Necklace of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33947,
-			ings = 
-			{
-				[29960] = 3,
-				[29962] = 1,
-				[30484] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29960] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30479,
-			madaoprofile = "None",
-			name = "Aesthete's Bracelet of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 2,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33948,
-			ings = 
-			{
-				[29960] = 3,
-				[29962] = 1,
-				[30484] = 2,
-				[31320] = 2,
-			},
-			ingsHQ = 
-			{
-				[29960] = 0,
-				[29962] = 0,
-				[30484] = 0,
-				[31320] = 0,
-			},
-			item = 30480,
-			madaoprofile = "None",
-			name = "Aesthete's Ring of Gathering",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33908,
-			ings = 
-			{
-				[29958] = 5,
-				[29962] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29962] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30440,
-			madaoprofile = "None",
-			name = "Aesthete's Saw",
 			noStop = true,
 			requiredcp = 0,
 			reserved = false,
@@ -2290,6 +549,1702 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
+			id = 33914,
+			ings = 
+			{
+				[29958] = 5,
+				[29959] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29959] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30446,
+			madaoprofile = "None",
+			name = "Aesthete's Alembic",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33916,
+			ings = 
+			{
+				[29958] = 5,
+				[29959] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29959] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30448,
+			madaoprofile = "None",
+			name = "Aesthete's Pickaxe",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33918,
+			ings = 
+			{
+				[29958] = 2,
+				[29960] = 5,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30450,
+			madaoprofile = "None",
+			name = "Aesthete's Fishing Rod",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33920,
+			ings = 
+			{
+				[29958] = 5,
+				[29959] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29959] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30452,
+			madaoprofile = "None",
+			name = "Aesthete's File",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33922,
+			ings = 
+			{
+				[29958] = 2,
+				[29960] = 5,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30454,
+			madaoprofile = "None",
+			name = "Aesthete's Grinding Wheel",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33924,
+			ings = 
+			{
+				[29959] = 2,
+				[29960] = 5,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30456,
+			madaoprofile = "None",
+			name = "Aesthete's Spinning Wheel",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33926,
+			ings = 
+			{
+				[29958] = 5,
+				[29960] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30458,
+			madaoprofile = "None",
+			name = "Aesthete's Culinary Knife",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33928,
+			ings = 
+			{
+				[29958] = 5,
+				[29960] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30460,
+			madaoprofile = "None",
+			name = "Aesthete's Scythe",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33930,
+			ings = 
+			{
+				[29961] = 5,
+				[29962] = 2,
+				[30484] = 4,
+				[31320] = 4,
+			},
+			ingsHQ = 
+			{
+				[29961] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30462,
+			madaoprofile = "None",
+			name = "Aesthete's Doublet of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33932,
+			ings = 
+			{
+				[29961] = 5,
+				[29962] = 2,
+				[30484] = 4,
+				[31320] = 4,
+			},
+			ingsHQ = 
+			{
+				[29961] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30464,
+			madaoprofile = "None",
+			name = "Aesthete's Trousers of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33934,
+			ings = 
+			{
+				[29961] = 4,
+				[29962] = 1,
+				[30484] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29961] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30466,
+			madaoprofile = "None",
+			name = "Aesthete's Hat of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33936,
+			ings = 
+			{
+				[29961] = 1,
+				[29962] = 4,
+				[30484] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29961] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30468,
+			madaoprofile = "None",
+			name = "Aesthete's Halfgloves of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33938,
+			ings = 
+			{
+				[29958] = 1,
+				[29962] = 4,
+				[30484] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30470,
+			madaoprofile = "None",
+			name = "Aesthete's Boots of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33940,
+			ings = 
+			{
+				[29959] = 3,
+				[29961] = 1,
+				[30483] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29961] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30472,
+			madaoprofile = "None",
+			name = "Aesthete's Ear Cuffs of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33942,
+			ings = 
+			{
+				[29959] = 3,
+				[29961] = 1,
+				[30483] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29961] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30474,
+			madaoprofile = "None",
+			name = "Aesthete's Bracelets of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33944,
+			ings = 
+			{
+				[29959] = 1,
+				[29962] = 3,
+				[30484] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30476,
+			madaoprofile = "None",
+			name = "Aesthete's Belt of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33946,
+			ings = 
+			{
+				[29960] = 3,
+				[29962] = 1,
+				[30484] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29960] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30478,
+			madaoprofile = "None",
+			name = "Aesthete's Necklace of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33948,
+			ings = 
+			{
+				[29960] = 3,
+				[29962] = 1,
+				[30484] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29960] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30480,
+			madaoprofile = "None",
+			name = "Aesthete's Ring of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 8,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33952,
+			ings = 
+			{
+				[28718] = 1,
+				[30485] = 3,
+				[30590] = 1,
+			},
+			ingsHQ = 
+			{
+				[28718] = 0,
+				[30485] = 0,
+				[30590] = 0,
+			},
+			item = 30484,
+			madaoprofile = "None",
+			name = "Defthand's Dissolvent",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[18] = 2,
+				[19] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 4,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33899,
+			ings = 
+			{
+				[29972] = 4,
+				[29973] = 2,
+			},
+			ingsHQ = 
+			{
+				[29972] = 0,
+				[29973] = 0,
+			},
+			item = 29960,
+			madaoprofile = "None",
+			name = "Merbau Lumber",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33901,
+			ings = 
+			{
+				[29976] = 4,
+				[29977] = 2,
+			},
+			ingsHQ = 
+			{
+				[29976] = 0,
+				[29977] = 0,
+			},
+			item = 29962,
+			madaoprofile = "None",
+			name = "Megalania Leather",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33911,
+			ings = 
+			{
+				[29958] = 5,
+				[29960] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30443,
+			madaoprofile = "None",
+			name = "Aesthete's Mallet",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33913,
+			ings = 
+			{
+				[29959] = 5,
+				[29961] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29961] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30445,
+			madaoprofile = "None",
+			name = "Aesthete's Needle",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33915,
+			ings = 
+			{
+				[29958] = 5,
+				[29959] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29959] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30447,
+			madaoprofile = "None",
+			name = "Aesthete's Frypan",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33917,
+			ings = 
+			{
+				[29958] = 5,
+				[29960] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30449,
+			madaoprofile = "None",
+			name = "Aesthete's Hatchet",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33919,
+			ings = 
+			{
+				[29958] = 5,
+				[29960] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30451,
+			madaoprofile = "None",
+			name = "Aesthete's Claw Hammer",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33921,
+			ings = 
+			{
+				[29958] = 5,
+				[29959] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29959] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30453,
+			madaoprofile = "None",
+			name = "Aesthete's Pliers",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33923,
+			ings = 
+			{
+				[29958] = 5,
+				[29962] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29962] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30455,
+			madaoprofile = "None",
+			name = "Aesthete's Awl",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33925,
+			ings = 
+			{
+				[29958] = 5,
+				[29959] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29959] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30457,
+			madaoprofile = "None",
+			name = "Aesthete's Mortar",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33927,
+			ings = 
+			{
+				[29958] = 5,
+				[29960] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29960] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30459,
+			madaoprofile = "None",
+			name = "Aesthete's Sledgehammer",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33929,
+			ings = 
+			{
+				[29961] = 4,
+				[29962] = 1,
+				[30484] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29961] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30461,
+			madaoprofile = "None",
+			name = "Aesthete's Cap of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33931,
+			ings = 
+			{
+				[29961] = 1,
+				[29962] = 4,
+				[30484] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29961] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30463,
+			madaoprofile = "None",
+			name = "Aesthete's Fingerless Gloves of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33933,
+			ings = 
+			{
+				[29958] = 1,
+				[29962] = 4,
+				[30484] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30465,
+			madaoprofile = "None",
+			name = "Aesthete's Boots of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33935,
+			ings = 
+			{
+				[29959] = 2,
+				[29962] = 5,
+				[30484] = 4,
+				[31320] = 4,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30467,
+			madaoprofile = "None",
+			name = "Aesthete's Doublet of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33937,
+			ings = 
+			{
+				[29961] = 5,
+				[29962] = 2,
+				[30484] = 4,
+				[31320] = 4,
+			},
+			ingsHQ = 
+			{
+				[29961] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30469,
+			madaoprofile = "None",
+			name = "Aesthete's Trousers of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33939,
+			ings = 
+			{
+				[29959] = 1,
+				[29962] = 3,
+				[30484] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30471,
+			madaoprofile = "None",
+			name = "Aesthete's Tool Belt",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33941,
+			ings = 
+			{
+				[29959] = 3,
+				[29961] = 1,
+				[30483] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29961] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30473,
+			madaoprofile = "None",
+			name = "Aesthete's Choker of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33943,
+			ings = 
+			{
+				[29959] = 3,
+				[29961] = 1,
+				[30483] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29959] = 0,
+				[29961] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30475,
+			madaoprofile = "None",
+			name = "Aesthete's Ring of Crafting",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33945,
+			ings = 
+			{
+				[29960] = 3,
+				[29962] = 1,
+				[30484] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29960] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30477,
+			madaoprofile = "None",
+			name = "Aesthete's Earrings of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33947,
+			ings = 
+			{
+				[29960] = 3,
+				[29962] = 1,
+				[30484] = 2,
+				[31320] = 2,
+			},
+			ingsHQ = 
+			{
+				[29960] = 0,
+				[29962] = 0,
+				[30484] = 0,
+				[31320] = 0,
+			},
+			item = 30479,
+			madaoprofile = "None",
+			name = "Aesthete's Bracelet of Gathering",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 42,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33951,
+			ings = 
+			{
+				[28718] = 1,
+				[30486] = 3,
+				[30590] = 1,
+			},
+			ingsHQ = 
+			{
+				[28718] = 0,
+				[30486] = 0,
+				[30590] = 0,
+			},
+			item = 30483,
+			madaoprofile = "None",
+			name = "Brashgold Plate",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33898,
+			ings = 
+			{
+				[29970] = 4,
+				[29971] = 2,
+			},
+			ingsHQ = 
+			{
+				[29970] = 0,
+				[29971] = 0,
+			},
+			item = 29959,
+			madaoprofile = "None",
+			name = "Purpure Bead",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33900,
+			ings = 
+			{
+				[29974] = 4,
+				[29975] = 2,
+			},
+			ingsHQ = 
+			{
+				[29974] = 0,
+				[29975] = 0,
+			},
+			item = 29961,
+			madaoprofile = "None",
+			name = "Duskcourt Cloth",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 2,
+				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33908,
+			ings = 
+			{
+				[29958] = 5,
+				[29962] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29962] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30440,
+			madaoprofile = "None",
+			name = "Aesthete's Saw",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
 			id = 33910,
 			ings = 
 			{
@@ -2310,7 +2265,7 @@ local tbl =
 			name = "Aesthete's Raising Hammer",
 			noStop = true,
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
 				[14] = 2,
@@ -2318,7 +2273,46 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33912,
+			ings = 
+			{
+				[29958] = 5,
+				[29962] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29962] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30444,
+			madaoprofile = "None",
+			name = "Aesthete's Round Knife",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
 			usequick = false,
 		},
 	},
@@ -2326,6 +2320,17 @@ local tbl =
 	profileType = "OneTime",
 	profileType_num = 1,
 	reserve = 
+	{
+		[29958] = 1,
+		[29959] = 1,
+		[29968] = 1,
+		[29969] = 1,
+		[30483] = 1,
+		[31320] = 1,
+		[33896] = 1,
+		[33909] = 1,
+	},
+	reserve2 = 
 	{
 		[28718] = 1,
 		[29958] = 1,
@@ -2398,17 +2403,20 @@ local tbl =
 		[33951] = 1,
 		[33952] = 1,
 	},
-	reserve2 = 
+	s_c = 
+	{
+		[31320] = 3,
+	},
+	s_g = 
+	{
+	},
+	scripitemdemands = 
 	{
 	},
 	shards = 
 	{
-		[14] = 304,
-		[15] = 254,
-		[16] = 376,
-		[17] = 468,
-		[18] = 170,
-		[19] = 96,
+		[14] = 12,
+		[17] = 12,
 	},
 	skill = 
 	{
@@ -2418,49 +2426,14 @@ local tbl =
 	},
 	tmlist = 
 	{
-		[29968] = 364,
-		[29970] = 160,
-		[29972] = 176,
-		[29974] = 128,
-		[29976] = 184,
-		[30485] = 144,
-		[30486] = 219,
+		[29968] = 20,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 128,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 29974,
-			job = 17,
-			mapid = 815,
-			markerid = 8153233,
-			name = "Duskblooms",
-			okgp = 0,
-			reserve = false,
-			skillname = "Leveling.lua",
-			skip = false,
-			slot = 4,
-			timeoks = 
-			{
-				4,
-				5,
-				16,
-				17,
-			},
-			x = 32,
-			y = 33,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 364,
+			amount = 20,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -2489,7 +2462,36 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 184,
+			amount = 8,
+			collect = false,
+			cordial = true,
+			expansion = "Shadow",
+			folklore = true,
+			hold = false,
+			id = 29974,
+			job = 17,
+			mapid = 815,
+			markerid = 8153233,
+			name = "Duskblooms",
+			okgp = 0,
+			reserve = true,
+			skillname = "Leveling.lua",
+			skip = false,
+			slot = 4,
+			timeoks = 
+			{
+				4,
+				5,
+				16,
+				17,
+			},
+			x = 32,
+			y = 33,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 8,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -2501,7 +2503,7 @@ local tbl =
 			markerid = 8152008,
 			name = "Ashen Alumen",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skip = false,
 			slot = 2,
@@ -2518,7 +2520,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 160,
+			amount = 44,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -2530,7 +2532,7 @@ local tbl =
 			markerid = 8183431,
 			name = "Purpure Shell Chip",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skip = false,
 			slot = 1,
@@ -2547,7 +2549,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 176,
+			amount = 16,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -2559,7 +2561,7 @@ local tbl =
 			markerid = 8163627,
 			name = "Merbau Log",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skip = false,
 			slot = 6,
@@ -2576,7 +2578,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 219,
+			amount = 126,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -2588,7 +2590,7 @@ local tbl =
 			markerid = 8130433,
 			name = "Brashgold Ore",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skip = false,
 			slot = 7,
@@ -2605,7 +2607,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 144,
+			amount = 24,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -2617,7 +2619,7 @@ local tbl =
 			markerid = 8142821,
 			name = "Tender Dill",
 			okgp = 0,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skip = false,
 			slot = 4,
@@ -2632,9 +2634,13 @@ local tbl =
 			y = 21,
 		},
 	},
+	unspoilTimeline = 
+	{
+	},
 	withdraw = 
 	{
 	},
+	withpdata = true,
 }
 
 

@@ -920,9 +920,163 @@ local tbl =
 	},
 	unspoil = 
 	{
+		
+		{
+			HQamount = 0,
+			amount = 20,
+			collect = false,
+			cordial = false,
+			expansion = "Shadow",
+			folklore = true,
+			hold = false,
+			id = 30486,
+			job = 16,
+			mapid = 813,
+			markerid = 8130433,
+			name = "Brashgold Ore",
+			okgp = 0,
+			reserve = false,
+			skillname = "Pick Clean + Blessed + Bountiful.lua",
+			skillnum = 14,
+			skip = false,
+			slot = 7,
+			timeChecks = 
+			{
+				[2] = true,
+				[3] = true,
+				[14] = true,
+				[15] = true,
+			},
+			timeoks = 
+			{
+				2,
+				3,
+				14,
+				15,
+			},
+			x = 4,
+			y = 33,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 20,
+			collect = false,
+			cordial = false,
+			expansion = "Shadow",
+			folklore = true,
+			hold = false,
+			id = 29968,
+			job = 16,
+			mapid = 813,
+			markerid = 8130433,
+			name = "Fireheart Cobalt",
+			okgp = 0,
+			reserve = false,
+			skillname = "Pick Clean + Blessed + Bountiful.lua",
+			skillnum = 14,
+			skip = false,
+			slot = 6,
+			timeChecks = 
+			{
+				[2] = true,
+				[3] = true,
+				[14] = true,
+				[15] = true,
+			},
+			timeoks = 
+			{
+				2,
+				3,
+				14,
+				15,
+			},
+			x = 4,
+			y = 33,
+		},
 	},
 	unspoilTimeline = 
 	{
+		
+		{
+		},
+		
+		{
+			30486,
+			29968,
+		},
+		
+		{
+			30486,
+			29968,
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+			30486,
+			29968,
+		},
+		
+		{
+			30486,
+			29968,
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		}, 
+		[0] = 
+		{
+		},
 	},
 }
 
