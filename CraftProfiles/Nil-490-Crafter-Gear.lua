@@ -9,7 +9,10 @@ local tbl =
 	},
 	cant = 
 	{
+		[29969] = 10,
+		[29971] = 4,
 	},
+	craftLocType = "Default",
 	ephs = 
 	{
 		[0] = 
@@ -41,6 +44,8 @@ local tbl =
 	fish_3 = 
 	{
 	},
+	foodId = 0,
+	foodName = "Use Default",
 	glist = 
 	{
 	},
@@ -143,7 +148,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 30441,
 			job = 1,
@@ -153,7 +158,7 @@ local tbl =
 		},
 		
 		{
-			amount = 0,
+			amount = 1,
 			collect = false,
 			itemid = 30452,
 			job = 1,
@@ -499,7 +504,79 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33898,
+			ings = 
+			{
+				[29970] = 4,
+				[29971] = 2,
+			},
+			ingsHQ = 
+			{
+				[29970] = 0,
+				[29971] = 0,
+			},
+			item = 29959,
+			madaoprofile = "None",
+			name = "Purpure Bead",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[14] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 3,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33951,
+			ings = 
+			{
+				[28718] = 1,
+				[30486] = 3,
+				[30590] = 1,
+			},
+			ingsHQ = 
+			{
+				[28718] = 0,
+				[30486] = 0,
+				[30590] = 0,
+			},
+			item = 30483,
+			madaoprofile = "None",
+			name = "Brashgold Plate",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[15] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
 			usequick = false,
 		},
 		
@@ -510,7 +587,7 @@ local tbl =
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 33909,
+			id = 33920,
 			ings = 
 			{
 				[29958] = 5,
@@ -525,9 +602,9 @@ local tbl =
 				[30483] = 0,
 				[31320] = 0,
 			},
-			item = 30441,
+			item = 30452,
 			madaoprofile = "None",
-			name = "Aesthete's Cross-pein Hammer",
+			name = "Aesthete's File",
 			noStop = true,
 			requiredcp = 0,
 			reserved = false,
@@ -652,45 +729,6 @@ local tbl =
 			{
 				[15] = 2,
 				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33920,
-			ings = 
-			{
-				[29958] = 5,
-				[29959] = 2,
-				[30483] = 3,
-				[31320] = 3,
-			},
-			ingsHQ = 
-			{
-				[29958] = 0,
-				[29959] = 0,
-				[30483] = 0,
-				[31320] = 0,
-			},
-			item = 30452,
-			madaoprofile = "None",
-			name = "Aesthete's File",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[14] = 2,
-				[17] = 2,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -1343,6 +1381,45 @@ local tbl =
 			shards = 
 			{
 				[16] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33909,
+			ings = 
+			{
+				[29958] = 5,
+				[29959] = 2,
+				[30483] = 3,
+				[31320] = 3,
+			},
+			ingsHQ = 
+			{
+				[29958] = 0,
+				[29959] = 0,
+				[30483] = 0,
+				[31320] = 0,
+			},
+			item = 30441,
+			madaoprofile = "None",
+			name = "Aesthete's Cross-pein Hammer",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 2,
 				[17] = 2,
 			},
 			skillprofile = "None",
@@ -2095,78 +2172,6 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 42,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33951,
-			ings = 
-			{
-				[28718] = 1,
-				[30486] = 3,
-				[30590] = 1,
-			},
-			ingsHQ = 
-			{
-				[28718] = 0,
-				[30486] = 0,
-				[30590] = 0,
-			},
-			item = 30483,
-			madaoprofile = "None",
-			name = "Brashgold Plate",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[15] = 2,
-				[17] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33898,
-			ings = 
-			{
-				[29970] = 4,
-				[29971] = 2,
-			},
-			ingsHQ = 
-			{
-				[29970] = 0,
-				[29971] = 0,
-			},
-			item = 29959,
-			madaoprofile = "None",
-			name = "Purpure Bead",
-			noStop = true,
-			requiredcp = 0,
-			reserved = true,
-			shards = 
-			{
-				[14] = 2,
-				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = true,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
 			amount = 2,
 			amountInBag = 0,
 			amountInBagHQ = 0,
@@ -2316,19 +2321,28 @@ local tbl =
 			usequick = false,
 		},
 	},
+	potId = "1027959",
+	potName = "[HQ] Cunning Craftsman's Syrup",
 	profileRepeat = false,
 	profileType = "OneTime",
 	profileType_num = 1,
 	reserve = 
 	{
+		[28718] = 1,
 		[29958] = 1,
 		[29959] = 1,
 		[29968] = 1,
 		[29969] = 1,
+		[29970] = 1,
+		[29971] = 1,
 		[30483] = 1,
+		[30486] = 1,
+		[30590] = 1,
 		[31320] = 1,
 		[33896] = 1,
-		[33909] = 1,
+		[33898] = 1,
+		[33920] = 1,
+		[33951] = 1,
 	},
 	reserve2 = 
 	{
@@ -2405,7 +2419,6 @@ local tbl =
 	},
 	s_c = 
 	{
-		[31320] = 3,
 	},
 	s_g = 
 	{
@@ -2415,8 +2428,10 @@ local tbl =
 	},
 	shards = 
 	{
-		[14] = 12,
-		[17] = 12,
+		[14] = 16,
+		[15] = 6,
+		[16] = 4,
+		[17] = 18,
 	},
 	skill = 
 	{
@@ -2426,38 +2441,38 @@ local tbl =
 	},
 	tmlist = 
 	{
-		[29968] = 20,
+		[29970] = 8,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 20,
+			amount = 8,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
 			folklore = true,
 			hold = false,
-			id = 29968,
+			id = 29970,
 			job = 16,
-			mapid = 813,
-			markerid = 8130433,
-			name = "Fireheart Cobalt",
+			mapid = 818,
+			markerid = 8183431,
+			name = "Purpure Shell Chip",
 			okgp = 0,
 			reserve = false,
 			skillname = "Leveling.lua",
 			skip = false,
-			slot = 6,
+			slot = 1,
 			timeoks = 
 			{
-				2,
-				3,
-				14,
-				15,
+				6,
+				7,
+				18,
+				19,
 			},
-			x = 4,
-			y = 33,
+			x = 34,
+			y = 31,
 		},
 		
 		{
@@ -2486,6 +2501,35 @@ local tbl =
 				17,
 			},
 			x = 32,
+			y = 33,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 20,
+			collect = false,
+			cordial = true,
+			expansion = "Shadow",
+			folklore = true,
+			hold = false,
+			id = 29968,
+			job = 16,
+			mapid = 813,
+			markerid = 8130433,
+			name = "Fireheart Cobalt",
+			okgp = 0,
+			reserve = true,
+			skillname = "Leveling.lua",
+			skip = false,
+			slot = 6,
+			timeoks = 
+			{
+				2,
+				3,
+				14,
+				15,
+			},
+			x = 4,
 			y = 33,
 		},
 		
@@ -2520,35 +2564,6 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 44,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 29970,
-			job = 16,
-			mapid = 818,
-			markerid = 8183431,
-			name = "Purpure Shell Chip",
-			okgp = 0,
-			reserve = true,
-			skillname = "Leveling.lua",
-			skip = false,
-			slot = 1,
-			timeoks = 
-			{
-				6,
-				7,
-				18,
-				19,
-			},
-			x = 34,
-			y = 31,
-		},
-		
-		{
-			HQamount = 0,
 			amount = 16,
 			collect = false,
 			cordial = true,
@@ -2574,35 +2589,6 @@ local tbl =
 			},
 			x = 36,
 			y = 27,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 126,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 30486,
-			job = 16,
-			mapid = 813,
-			markerid = 8130433,
-			name = "Brashgold Ore",
-			okgp = 0,
-			reserve = true,
-			skillname = "Leveling.lua",
-			skip = false,
-			slot = 7,
-			timeoks = 
-			{
-				2,
-				3,
-				14,
-				15,
-			},
-			x = 4,
-			y = 33,
 		},
 		
 		{
@@ -2633,10 +2619,41 @@ local tbl =
 			x = 28,
 			y = 21,
 		},
+		
+		{
+			HQamount = 0,
+			amount = 126,
+			collect = false,
+			cordial = true,
+			expansion = "Shadow",
+			folklore = true,
+			hold = false,
+			id = 30486,
+			job = 16,
+			mapid = 813,
+			markerid = 8130433,
+			name = "Brashgold Ore",
+			okgp = 0,
+			reserve = true,
+			skillname = "Leveling.lua",
+			skip = false,
+			slot = 7,
+			timeoks = 
+			{
+				2,
+				3,
+				14,
+				15,
+			},
+			x = 4,
+			y = 33,
+		},
 	},
 	unspoilTimeline = 
 	{
 	},
+	useFood = true,
+	usePot = true,
 	withdraw = 
 	{
 	},
