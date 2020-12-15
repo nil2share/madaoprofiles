@@ -3,22 +3,20 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27779] = 1,
-		[27780] = 1,
-		[27784] = 1,
-		[27785] = 1,
-		[27820] = 5,
-		[27827] = 2,
-		[27829] = 1,
+		[27779] = 7,
+		[27780] = 7,
+		[27784] = 7,
+		[27785] = 7,
+		[27827] = 68,
+		[27829] = 34,
 	},
 	buy = 
 	{
 	},
 	cant = 
 	{
-		[31909] = 2,
-		[32949] = 8,
 	},
+	craftLocType = "Default",
 	ephs = 
 	{
 		[0] = 
@@ -50,75 +48,14 @@ local tbl =
 	fish_3 = 
 	{
 	},
+	foodId = 1030482,
+	foodName = "[HQ] Chili Crab",
 	glist = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			id = 27780,
-			job = 17,
-			markerid = 8172725,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1607537927,
-			tasktype = 1,
-			timerValue = 947636,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 5,
-			collect = false,
-			cordial = true,
-			id = 27820,
-			job = 17,
-			markerid = 8133525,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1607537927,
-			tasktype = 1,
-			timerValue = 1068014,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			id = 27785,
-			job = 17,
-			markerid = 8132431,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1607537927,
-			tasktype = 1,
-			timerValue = 1077004,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 1,
+			amount = 34,
 			collect = false,
 			cordial = true,
 			id = 27829,
@@ -131,57 +68,15 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1607537927,
+			started = 1607978406,
 			tasktype = 1,
-			timerValue = 994494,
+			timerValue = 1046004,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			id = 27784,
-			job = 17,
-			markerid = 8132431,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1607537927,
-			tasktype = 1,
-			timerValue = 1036940,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			id = 27779,
-			job = 17,
-			markerid = 8172725,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1607537927,
-			tasktype = 1,
-			timerValue = 1196210,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 2,
+			amount = 68,
 			collect = false,
 			cordial = true,
 			id = 27827,
@@ -194,9 +89,93 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1607537927,
+			started = 1607978406,
 			tasktype = 1,
-			timerValue = 1134648,
+			timerValue = 1010910,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 7,
+			collect = false,
+			cordial = true,
+			id = 27785,
+			job = 17,
+			markerid = 8132431,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607978406,
+			tasktype = 1,
+			timerValue = 1028150,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 7,
+			collect = false,
+			cordial = true,
+			id = 27784,
+			job = 17,
+			markerid = 8132431,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607978406,
+			tasktype = 1,
+			timerValue = 1029377,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 7,
+			collect = false,
+			cordial = true,
+			id = 27779,
+			job = 17,
+			markerid = 8172725,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607978406,
+			tasktype = 1,
+			timerValue = 901135,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 7,
+			collect = false,
+			cordial = true,
+			id = 27780,
+			job = 17,
+			markerid = 8172725,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607978406,
+			tasktype = 1,
+			timerValue = 926477,
 			timeup = false,
 		},
 	},
@@ -208,7 +187,7 @@ local tbl =
 	{
 		
 		{
-			amount = 1,
+			amount = 20,
 			collect = false,
 			itemid = 31893,
 			job = 6,
@@ -218,7 +197,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 20,
 			collect = false,
 			itemid = 31894,
 			job = 6,
@@ -228,7 +207,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 20,
 			collect = false,
 			itemid = 31896,
 			job = 6,
@@ -238,7 +217,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 20,
 			collect = false,
 			itemid = 31897,
 			job = 6,
@@ -248,7 +227,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 100,
 			collect = false,
 			itemid = 31901,
 			job = 7,
@@ -265,40 +244,8 @@ local tbl =
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3877,
-			ings = 
-			{
-				[27820] = 5,
-			},
-			ingsHQ = 
-			{
-				[27820] = 0,
-			},
-			item = 27838,
-			madaoprofile = "None",
-			name = "Frantoio Oil",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[8] = 6,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 1,
+			amount = 7,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -335,7 +282,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 1,
+			amount = 7,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -372,7 +319,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 1,
+			amount = 7,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -409,7 +356,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 1,
+			amount = 7,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -446,10 +393,15 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 1,
+			HQmanual = false,
+			amount = 34,
 			amountInBag = 0,
 			amountInBagHQ = 0,
+			cmreq = 0,
 			collect = false,
+			ctrlreq = 0,
+			foodName = "",
+			gearset = 0,
 			id = 34569,
 			ings = 
 			{
@@ -473,6 +425,7 @@ local tbl =
 			madaoprofile = "None",
 			name = "Smoked Chicken",
 			noStop = true,
+			potName = "",
 			requiredcp = 0,
 			reserved = false,
 			shards = 
@@ -483,13 +436,75 @@ local tbl =
 			skillprofile = "None",
 			skilltype = 2,
 			skip = false,
+			useFood = false,
+			usePot = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			HQmanual = false,
+			amount = 32,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			cmreq = 0,
+			collect = false,
+			ctrlreq = 0,
+			gearset = 0,
+			id = 3877,
+			ings = 
+			{
+				[27820] = 5,
+			},
+			ingsHQ = 
+			{
+				[27820] = 0,
+			},
+			item = 27838,
+			madaoprofile = "None",
+			name = "Frantoio Oil",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[8] = 6,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			useFood = false,
+			usePot = false,
 			usequick = false,
 		},
 	},
+	potId = "1027959",
+	potName = "[HQ] Cunning Craftsman's Syrup",
 	profileRepeat = false,
 	profileType = "OneTime",
 	profileType_num = 1,
 	reserve = 
+	{
+		[19907] = 1,
+		[27779] = 1,
+		[27780] = 1,
+		[27784] = 1,
+		[27785] = 1,
+		[27827] = 1,
+		[27829] = 1,
+		[27835] = 1,
+		[27838] = 1,
+		[30590] = 1,
+		[31909] = 1,
+		[32949] = 1,
+		[34561] = 1,
+		[34562] = 1,
+		[34564] = 1,
+		[34565] = 1,
+		[34569] = 1,
+	},
+	reserve2 = 
 	{
 		[3877] = 1,
 		[19907] = 1,
@@ -511,9 +526,6 @@ local tbl =
 		[34565] = 1,
 		[34569] = 1,
 	},
-	reserve2 = 
-	{
-	},
 	s_c = 
 	{
 	},
@@ -525,10 +537,9 @@ local tbl =
 	},
 	shards = 
 	{
-		[8] = 6,
-		[14] = 3,
-		[18] = 12,
-		[19] = 15,
+		[14] = 102,
+		[18] = 84,
+		[19] = 186,
 	},
 	skill = 
 	{
@@ -538,73 +549,45 @@ local tbl =
 	},
 	tmlist = 
 	{
-		[19907] = 1,
-		[27835] = 1,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			expansion = "SB",
-			folklore = false,
-			hold = false,
-			id = 19907,
-			job = 16,
-			mapid = 621,
-			markerid = 6212129,
-			name = "Ala Mhigan Salt Crystal",
-			okgp = 0,
-			reserve = false,
-			skillname = "Leveling.lua",
-			skip = false,
-			slot = 1,
-			timeoks = 
-			{
-				0,
-				1,
-				12,
-				13,
-			},
-			x = 21,
-			y = 29,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = false,
-			hold = false,
+			amount = 134,
+			cordi = true,
 			id = 27835,
 			job = 17,
 			mapid = 814,
-			markerid = 8142020,
 			name = "Lemonette",
 			okgp = 0,
-			reserve = false,
+			p_detail = "Kholusia / Sharptongue Drip / X:20 Y:20",
+			point = 632,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skip = false,
-			slot = 2,
+			timeChecks = 
+			{
+				[6] = true,
+				[7] = true,
+				[18] = true,
+				[19] = true,
+			},
 			timeoks = 
 			{
+				18,
 				6,
 				7,
-				18,
 				19,
 			},
-			x = 20,
-			y = 20,
 		},
 	},
 	unspoilTimeline = 
 	{
 	},
+	useFood = true,
+	usePot = true,
 	withdraw = 
 	{
 	},

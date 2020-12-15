@@ -3,8 +3,8 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27821] = 40,
-		[27834] = 135,
+		[27821] = 100,
+		[27834] = 335,
 	},
 	buy = 
 	{
@@ -51,49 +51,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 40,
-			collect = false,
-			cordial = true,
-			id = 27821,
-			job = 17,
-			markerid = 8151630,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1605638301,
-			tasktype = 1,
-			timerValue = 1094464,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 135,
-			collect = false,
-			cordial = true,
-			id = 27834,
-			job = 17,
-			markerid = 8171020,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1605638301,
-			tasktype = 1,
-			timerValue = 1143318,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 40,
+			amount = 100,
 			collect = false,
 			cordial = true,
 			id = 27782,
@@ -106,9 +64,51 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1605638301,
+			started = 1607802079,
 			tasktype = 1,
-			timerValue = 1073534,
+			timerValue = 1193628,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 100,
+			collect = false,
+			cordial = true,
+			id = 27821,
+			job = 17,
+			markerid = 8151630,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607802079,
+			tasktype = 1,
+			timerValue = 1174823,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 335,
+			collect = false,
+			cordial = true,
+			id = 27834,
+			job = 17,
+			markerid = 8171020,
+			markername = "",
+			maxlvl = 999,
+			minlvl = 0,
+			notinlistcaseid = 0,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1607802079,
+			tasktype = 1,
+			timerValue = 1148125,
 			timeup = false,
 		},
 	},
@@ -191,7 +191,7 @@ local tbl =
 		},
 		
 		{
-			amount = 40,
+			amount = 100,
 			collect = false,
 			itemid = 31659,
 			job = 7,
@@ -202,7 +202,7 @@ local tbl =
 	},
 	miner = 
 	{
-		[27782] = 40,
+		[27782] = 100,
 	},
 	normalTimebase = 
 	{
@@ -502,7 +502,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 27,
+			amount = 67,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -534,10 +534,14 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 40,
+			HQmanual = false,
+			amount = 100,
 			amountInBag = 0,
 			amountInBagHQ = 0,
+			cmreq = 0,
 			collect = false,
+			ctrlreq = 0,
+			gearset = 0,
 			id = 34430,
 			ings = 
 			{
@@ -567,6 +571,8 @@ local tbl =
 			skillprofile = "None",
 			skilltype = 2,
 			skip = false,
+			useFood = false,
+			usePot = false,
 			usequick = false,
 		},
 		
@@ -1096,28 +1102,34 @@ local tbl =
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 33,
+			HQingAutoVal = 25,
+			amount = 10,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3882,
+			id = 34425,
 			ings = 
 			{
-				[27826] = 5,
+				[27714] = 2,
+				[27715] = 1,
+				[27742] = 1,
 			},
 			ingsHQ = 
 			{
-				[27826] = 0,
+				[27714] = 0,
+				[27715] = 0,
+				[27742] = 0,
 			},
-			item = 27843,
+			item = 31654,
 			madaoprofile = "None",
-			name = "Night Vinegar",
+			name = "Rarefied Mythril Alembic",
+			noStop = true,
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
-				[8] = 7,
+				[9] = 7,
+				[11] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -1164,34 +1176,28 @@ local tbl =
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 10,
+			HQingAutoVal = 35,
+			amount = 33,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 34425,
+			id = 3882,
 			ings = 
 			{
-				[27714] = 2,
-				[27715] = 1,
-				[27742] = 1,
+				[27826] = 5,
 			},
 			ingsHQ = 
 			{
-				[27714] = 0,
-				[27715] = 0,
-				[27742] = 0,
+				[27826] = 0,
 			},
-			item = 31654,
+			item = 27843,
 			madaoprofile = "None",
-			name = "Rarefied Mythril Alembic",
-			noStop = true,
+			name = "Night Vinegar",
 			requiredcp = 0,
 			reserved = true,
 			shards = 
 			{
-				[9] = 7,
-				[11] = 7,
+				[8] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -1266,10 +1272,19 @@ local tbl =
 		[34429] = 1,
 		[34430] = 1,
 	},
+	s_c = 
+	{
+	},
+	s_g = 
+	{
+	},
+	scripitemdemands = 
+	{
+	},
 	shards = 
 	{
-		[8] = 469,
-		[13] = 280,
+		[8] = 1169,
+		[13] = 700,
 	},
 	skill = 
 	{
@@ -1279,13 +1294,14 @@ local tbl =
 	},
 	tmlist = 
 	{
+		[27835] = 200,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 80,
+			amount = 200,
 			collect = false,
 			cordial = true,
 			expansion = "Shadow",
@@ -1297,7 +1313,7 @@ local tbl =
 			markerid = 8142020,
 			name = "Lemonette",
 			okgp = 0,
-			reserve = true,
+			reserve = false,
 			skillname = "Leveling.lua",
 			skip = false,
 			slot = 2,
@@ -1351,88 +1367,13 @@ local tbl =
 	},
 	unspoilTimeline = 
 	{
-		
-		{
-			27828,
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-			27828,
-		},
-		
-		{
-			27828,
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		}, 
-		[0] = 
-		{
-			27828,
-		},
 	},
 	useFood = true,
 	usePot = true,
 	withdraw = 
 	{
 	},
+	withpdata = true,
 }
 
 
