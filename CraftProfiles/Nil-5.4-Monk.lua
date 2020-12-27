@@ -3,8 +3,6 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27759] = 16,
-		[27779] = 11,
 	},
 	buy = 
 	{
@@ -45,239 +43,16 @@ local tbl =
 	},
 	glist = 
 	{
-		
-		{
-			HQamount = 0,
-			amount = 16,
-			collect = false,
-			cordial = true,
-			id = 27759,
-			job = 17,
-			markerid = 8141413,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1608043900,
-			tasktype = 1,
-			timerValue = 926615,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 5,
-			collect = false,
-			cordial = true,
-			id = 12531,
-			job = 16,
-			markerid = 3971612,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1608043900,
-			tasktype = 1,
-			timerValue = 1020350,
-			timeup = false,
-		},
-		
-		{
-			amount = 8,
-			collect = false,
-			consumed = false,
-			countHQ = false,
-			done = false,
-			grindAmount = 8,
-			grindItemId = 27736,
-			grindItemMobData = 
-			{
-			},
-			grindItemMobNum = 1,
-			grindItemNum = 0,
-			grindTag = 1608043900,
-			grindTimer = 1456,
-			id = 27736,
-			idnum = 1,
-			job = 98,
-			jobNum = 1,
-			level = 79,
-			lvler = false,
-			mapId = 818,
-			markers = 
-			{
-				
-				{
-					s = "28,16.29",
-					x = 330.75,
-					y = 346.38,
-					z = -256.81,
-				},
-				
-				{
-					s = "26.79,14.3",
-					x = 267.86,
-					y = 336.02,
-					z = -354.05,
-				},
-				
-				{
-					s = "28,12.69",
-					x = 326.03,
-					y = 354.53,
-					z = -435.69,
-				},
-				
-				{
-					s = "31,13.89",
-					x = 480.1,
-					y = 373.29,
-					z = -378.55,
-				},
-			},
-			maxtime = 1456529,
-			mobId = 8630,
-			mobIds = 
-			{
-				[8630] = true,
-			},
-			mskill = true,
-			name = "Tempest Swallow <<The Tempest>><<79>><<27.5,16.7>>",
-			prio = 1,
-			prioCount = false,
-			priodo = false,
-			rcount = 0,
-			skill = 1,
-			srange = 0,
-			taskJob = 35,
-			tasktype = "grind",
-			timerBase = 1456529,
-			timeup = false,
-			type = 6,
-			useDefaultJob = true,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 4,
-			collect = false,
-			cordial = true,
-			id = 27703,
-			job = 16,
-			markerid = 8133514,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1608043900,
-			tasktype = 1,
-			timerValue = 1125657,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 2,
-			collect = false,
-			cordial = true,
-			id = 27817,
-			job = 16,
-			markerid = 8153022,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1608043900,
-			tasktype = 1,
-			timerValue = 1086810,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 11,
-			collect = false,
-			cordial = true,
-			id = 27779,
-			job = 17,
-			markerid = 8172725,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1608043900,
-			tasktype = 1,
-			timerValue = 946546,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			id = 12534,
-			job = 16,
-			markerid = 3973112,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1608043900,
-			tasktype = 1,
-			timerValue = 916690,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 20,
-			collect = false,
-			cordial = true,
-			id = 27702,
-			job = 16,
-			markerid = 8151611,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1608043900,
-			tasktype = 1,
-			timerValue = 1008420,
-			timeup = false,
-		},
 	},
 	grind = 
 	{
-		[27736] = 8,
 	},
 	isProgenProf = true,
 	listed = 
 	{
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31814,
 			job = 1,
@@ -287,7 +62,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31843,
 			job = 5,
@@ -297,7 +72,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31844,
 			job = 5,
@@ -307,7 +82,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31845,
 			job = 4,
@@ -317,7 +92,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31846,
 			job = 5,
@@ -337,7 +112,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31848,
 			job = 5,
@@ -347,7 +122,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31874,
 			job = 3,
@@ -357,7 +132,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31879,
 			job = 0,
@@ -367,7 +142,7 @@ local tbl =
 		},
 		
 		{
-			amount = 1,
+			amount = 0,
 			collect = false,
 			itemid = 31884,
 			job = 0,
@@ -377,7 +152,7 @@ local tbl =
 		},
 		
 		{
-			amount = 2,
+			amount = 0,
 			collect = false,
 			itemid = 31889,
 			job = 3,
@@ -388,298 +163,14 @@ local tbl =
 	},
 	miner = 
 	{
-		[12531] = 5,
-		[12534] = 1,
-		[27702] = 20,
-		[27703] = 4,
-		[27817] = 2,
 	},
 	orders = 
 	{
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 4,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3854,
-			ings = 
-			{
-				[27759] = 4,
-			},
-			ingsHQ = 
-			{
-				[27759] = 0,
-			},
-			item = 27758,
-			madaoprofile = "None",
-			name = "Dwarven Cotton Thread",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[12] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 11,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34582,
-			ings = 
-			{
-				[27779] = 1,
-				[28718] = 1,
-				[30590] = 1,
-				[32955] = 3,
-			},
-			ingsHQ = 
-			{
-				[27779] = 0,
-				[28718] = 0,
-				[30590] = 0,
-				[32955] = 0,
-			},
-			item = 32939,
-			madaoprofile = "None",
-			name = "Grade 4 Strength Alkahest",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[18] = 3,
-				[19] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 5,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34576,
-			ings = 
-			{
-				[32944] = 2,
-				[32950] = 4,
-			},
-			ingsHQ = 
-			{
-				[32944] = 0,
-				[32950] = 0,
-			},
-			item = 32934,
-			madaoprofile = "None",
-			name = "Silver Beech Lumber",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 3,
-				[16] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 3,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34577,
-			ings = 
-			{
-				[32945] = 2,
-				[32951] = 4,
-			},
-			ingsHQ = 
-			{
-				[32945] = 0,
-				[32951] = 0,
-			},
-			item = 32935,
-			madaoprofile = "None",
-			name = "Duraluminum Ingot",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 3,
-				[17] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 8,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34579,
-			ings = 
-			{
-				[32946] = 2,
-				[32952] = 4,
-			},
-			ingsHQ = 
-			{
-				[32946] = 0,
-				[32952] = 0,
-			},
-			item = 32936,
-			madaoprofile = "None",
-			name = "Solstice Ingot",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 3,
-				[16] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3821,
-			ings = 
-			{
-				[12534] = 1,
-				[27703] = 4,
-			},
-			ingsHQ = 
-			{
-				[12534] = 0,
-				[27703] = 0,
-			},
-			item = 27714,
-			madaoprofile = "None",
-			name = "Dwarven Mythril Ingot",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[8] = 7,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 9,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34580,
-			ings = 
-			{
-				[32947] = 2,
-				[32953] = 4,
-			},
-			ingsHQ = 
-			{
-				[32947] = 0,
-				[32953] = 0,
-			},
-			item = 32937,
-			madaoprofile = "None",
-			name = "Saffron Cloth",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 3,
-				[18] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 5,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3831,
-			ings = 
-			{
-				[12531] = 1,
-				[27702] = 4,
-			},
-			ingsHQ = 
-			{
-				[12531] = 0,
-				[27702] = 0,
-			},
-			item = 27715,
-			madaoprofile = "None",
-			name = "Dwarven Mythril Nugget",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[10] = 7,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 7,
+			amount = 2,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -704,277 +195,6 @@ local tbl =
 			{
 				[16] = 3,
 				[17] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 4,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3853,
-			ings = 
-			{
-				[27758] = 3,
-			},
-			ingsHQ = 
-			{
-				[27758] = 0,
-			},
-			item = 27757,
-			madaoprofile = "None",
-			name = "Dwarven Cotton",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[12] = 4,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 25,
-			amount = 2,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 3844,
-			ings = 
-			{
-				[27736] = 4,
-				[27817] = 1,
-			},
-			ingsHQ = 
-			{
-				[27736] = 0,
-				[27817] = 0,
-			},
-			item = 27742,
-			madaoprofile = "None",
-			name = "Sea Swallow Leather",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[11] = 7,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34513,
-			ings = 
-			{
-				[27714] = 1,
-				[30590] = 1,
-				[32937] = 1,
-				[32938] = 2,
-				[32939] = 2,
-			},
-			ingsHQ = 
-			{
-				[27714] = 0,
-				[30590] = 0,
-				[32937] = 0,
-				[32938] = 0,
-				[32939] = 0,
-			},
-			item = 31845,
-			madaoprofile = "None",
-			name = "Exarchic Armguards of Striking",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 3,
-				[17] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34547,
-			ings = 
-			{
-				[27715] = 1,
-				[30590] = 1,
-				[32934] = 1,
-				[32938] = 1,
-				[32939] = 1,
-			},
-			ingsHQ = 
-			{
-				[27715] = 0,
-				[30590] = 0,
-				[32934] = 0,
-				[32938] = 0,
-				[32939] = 0,
-			},
-			item = 31879,
-			madaoprofile = "None",
-			name = "Exarchic Choker of Slaying",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 3,
-				[16] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34514,
-			ings = 
-			{
-				[27757] = 1,
-				[30590] = 2,
-				[32937] = 2,
-				[32938] = 2,
-				[32939] = 2,
-			},
-			ingsHQ = 
-			{
-				[27757] = 0,
-				[30590] = 0,
-				[32937] = 0,
-				[32938] = 0,
-				[32939] = 0,
-			},
-			item = 31846,
-			madaoprofile = "None",
-			name = "Exarchic Bottoms of Striking",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 3,
-				[18] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34552,
-			ings = 
-			{
-				[27742] = 1,
-				[30590] = 1,
-				[32934] = 1,
-				[32936] = 1,
-				[32939] = 1,
-			},
-			ingsHQ = 
-			{
-				[27742] = 0,
-				[30590] = 0,
-				[32934] = 0,
-				[32936] = 0,
-				[32939] = 0,
-			},
-			item = 31884,
-			madaoprofile = "None",
-			name = "Exarchic Bracelet of Slaying",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 3,
-				[16] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 34511,
-			ings = 
-			{
-				[27757] = 1,
-				[30590] = 1,
-				[32935] = 1,
-				[32937] = 2,
-				[32939] = 2,
-			},
-			ingsHQ = 
-			{
-				[27757] = 0,
-				[30590] = 0,
-				[32935] = 0,
-				[32937] = 0,
-				[32939] = 0,
-			},
-			item = 31843,
-			madaoprofile = "None",
-			name = "Exarchic Hood of Striking",
-			noStop = true,
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[16] = 3,
-				[18] = 3,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -1026,7 +246,87 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 2,
+			amount = 11,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34582,
+			ings = 
+			{
+				[27779] = 1,
+				[28718] = 1,
+				[30590] = 1,
+				[32955] = 3,
+			},
+			ingsHQ = 
+			{
+				[27779] = 0,
+				[28718] = 0,
+				[30590] = 0,
+				[32955] = 0,
+			},
+			item = 32939,
+			madaoprofile = "None",
+			name = "Grade 4 Strength Alkahest",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[18] = 3,
+				[19] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34552,
+			ings = 
+			{
+				[27742] = 1,
+				[30590] = 1,
+				[32934] = 1,
+				[32936] = 1,
+				[32939] = 1,
+			},
+			ingsHQ = 
+			{
+				[27742] = 0,
+				[30590] = 0,
+				[32934] = 0,
+				[32936] = 0,
+				[32939] = 0,
+			},
+			item = 31884,
+			madaoprofile = "None",
+			name = "Exarchic Bracelet of Slaying",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 3,
+				[16] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -1050,7 +350,7 @@ local tbl =
 			name = "Exarchic Ring of Slaying",
 			noStop = true,
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
 				[14] = 3,
@@ -1058,130 +358,107 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
+			HQingAutoVal = 25,
 			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 34542,
+			id = 3844,
 			ings = 
 			{
-				[27715] = 1,
-				[30590] = 1,
-				[32934] = 1,
-				[32936] = 1,
-				[32939] = 1,
+				[27736] = 4,
+				[27817] = 1,
 			},
 			ingsHQ = 
 			{
-				[27715] = 0,
-				[30590] = 0,
-				[32934] = 0,
-				[32936] = 0,
-				[32939] = 0,
+				[27736] = 0,
+				[27817] = 0,
 			},
-			item = 31874,
+			item = 27742,
 			madaoprofile = "None",
-			name = "Exarchic Earrings of Slaying",
+			name = "Sea Swallow Leather",
 			noStop = true,
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
-				[14] = 3,
-				[16] = 3,
+				[11] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
+			HQingAutoVal = 25,
 			amount = 1,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 34516,
+			id = 3821,
 			ings = 
 			{
-				[27757] = 1,
-				[30590] = 1,
-				[32934] = 1,
-				[32937] = 2,
-				[32939] = 1,
+				[12534] = 1,
+				[27703] = 4,
 			},
 			ingsHQ = 
 			{
-				[27757] = 0,
-				[30590] = 0,
-				[32934] = 0,
-				[32937] = 0,
-				[32939] = 0,
+				[12534] = 0,
+				[27703] = 0,
 			},
-			item = 31848,
+			item = 27714,
 			madaoprofile = "None",
-			name = "Exarchic Sash of Striking",
+			name = "Dwarven Mythril Ingot",
 			noStop = true,
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
-				[16] = 3,
-				[18] = 3,
+				[8] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
 			usequick = false,
 		},
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 1,
+			HQingAutoVal = 25,
+			amount = 4,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 34512,
+			id = 3854,
 			ings = 
 			{
-				[27742] = 1,
-				[30590] = 2,
-				[32935] = 2,
-				[32937] = 2,
-				[32939] = 2,
+				[27759] = 4,
 			},
 			ingsHQ = 
 			{
-				[27742] = 0,
-				[30590] = 0,
-				[32935] = 0,
-				[32937] = 0,
-				[32939] = 0,
+				[27759] = 0,
 			},
-			item = 31844,
+			item = 27758,
 			madaoprofile = "None",
-			name = "Exarchic Top of Striking",
+			name = "Dwarven Cotton Thread",
 			noStop = true,
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
-				[16] = 3,
-				[18] = 3,
+				[12] = 3,
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
 			usequick = false,
 		},
 		
@@ -1214,7 +491,7 @@ local tbl =
 			name = "Exarchic Baghnakhs",
 			noStop = true,
 			requiredcp = 0,
-			reserved = false,
+			reserved = true,
 			shards = 
 			{
 				[14] = 3,
@@ -1222,7 +499,500 @@ local tbl =
 			},
 			skillprofile = "None",
 			skilltype = 2,
-			skip = false,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 4,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3853,
+			ings = 
+			{
+				[27758] = 3,
+			},
+			ingsHQ = 
+			{
+				[27758] = 0,
+			},
+			item = 27757,
+			madaoprofile = "None",
+			name = "Dwarven Cotton",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[12] = 4,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34514,
+			ings = 
+			{
+				[27757] = 1,
+				[30590] = 2,
+				[32937] = 2,
+				[32938] = 2,
+				[32939] = 2,
+			},
+			ingsHQ = 
+			{
+				[27757] = 0,
+				[30590] = 0,
+				[32937] = 0,
+				[32938] = 0,
+				[32939] = 0,
+			},
+			item = 31846,
+			madaoprofile = "None",
+			name = "Exarchic Bottoms of Striking",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 3,
+				[18] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3831,
+			ings = 
+			{
+				[12531] = 1,
+				[27702] = 4,
+			},
+			ingsHQ = 
+			{
+				[12531] = 0,
+				[27702] = 0,
+			},
+			item = 27715,
+			madaoprofile = "None",
+			name = "Dwarven Mythril Nugget",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[10] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34547,
+			ings = 
+			{
+				[27715] = 1,
+				[30590] = 1,
+				[32934] = 1,
+				[32938] = 1,
+				[32939] = 1,
+			},
+			ingsHQ = 
+			{
+				[27715] = 0,
+				[30590] = 0,
+				[32934] = 0,
+				[32938] = 0,
+				[32939] = 0,
+			},
+			item = 31879,
+			madaoprofile = "None",
+			name = "Exarchic Choker of Slaying",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 3,
+				[16] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34511,
+			ings = 
+			{
+				[27757] = 1,
+				[30590] = 1,
+				[32935] = 1,
+				[32937] = 2,
+				[32939] = 2,
+			},
+			ingsHQ = 
+			{
+				[27757] = 0,
+				[30590] = 0,
+				[32935] = 0,
+				[32937] = 0,
+				[32939] = 0,
+			},
+			item = 31843,
+			madaoprofile = "None",
+			name = "Exarchic Hood of Striking",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 3,
+				[18] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34512,
+			ings = 
+			{
+				[27742] = 1,
+				[30590] = 2,
+				[32935] = 2,
+				[32937] = 2,
+				[32939] = 2,
+			},
+			ingsHQ = 
+			{
+				[27742] = 0,
+				[30590] = 0,
+				[32935] = 0,
+				[32937] = 0,
+				[32939] = 0,
+			},
+			item = 31844,
+			madaoprofile = "None",
+			name = "Exarchic Top of Striking",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 3,
+				[18] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34513,
+			ings = 
+			{
+				[27714] = 1,
+				[30590] = 1,
+				[32937] = 1,
+				[32938] = 2,
+				[32939] = 2,
+			},
+			ingsHQ = 
+			{
+				[27714] = 0,
+				[30590] = 0,
+				[32937] = 0,
+				[32938] = 0,
+				[32939] = 0,
+			},
+			item = 31845,
+			madaoprofile = "None",
+			name = "Exarchic Armguards of Striking",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 3,
+				[17] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 3,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34576,
+			ings = 
+			{
+				[32944] = 2,
+				[32950] = 4,
+			},
+			ingsHQ = 
+			{
+				[32944] = 0,
+				[32950] = 0,
+			},
+			item = 32934,
+			madaoprofile = "None",
+			name = "Silver Beech Lumber",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[15] = 3,
+				[16] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 3,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34577,
+			ings = 
+			{
+				[32945] = 2,
+				[32951] = 4,
+			},
+			ingsHQ = 
+			{
+				[32945] = 0,
+				[32951] = 0,
+			},
+			item = 32935,
+			madaoprofile = "None",
+			name = "Duraluminum Ingot",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 3,
+				[17] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34516,
+			ings = 
+			{
+				[27757] = 1,
+				[30590] = 1,
+				[32934] = 1,
+				[32937] = 2,
+				[32939] = 1,
+			},
+			ingsHQ = 
+			{
+				[27757] = 0,
+				[30590] = 0,
+				[32934] = 0,
+				[32937] = 0,
+				[32939] = 0,
+			},
+			item = 31848,
+			madaoprofile = "None",
+			name = "Exarchic Sash of Striking",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 3,
+				[18] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 2,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34579,
+			ings = 
+			{
+				[32946] = 2,
+				[32952] = 4,
+			},
+			ingsHQ = 
+			{
+				[32946] = 0,
+				[32952] = 0,
+			},
+			item = 32936,
+			madaoprofile = "None",
+			name = "Solstice Ingot",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 3,
+				[16] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 9,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34580,
+			ings = 
+			{
+				[32947] = 2,
+				[32953] = 4,
+			},
+			ingsHQ = 
+			{
+				[32947] = 0,
+				[32953] = 0,
+			},
+			item = 32937,
+			madaoprofile = "None",
+			name = "Saffron Cloth",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[16] = 3,
+				[18] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 1,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34542,
+			ings = 
+			{
+				[27715] = 1,
+				[30590] = 1,
+				[32934] = 1,
+				[32936] = 1,
+				[32939] = 1,
+			},
+			ingsHQ = 
+			{
+				[27715] = 0,
+				[30590] = 0,
+				[32934] = 0,
+				[32936] = 0,
+				[32939] = 0,
+			},
+			item = 31874,
+			madaoprofile = "None",
+			name = "Exarchic Earrings of Slaying",
+			noStop = true,
+			requiredcp = 0,
+			reserved = true,
+			shards = 
+			{
+				[14] = 3,
+				[16] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = true,
 			usequick = false,
 		},
 	},
@@ -1230,6 +1000,18 @@ local tbl =
 	profileType = "OneTime",
 	profileType_num = 1,
 	reserve = 
+	{
+		[27757] = 1,
+		[30590] = 1,
+		[32934] = 1,
+		[32938] = 1,
+		[32939] = 1,
+		[32948] = 1,
+		[32954] = 1,
+		[34515] = 1,
+		[34581] = 1,
+	},
+	reserve2 = 
 	{
 		[3821] = 1,
 		[3831] = 1,
@@ -1286,9 +1068,6 @@ local tbl =
 		[34581] = 1,
 		[34582] = 1,
 	},
-	reserve2 = 
-	{
-	},
 	s_c = 
 	{
 	},
@@ -1300,16 +1079,8 @@ local tbl =
 	},
 	shards = 
 	{
-		[8] = 7,
-		[10] = 35,
-		[11] = 14,
-		[12] = 28,
-		[14] = 45,
-		[15] = 21,
-		[16] = 120,
-		[17] = 39,
-		[18] = 72,
-		[19] = 33,
+		[16] = 9,
+		[17] = 9,
 	},
 	skill = 
 	{
@@ -1319,46 +1090,14 @@ local tbl =
 	},
 	tmlist = 
 	{
-		[32952] = 32,
-		[32953] = 36,
-		[32954] = 28,
+		[32954] = 8,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 32,
-			cordi = true,
-			id = 32952,
-			job = 16,
-			mapid = 816,
-			name = "Solstice Stone",
-			okgp = 0,
-			p_detail = "Il Mheg / Voeburtenburg / X:35 Y:8",
-			point = 759,
-			reserve = false,
-			skillname = "Leveling.lua",
-			skip = false,
-			timeChecks = 
-			{
-				[2] = true,
-				[3] = true,
-				[14] = true,
-				[15] = true,
-			},
-			timeoks = 
-			{
-				2,
-				3,
-				14,
-				15,
-			},
-		},
-		
-		{
-			HQamount = 0,
-			amount = 28,
+			amount = 8,
 			cordi = true,
 			id = 32954,
 			job = 17,
@@ -1397,7 +1136,7 @@ local tbl =
 			okgp = 0,
 			p_detail = "The Rak'tika Greatwood / The Isle of Consorts / X:33 Y:13",
 			point = 763,
-			reserve = false,
+			reserve = true,
 			skillname = "Leveling.lua",
 			skip = false,
 			timeChecks = 
@@ -1413,6 +1152,36 @@ local tbl =
 				11,
 				22,
 				23,
+			},
+		},
+		
+		{
+			HQamount = 0,
+			amount = 8,
+			cordi = true,
+			id = 32952,
+			job = 16,
+			mapid = 816,
+			name = "Solstice Stone",
+			okgp = 0,
+			p_detail = "Il Mheg / Voeburtenburg / X:35 Y:8",
+			point = 759,
+			reserve = true,
+			skillname = "Leveling.lua",
+			skip = false,
+			timeChecks = 
+			{
+				[2] = true,
+				[3] = true,
+				[14] = true,
+				[15] = true,
+			},
+			timeoks = 
+			{
+				2,
+				3,
+				14,
+				15,
 			},
 		},
 	},
