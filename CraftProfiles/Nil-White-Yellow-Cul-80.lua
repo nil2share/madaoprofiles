@@ -4,12 +4,12 @@ local tbl =
 	btn = 
 	{
 		[12878] = 1,
-		[27821] = 100,
-		[27824] = 50,
+		[27821] = 150,
+		[27824] = 85,
 		[27827] = 1,
 		[27832] = 5,
-		[27834] = 335,
-		[27837] = 60,
+		[27834] = 500,
+		[27837] = 100,
 	},
 	buy = 
 	{
@@ -17,10 +17,10 @@ local tbl =
 		{
 			id = 4828,
 			memo = "Cinnamon",
-			num = 30,
+			num = 50,
 			one = false,
 			price = 0,
-			vid = 64,
+			vid = 114,
 		},
 		
 		{
@@ -70,184 +70,21 @@ local tbl =
 	{
 		
 		{
-			amount = 1,
-			collect = false,
-			consumed = false,
-			countHQ = false,
-			done = false,
-			grindAmount = 1,
-			grindItemId = 19878,
-			grindItemMobData = 
-			{
-			},
-			grindItemMobNum = 1,
-			grindItemNum = 0,
-			grindTag = 1609280718,
-			grindTimer = 1251,
-			id = 19878,
-			idnum = 1,
-			job = 98,
-			jobNum = 1,
-			level = 65,
-			lvler = false,
-			mapId = 622,
-			markers = 
-			{
-				
-				{
-					str = "622_27_34_65",
-					x = 298.11,
-					y = -19.04,
-					z = 647.57,
-				},
-				
-				{
-					str = "622_28_31_65",
-					x = 375.23,
-					y = -2.09,
-					z = 501.71,
-				},
-				
-				{
-					str = "622_32_33_65",
-					x = 528.25,
-					y = -9.3,
-					z = 611.09,
-				},
-			},
-			maxtime = 1251050,
-			mobId = 5773,
-			mobIds = 
-			{
-				[5773] = true,
-			},
-			mskill = true,
-			name = "steppe dzo <<Map[The Azim Steppe] Lvl[65]>> ",
-			prio = 1,
-			prioCount = false,
-			priodo = false,
-			rcount = 0,
-			skill = 1,
-			srange = 0,
-			taskJob = 35,
-			tasktype = "grind",
-			timerBase = 1251050,
-			timeup = false,
-			type = 6,
-			useDefaultJob = true,
-		},
-		
-		{
 			HQamount = 0,
-			amount = 50,
+			amount = 500,
 			collect = false,
 			cordial = true,
-			id = 27824,
+			id = 27834,
 			job = 17,
-			mapid = 816,
-			p_detail = "Il Mheg / The Woolen Way / X:11 Y:22",
-			point = 617,
+			mapid = 817,
+			p_detail = "The Rak'tika Greatwood / Woven Oath / X:10 Y:20",
+			point = 615,
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1609280718,
+			started = 1610137773,
 			tasktype = 1,
-			timerValue = 1059078,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 100,
-			collect = false,
-			cordial = true,
-			id = 27821,
-			job = 17,
-			mapid = 815,
-			p_detail = "Amh Araeng / Ladle / X:16 Y:30",
-			point = 620,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1609280718,
-			tasktype = 1,
-			timerValue = 1177203,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			id = 12878,
-			job = 17,
-			mapid = 398,
-			p_detail = "The Dravanian Forelands / Chocobo Forest / X:36 Y:20",
-			point = 297,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1609280718,
-			tasktype = 1,
-			timerValue = 1065569,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			id = 27827,
-			job = 17,
-			mapid = 815,
-			p_detail = "Amh Araeng / Snitch / X:32 Y:17",
-			point = 611,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1609280718,
-			tasktype = 1,
-			timerValue = 1050554,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 5,
-			collect = false,
-			cordial = true,
-			id = 27832,
-			job = 17,
-			mapid = 814,
-			p_detail = "Kholusia / Seagazer / X:16 Y:35",
-			point = 618,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1609280718,
-			tasktype = 1,
-			timerValue = 1131572,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 130,
-			collect = false,
-			cordial = true,
-			id = 27782,
-			job = 16,
-			mapid = 813,
-			p_detail = "Lakeland / The Church of the First Light / X:35 Y:14",
-			point = 598,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1609280718,
-			tasktype = 1,
-			timerValue = 1023939,
+			timerValue = 1169522,
 			timeup = false,
 		},
 		
@@ -264,8 +101,8 @@ local tbl =
 			},
 			grindItemMobNum = 1,
 			grindItemNum = 0,
-			grindTag = 1609280718,
-			grindTimer = 1094,
+			grindTag = 1610137773,
+			grindTimer = 1027,
 			id = 6149,
 			idnum = 1,
 			job = 98,
@@ -277,20 +114,18 @@ local tbl =
 			{
 				
 				{
-					str = "137_30_32_31",
 					x = 433.67,
 					y = 32.79,
 					z = 529.1,
 				},
 				
 				{
-					str = "137_27_29_31",
 					x = 307.31,
 					y = 40.37,
 					z = 378.68,
 				},
 			},
-			maxtime = 1094320,
+			maxtime = 1027950,
 			mobId = 1313,
 			mobIds = 
 			{
@@ -306,27 +141,168 @@ local tbl =
 			srange = 0,
 			taskJob = 35,
 			tasktype = "grind",
-			timerBase = 1094320,
+			timerBase = 1027950,
 			timeup = false,
 			type = 6,
 			useDefaultJob = true,
 		},
 		
 		{
-			amount = 30,
+			HQamount = 0,
+			amount = 5,
+			collect = false,
+			cordial = true,
+			id = 27832,
+			job = 17,
+			mapid = 814,
+			p_detail = "Kholusia / Seagazer / X:16 Y:35",
+			point = 618,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1610137773,
+			tasktype = 1,
+			timerValue = 1025321,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 1,
+			collect = false,
+			cordial = true,
+			id = 27827,
+			job = 17,
+			mapid = 815,
+			p_detail = "Amh Araeng / Snitch / X:32 Y:17",
+			point = 611,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1610137773,
+			tasktype = 1,
+			timerValue = 1096817,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 200,
+			collect = false,
+			cordial = true,
+			id = 27782,
+			job = 16,
+			mapid = 813,
+			p_detail = "Lakeland / The Church of the First Light / X:35 Y:14",
+			point = 598,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1610137773,
+			tasktype = 1,
+			timerValue = 1182486,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 150,
+			collect = false,
+			cordial = true,
+			id = 27821,
+			job = 17,
+			mapid = 815,
+			p_detail = "Amh Araeng / Ladle / X:16 Y:30",
+			point = 620,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1610137773,
+			tasktype = 1,
+			timerValue = 903616,
+			timeup = false,
+		},
+		
+		{
+			amount = 1,
 			collect = false,
 			consumed = false,
 			countHQ = false,
 			done = false,
-			grindAmount = 30,
+			grindAmount = 1,
+			grindItemId = 19878,
+			grindItemMobData = 
+			{
+			},
+			grindItemMobNum = 1,
+			grindItemNum = 0,
+			grindTag = 1610137773,
+			grindTimer = 978,
+			id = 19878,
+			idnum = 1,
+			job = 98,
+			jobNum = 1,
+			level = 65,
+			lvler = false,
+			mapId = 622,
+			markers = 
+			{
+				
+				{
+					x = 298.11,
+					y = -19.04,
+					z = 647.57,
+				},
+				
+				{
+					x = 375.23,
+					y = -2.09,
+					z = 501.71,
+				},
+				
+				{
+					x = 528.25,
+					y = -9.3,
+					z = 611.09,
+				},
+			},
+			maxtime = 978807,
+			mobId = 5773,
+			mobIds = 
+			{
+				[5773] = true,
+			},
+			mskill = true,
+			name = "steppe dzo <<Map[The Azim Steppe] Lvl[65]>> ",
+			prio = 1,
+			prioCount = false,
+			priodo = false,
+			rcount = 0,
+			skill = 1,
+			srange = 0,
+			taskJob = 35,
+			tasktype = "grind",
+			timerBase = 978807,
+			timeup = false,
+			type = 6,
+			useDefaultJob = true,
+		},
+		
+		{
+			amount = 51,
+			collect = false,
+			consumed = false,
+			countHQ = false,
+			done = false,
+			grindAmount = 51,
 			grindItemId = 12888,
 			grindItemMobData = 
 			{
 			},
 			grindItemMobNum = 1,
 			grindItemNum = 0,
-			grindTag = 1609280718,
-			grindTimer = 1336,
+			grindTag = 1610137773,
+			grindTimer = 1009,
 			id = 12888,
 			idnum = 1,
 			job = 98,
@@ -338,20 +314,18 @@ local tbl =
 			{
 				
 				{
-					str = "397_20_15_51",
 					x = -94.45,
 					y = 119.24,
 					z = -356.09,
 				},
 				
 				{
-					str = "397_15_15_51",
 					x = -361.72,
 					y = 110.99,
 					z = -357.01,
 				},
 			},
-			maxtime = 1336902,
+			maxtime = 1009255,
 			mobId = 3479,
 			mobIds = 
 			{
@@ -367,7 +341,7 @@ local tbl =
 			srange = 0,
 			taskJob = 35,
 			tasktype = "grind",
-			timerBase = 1336902,
+			timerBase = 1009255,
 			timeup = false,
 			type = 6,
 			useDefaultJob = true,
@@ -375,26 +349,7 @@ local tbl =
 		
 		{
 			HQamount = 0,
-			amount = 335,
-			collect = false,
-			cordial = true,
-			id = 27834,
-			job = 17,
-			mapid = 817,
-			p_detail = "The Rak'tika Greatwood / Woven Oath / X:10 Y:20",
-			point = 615,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1609280718,
-			tasktype = 1,
-			timerValue = 1029350,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 60,
+			amount = 100,
 			collect = false,
 			cordial = true,
 			id = 27837,
@@ -405,16 +360,55 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1609280718,
+			started = 1610137773,
 			tasktype = 1,
-			timerValue = 1108371,
+			timerValue = 994036,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 1,
+			collect = false,
+			cordial = true,
+			id = 12878,
+			job = 17,
+			mapid = 398,
+			p_detail = "The Dravanian Forelands / Chocobo Forest / X:36 Y:20",
+			point = 297,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1610137773,
+			tasktype = 1,
+			timerValue = 1031986,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 85,
+			collect = false,
+			cordial = true,
+			id = 27824,
+			job = 17,
+			mapid = 816,
+			p_detail = "Il Mheg / The Woolen Way / X:11 Y:22",
+			point = 617,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1610137773,
+			tasktype = 1,
+			timerValue = 1099243,
 			timeup = false,
 		},
 	},
+	goCollectTurnInAtDone = false,
 	grind = 
 	{
 		[6149] = 2,
-		[12888] = 30,
+		[12888] = 51,
 		[19878] = 1,
 	},
 	isProgenProf = true,
@@ -422,7 +416,7 @@ local tbl =
 	{
 		
 		{
-			amount = 100,
+			amount = 150,
 			collect = false,
 			itemid = 31659,
 			job = 7,
@@ -432,7 +426,7 @@ local tbl =
 		},
 		
 		{
-			amount = 30,
+			amount = 50,
 			collect = false,
 			itemid = 31089,
 			job = 7,
@@ -453,7 +447,7 @@ local tbl =
 	},
 	miner = 
 	{
-		[27782] = 130,
+		[27782] = 200,
 	},
 	orders = 
 	{
@@ -493,7 +487,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 10,
+			amount = 17,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -557,7 +551,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 67,
+			amount = 100,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -623,7 +617,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 10,
+			amount = 17,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -698,7 +692,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 30,
+			amount = 50,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -739,7 +733,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 100,
+			amount = 150,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -855,9 +849,9 @@ local tbl =
 	},
 	shards = 
 	{
-		[2] = 75,
-		[8] = 1453,
-		[13] = 916,
+		[2] = 124,
+		[8] = 2216,
+		[13] = 1406,
 	},
 	skill = 
 	{
@@ -868,14 +862,14 @@ local tbl =
 	tmlist = 
 	{
 		[27822] = 1,
-		[27835] = 200,
+		[27835] = 300,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 200,
+			amount = 300,
 			cordi = true,
 			id = 27835,
 			job = 17,
