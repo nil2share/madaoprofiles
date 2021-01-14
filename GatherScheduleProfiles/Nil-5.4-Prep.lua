@@ -1,5 +1,29 @@
 local tbl = 
 {
+	eph = 
+	{
+	},
+	ephs = 
+	{
+		[0] = 
+		{
+		},
+		[4] = 
+		{
+		},
+		[8] = 
+		{
+		},
+		[12] = 
+		{
+		},
+		[16] = 
+		{
+		},
+		[20] = 
+		{
+		},
+	},
 	filename = "Nil-5.4-Prep",
 	glist = 
 	{
@@ -47,7 +71,7 @@ local tbl =
 			{
 				[8630] = true,
 			},
-			skip = false,
+			skip = true,
 			str = "Tempest Swallow <<The Tempest>><<79>><<27.5,16.7>>",
 			tasktype = "grind",
 			timerValue = 1023984,
@@ -65,7 +89,7 @@ local tbl =
 			notinlistcaseid = 0,
 			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 11,
+			skillnum = 12,
 			skip = false,
 			tasktype = "gather",
 			timerValue = 998935,
@@ -83,7 +107,7 @@ local tbl =
 			notinlistcaseid = 0,
 			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 11,
+			skillnum = 12,
 			skip = false,
 			tasktype = "gather",
 			timerValue = 1033763,
@@ -101,7 +125,7 @@ local tbl =
 			notinlistcaseid = 0,
 			okgp = 0,
 			skillname = "Leveling.lua",
-			skillnum = 11,
+			skillnum = 12,
 			skip = false,
 			tasktype = "gather",
 			timerValue = 1022263,
@@ -109,6 +133,84 @@ local tbl =
 	},
 	orders = 
 	{
+	},
+	unspoil = 
+	{
+	},
+	unspoilTimeline = 
+	{
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		},
+		
+		{
+		}, 
+		[0] = 
+		{
+		},
 	},
 }
 

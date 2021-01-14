@@ -27,45 +27,6 @@ local tbl =
 	filename = "Nil-Yellow-Min-71-80",
 	glist = 
 	{
-		
-		{
-			HQamount = 0,
-			amount = 100,
-			col_ga_crystal = true,
-			collect = true,
-			cordial = false,
-			gearset = 0,
-			id = 27782,
-			job = 16,
-			markerid = 8133514,
-			markername = "Mapname:[Lakeland] Mapid: 813 Normal Level:80 X:35 Y:14",
-			notinlistcaseid = 0,
-			okgp = 600,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
-			skip = false,
-			tasktype = "gather",
-			timerValue = 1182312,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 100,
-			col_ga_crystal = false,
-			collect = true,
-			cordial = false,
-			id = 27776,
-			job = 16,
-			markerid = 8172529,
-			markername = "Mapname:[The Rak'tika] Mapid: 817 Normal Level:80 X:25 Y:29",
-			notinlistcaseid = 0,
-			okgp = 600,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
-			skip = false,
-			tasktype = "gather",
-			timerValue = 1035163,
-		},
 	},
 	orders = 
 	{
@@ -76,24 +37,53 @@ local tbl =
 		{
 			HQamount = 0,
 			amount = 0,
-			collect = true,
-			cordial = false,
-			expansion = "Shadow",
-			folklore = false,
-			gearset = 0,
+			collect = false,
+			cordial = true,
 			hold = false,
-			id = 27727,
+			id = 32980,
 			job = 16,
-			mapid = 816,
-			markerid = 8162613,
-			move_after_timer = false,
-			name = "Raw Diaspore",
-			okgp = 600,
+			mapid = 813,
+			name = "Rarefied Titancopper Ore",
+			okgp = 0,
+			p_detail = "[MIN] Lakeland / The Belt / X:31 Y:24",
+			point = 330,
 			reserve = false,
-			skillname = "Leveling.lua",
-			skillnum = 8,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
 			skip = false,
-			slot = 6,
+			timeChecks = 
+			{
+				[4] = true,
+				[5] = true,
+				[16] = true,
+				[17] = true,
+			},
+			timeoks = 
+			{
+				4,
+				5,
+				16,
+				17,
+			},
+		},
+		
+		{
+			HQamount = 0,
+			amount = 0,
+			collect = false,
+			cordial = true,
+			hold = false,
+			id = 32981,
+			job = 16,
+			mapid = 817,
+			name = "Rarefied Raw Lazurite",
+			okgp = 0,
+			p_detail = "[MIN] The Rak'tika Greatwood / Cleric / X:15 Y:18",
+			point = 332,
+			reserve = false,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
+			skip = false,
 			timeChecks = 
 			{
 				[6] = true,
@@ -108,54 +98,145 @@ local tbl =
 				18,
 				19,
 			},
-			x = 26,
-			y = 13,
 		},
 		
 		{
 			HQamount = 0,
 			amount = 0,
-			collect = true,
-			cordial = false,
-			expansion = "Shadow",
-			folklore = false,
-			gearset = 0,
+			collect = false,
+			cordial = true,
 			hold = false,
-			id = 27729,
+			id = 32982,
 			job = 16,
-			mapid = 815,
-			markerid = 8152029,
-			move_after_timer = false,
-			name = "Raw Triplite",
-			okgp = 600,
+			mapid = 813,
+			name = "Rarefied Raw Petalite",
+			okgp = 0,
+			p_detail = "[MIN] Lakeland / The Belt / X:31 Y:24",
+			point = 330,
 			reserve = false,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
 			skip = false,
-			slot = 7,
 			timeChecks = 
 			{
-				true, 
-				[0] = true,
-				[12] = true,
-				[13] = true,
+				[4] = true,
+				[5] = true,
+				[16] = true,
+				[17] = true,
 			},
 			timeoks = 
 			{
-				0,
-				1,
-				12,
-				13,
+				4,
+				5,
+				16,
+				17,
 			},
-			x = 20,
-			y = 29,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 0,
+			collect = false,
+			cordial = true,
+			hold = false,
+			id = 32983,
+			job = 16,
+			mapid = 818,
+			name = "Rarefied Sea Salt",
+			okgp = 0,
+			p_detail = "[MIN] The Tempest / The Norvrandt Slope / X:25 Y:5",
+			point = 334,
+			reserve = false,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
+			skip = false,
+			timeChecks = 
+			{
+				[8] = true,
+				[9] = true,
+				[20] = true,
+				[21] = true,
+			},
+			timeoks = 
+			{
+				8,
+				9,
+				20,
+				21,
+			},
+		},
+		
+		{
+			HQamount = 0,
+			amount = 0,
+			collect = false,
+			cordial = true,
+			hold = false,
+			id = 32984,
+			job = 16,
+			mapid = 818,
+			name = "Rarefied Reef Rock",
+			okgp = 0,
+			p_detail = "[MIN] The Tempest / The Ondo Cups / X:33 Y:20",
+			point = 766,
+			reserve = false,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
+			skip = false,
+			timeChecks = 
+			{
+				[2] = true,
+				[3] = true,
+				[14] = true,
+				[15] = true,
+			},
+			timeoks = 
+			{
+				2,
+				3,
+				14,
+				15,
+			},
 		},
 	},
 	unspoilTimeline = 
 	{
 		
 		{
-			27729,
+		},
+		
+		{
+			32984,
+		},
+		
+		{
+			32984,
+		},
+		
+		{
+			32980,
+			32982,
+		},
+		
+		{
+			32980,
+			32982,
+		},
+		
+		{
+			32981,
+		},
+		
+		{
+			32981,
+		},
+		
+		{
+			32983,
+		},
+		
+		{
+			32983,
 		},
 		
 		{
@@ -171,57 +252,37 @@ local tbl =
 		},
 		
 		{
-			27727,
+			32984,
 		},
 		
 		{
-			27727,
+			32984,
 		},
 		
 		{
+			32980,
+			32982,
 		},
 		
 		{
+			32980,
+			32982,
 		},
 		
 		{
+			32981,
 		},
 		
 		{
+			32981,
 		},
 		
 		{
-			27729,
+			32983,
 		},
 		
 		{
-			27729,
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-			27727,
-		},
-		
-		{
-			27727,
-		},
-		
-		{
-		},
-		
-		{
+			32983,
 		},
 		
 		{
@@ -231,7 +292,6 @@ local tbl =
 		}, 
 		[0] = 
 		{
-			27729,
 		},
 	},
 }

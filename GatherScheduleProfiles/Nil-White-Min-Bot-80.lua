@@ -10,59 +10,20 @@ local tbl =
 		{
 			HQamount = 0,
 			amount = 0,
-			collect = true,
+			collect = false,
 			cordial = true,
-			expansion = "Shadow",
-			folklore = false,
 			hold = false,
-			id = 27835,
-			job = 17,
-			mapid = 814,
-			markerid = 8142020,
-			name = "Lemonette",
-			okgp = 600,
+			id = 32985,
+			job = 16,
+			mapid = 818,
+			name = "Rarefied Raw Onyx",
+			okgp = 0,
+			p_detail = "[MIN] The Tempest / The Norvrandt Slope / X:25 Y:5",
+			point = 334,
 			reserve = false,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
 			skip = false,
-			slot = 2,
-			timeChecks = 
-			{
-				[6] = true,
-				[7] = true,
-				[18] = true,
-				[19] = true,
-			},
-			timeoks = 
-			{
-				6,
-				7,
-				18,
-				19,
-			},
-			x = 20,
-			y = 20,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 0,
-			collect = true,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 27761,
-			job = 17,
-			mapid = 813,
-			markerid = 8132710,
-			name = "Ethereal Cocoon",
-			okgp = 600,
-			reserve = false,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
-			skip = false,
-			slot = 4,
 			timeChecks = 
 			{
 				[8] = true,
@@ -77,29 +38,25 @@ local tbl =
 				20,
 				21,
 			},
-			x = 27,
-			y = 10,
 		},
 		
 		{
 			HQamount = 0,
 			amount = 0,
-			collect = true,
-			cordial = false,
-			expansion = "Shadow",
-			folklore = true,
+			collect = false,
+			cordial = true,
 			hold = false,
-			id = 27688,
-			job = 17,
-			mapid = 817,
-			markerid = 8172436,
-			name = "Sandalwood Log",
-			okgp = 600,
+			id = 32986,
+			job = 16,
+			mapid = 818,
+			name = "Rarefied Tungsten Ore",
+			okgp = 0,
+			p_detail = "[MIN] The Tempest / The Ondo Cups / X:33 Y:20",
+			point = 766,
 			reserve = false,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
 			skip = false,
-			slot = 6,
 			timeChecks = 
 			{
 				[2] = true,
@@ -114,103 +71,25 @@ local tbl =
 				14,
 				15,
 			},
-			x = 24,
-			y = 36,
 		},
 		
 		{
 			HQamount = 0,
 			amount = 0,
-			collect = true,
-			cordial = false,
-			expansion = "Shadow",
-			folklore = false,
+			collect = false,
+			cordial = true,
 			hold = false,
-			id = 27731,
+			id = 32987,
 			job = 16,
-			mapid = 818,
-			markerid = 8181621,
-			name = "Raw Onyx",
-			okgp = 600,
+			mapid = 612,
+			name = "Rarefied Gyr Abanian Alumen",
+			okgp = 0,
+			p_detail = "[MIN] The Fringes / Virdjala / X:31 Y:31",
+			point = 767,
 			reserve = false,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
 			skip = false,
-			slot = 7,
-			timeChecks = 
-			{
-				true, 
-				[0] = true,
-				[12] = true,
-				[13] = true,
-			},
-			timeoks = 
-			{
-				0,
-				1,
-				12,
-				13,
-			},
-			x = 16,
-			y = 21,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 0,
-			collect = true,
-			cordial = false,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 27705,
-			job = 16,
-			mapid = 816,
-			markerid = 8163020,
-			name = "Prismstone",
-			okgp = 600,
-			reserve = false,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
-			skip = false,
-			slot = 7,
-			timeChecks = 
-			{
-				[4] = true,
-				[5] = true,
-				[16] = true,
-				[17] = true,
-			},
-			timeoks = 
-			{
-				4,
-				5,
-				16,
-				17,
-			},
-			x = 30,
-			y = 20,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 0,
-			collect = true,
-			cordial = false,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 27704,
-			job = 16,
-			mapid = 818,
-			markerid = 8183207,
-			name = "Tungsten Ore",
-			okgp = 600,
-			reserve = false,
-			skillname = "Collective_Default.lua",
-			skillnum = 2,
-			skip = false,
-			slot = 3,
 			timeChecks = 
 			{
 				[10] = true,
@@ -225,107 +104,204 @@ local tbl =
 				22,
 				23,
 			},
-			x = 32,
-			y = 7,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 0,
+			collect = false,
+			cordial = true,
+			hold = false,
+			id = 33009,
+			job = 17,
+			mapid = 620,
+			name = "Rarefied Urunday Log",
+			okgp = 0,
+			p_detail = "[BTN] The Peaks / Heather Falls / X:30 Y:6",
+			point = 777,
+			reserve = false,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
+			skip = false,
+			timeChecks = 
+			{
+				true, 
+				[0] = true,
+				[12] = true,
+				[13] = true,
+			},
+			timeoks = 
+			{
+				0,
+				1,
+				12,
+				13,
+			},
+		},
+		
+		{
+			HQamount = 0,
+			amount = 0,
+			collect = false,
+			cordial = true,
+			hold = false,
+			id = 33007,
+			job = 17,
+			mapid = 815,
+			name = "Rarefied Amber Cloves",
+			okgp = 0,
+			p_detail = "[BTN] Amh Araeng / The Central Hills of Amber / X:18 Y:20",
+			point = 775,
+			reserve = false,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
+			skip = false,
+			timeChecks = 
+			{
+				[2] = true,
+				[3] = true,
+				[14] = true,
+				[15] = true,
+			},
+			timeoks = 
+			{
+				2,
+				3,
+				14,
+				15,
+			},
+		},
+		
+		{
+			HQamount = 0,
+			amount = 0,
+			collect = false,
+			cordial = true,
+			hold = false,
+			id = 33008,
+			job = 17,
+			mapid = 818,
+			name = "Rarefied Coral",
+			okgp = 0,
+			p_detail = "[BTN] The Tempest / The Norvrandt Slope / X:37 Y:11",
+			point = 776,
+			reserve = false,
+			skillname = "Collect_Default.lua",
+			skillnum = 3,
+			skip = false,
+			timeChecks = 
+			{
+				[4] = true,
+				[5] = true,
+				[16] = true,
+				[17] = true,
+			},
+			timeoks = 
+			{
+				4,
+				5,
+				16,
+				17,
+			},
 		},
 	},
 	unspoilTimeline = 
 	{
 		
 		{
-			27731,
+			33009,
 		},
 		
 		{
-			27688,
+			32986,
+			33007,
 		},
 		
 		{
-			27688,
+			32986,
+			33007,
 		},
 		
 		{
-			27705,
+			33008,
 		},
 		
 		{
-			27705,
+			33008,
 		},
 		
 		{
-			27835,
 		},
 		
 		{
-			27835,
 		},
 		
 		{
-			27761,
+			32985,
 		},
 		
 		{
-			27761,
+			32985,
 		},
 		
 		{
-			27704,
+			32987,
 		},
 		
 		{
-			27704,
+			32987,
 		},
 		
 		{
-			27731,
+			33009,
 		},
 		
 		{
-			27731,
+			33009,
 		},
 		
 		{
-			27688,
+			32986,
+			33007,
 		},
 		
 		{
-			27688,
+			32986,
+			33007,
 		},
 		
 		{
-			27705,
+			33008,
 		},
 		
 		{
-			27705,
+			33008,
 		},
 		
 		{
-			27835,
 		},
 		
 		{
-			27835,
 		},
 		
 		{
-			27761,
+			32985,
 		},
 		
 		{
-			27761,
+			32985,
 		},
 		
 		{
-			27704,
+			32987,
 		},
 		
 		{
-			27704,
+			32987,
 		}, 
 		[0] = 
 		{
-			27731,
+			33009,
 		},
 	},
 }
