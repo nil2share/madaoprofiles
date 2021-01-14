@@ -5,11 +5,11 @@ local tbl =
 	{
 		[12878] = 1,
 		[27821] = 150,
-		[27824] = 85,
+		[27824] = 125,
 		[27827] = 1,
 		[27832] = 5,
 		[27834] = 500,
-		[27837] = 100,
+		[27837] = 150,
 	},
 	buy = 
 	{
@@ -17,10 +17,10 @@ local tbl =
 		{
 			id = 4828,
 			memo = "Cinnamon",
-			num = 50,
+			num = 75,
 			one = false,
 			price = 0,
-			vid = 114,
+			vid = 89,
 		},
 		
 		{
@@ -29,12 +29,13 @@ local tbl =
 			num = 1,
 			one = false,
 			price = 0,
-			vid = 114,
+			vid = 134,
 		},
 	},
 	cant = 
 	{
 	},
+	craftLocType = "Default",
 	ephs = 
 	{
 		[0] = 
@@ -66,85 +67,47 @@ local tbl =
 	fish_3 = 
 	{
 	},
+	foodId = 0,
+	foodName = "Use Default",
 	glist = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 500,
+			amount = 150,
 			collect = false,
 			cordial = true,
-			id = 27834,
+			id = 27821,
 			job = 17,
-			mapid = 817,
-			p_detail = "The Rak'tika Greatwood / Woven Oath / X:10 Y:20",
-			point = 615,
+			mapid = 815,
+			p_detail = "Amh Araeng / Ladle / X:16 Y:30",
+			point = 620,
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1610137773,
+			started = 1610569859,
 			tasktype = 1,
-			timerValue = 1169522,
+			timerValue = 1104059,
 			timeup = false,
 		},
 		
 		{
-			amount = 2,
+			HQamount = 0,
+			amount = 150,
 			collect = false,
-			consumed = false,
-			countHQ = false,
-			done = false,
-			grindAmount = 2,
-			grindItemId = 6149,
-			grindItemMobData = 
-			{
-			},
-			grindItemMobNum = 1,
-			grindItemNum = 0,
-			grindTag = 1610137773,
-			grindTimer = 1027,
-			id = 6149,
-			idnum = 1,
-			job = 98,
-			jobNum = 1,
-			level = 31,
-			lvler = false,
-			mapId = 137,
-			markers = 
-			{
-				
-				{
-					x = 433.67,
-					y = 32.79,
-					z = 529.1,
-				},
-				
-				{
-					x = 307.31,
-					y = 40.37,
-					z = 378.68,
-				},
-			},
-			maxtime = 1027950,
-			mobId = 1313,
-			mobIds = 
-			{
-				[1313] = true,
-			},
-			mskill = true,
-			name = "large buffalo <<Map[Eastern La Noscea] Lvl[31]>> ",
-			prio = 1,
-			prioCount = false,
-			priodo = false,
-			rcount = 0,
-			skill = 1,
+			cordial = true,
+			id = 27837,
+			job = 17,
+			mapid = 814,
+			p_detail = "Kholusia / Scree / X:14 Y:13",
+			point = 625,
+			skillname = "Leveling.lua",
+			skip = false,
 			srange = 0,
-			taskJob = 35,
-			tasktype = "grind",
-			timerBase = 1027950,
+			started = 1610569859,
+			tasktype = 1,
+			timerValue = 943470,
 			timeup = false,
-			type = 6,
-			useDefaultJob = true,
 		},
 		
 		{
@@ -160,9 +123,9 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1610137773,
+			started = 1610569859,
 			tasktype = 1,
-			timerValue = 1025321,
+			timerValue = 969783,
 			timeup = false,
 		},
 		
@@ -179,15 +142,34 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1610137773,
+			started = 1610569859,
 			tasktype = 1,
-			timerValue = 1096817,
+			timerValue = 914713,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 200,
+			amount = 500,
+			collect = false,
+			cordial = true,
+			id = 27834,
+			job = 17,
+			mapid = 817,
+			p_detail = "The Rak'tika Greatwood / Woven Oath / X:10 Y:20",
+			point = 615,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1610569859,
+			tasktype = 1,
+			timerValue = 959419,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 225,
 			collect = false,
 			cordial = true,
 			id = 27782,
@@ -198,28 +180,28 @@ local tbl =
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1610137773,
+			started = 1610569859,
 			tasktype = 1,
-			timerValue = 1182486,
+			timerValue = 906180,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 150,
+			amount = 1,
 			collect = false,
 			cordial = true,
-			id = 27821,
+			id = 12878,
 			job = 17,
-			mapid = 815,
-			p_detail = "Amh Araeng / Ladle / X:16 Y:30",
-			point = 620,
+			mapid = 398,
+			p_detail = "The Dravanian Forelands / Chocobo Forest / X:36 Y:20",
+			point = 297,
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1610137773,
+			started = 1610569859,
 			tasktype = 1,
-			timerValue = 903616,
+			timerValue = 1141899,
 			timeup = false,
 		},
 		
@@ -236,8 +218,8 @@ local tbl =
 			},
 			grindItemMobNum = 1,
 			grindItemNum = 0,
-			grindTag = 1610137773,
-			grindTimer = 978,
+			grindTag = 1610569859,
+			grindTimer = 1008,
 			id = 19878,
 			idnum = 1,
 			job = 98,
@@ -266,7 +248,7 @@ local tbl =
 					z = 611.09,
 				},
 			},
-			maxtime = 978807,
+			maxtime = 1008897,
 			mobId = 5773,
 			mobIds = 
 			{
@@ -282,27 +264,105 @@ local tbl =
 			srange = 0,
 			taskJob = 35,
 			tasktype = "grind",
-			timerBase = 978807,
+			timerBase = 1008897,
 			timeup = false,
 			type = 6,
 			useDefaultJob = true,
 		},
 		
 		{
-			amount = 51,
+			HQamount = 0,
+			amount = 125,
+			collect = false,
+			cordial = true,
+			id = 27824,
+			job = 17,
+			mapid = 816,
+			p_detail = "Il Mheg / The Woolen Way / X:11 Y:22",
+			point = 617,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1610569859,
+			tasktype = 1,
+			timerValue = 1142018,
+			timeup = false,
+		},
+		
+		{
+			amount = 2,
 			collect = false,
 			consumed = false,
 			countHQ = false,
 			done = false,
-			grindAmount = 51,
+			grindAmount = 2,
+			grindItemId = 6149,
+			grindItemMobData = 
+			{
+			},
+			grindItemMobNum = 1,
+			grindItemNum = 0,
+			grindTag = 1610569859,
+			grindTimer = 1161,
+			id = 6149,
+			idnum = 1,
+			job = 98,
+			jobNum = 1,
+			level = 31,
+			lvler = false,
+			mapId = 137,
+			markers = 
+			{
+				
+				{
+					x = 433.67,
+					y = 32.79,
+					z = 529.1,
+				},
+				
+				{
+					x = 307.31,
+					y = 40.37,
+					z = 378.68,
+				},
+			},
+			maxtime = 1161656,
+			mobId = 1313,
+			mobIds = 
+			{
+				[1313] = true,
+			},
+			mskill = true,
+			name = "large buffalo <<Map[Eastern La Noscea] Lvl[31]>> ",
+			prio = 1,
+			prioCount = false,
+			priodo = false,
+			rcount = 0,
+			skill = 1,
+			srange = 0,
+			taskJob = 35,
+			tasktype = "grind",
+			timerBase = 1161656,
+			timeup = false,
+			type = 6,
+			useDefaultJob = true,
+		},
+		
+		{
+			amount = 75,
+			collect = false,
+			consumed = false,
+			countHQ = false,
+			done = false,
+			grindAmount = 75,
 			grindItemId = 12888,
 			grindItemMobData = 
 			{
 			},
 			grindItemMobNum = 1,
 			grindItemNum = 0,
-			grindTag = 1610137773,
-			grindTimer = 1009,
+			grindTag = 1610569859,
+			grindTimer = 934,
 			id = 12888,
 			idnum = 1,
 			job = 98,
@@ -325,7 +385,7 @@ local tbl =
 					z = -357.01,
 				},
 			},
-			maxtime = 1009255,
+			maxtime = 934656,
 			mobId = 3479,
 			mobIds = 
 			{
@@ -341,74 +401,17 @@ local tbl =
 			srange = 0,
 			taskJob = 35,
 			tasktype = "grind",
-			timerBase = 1009255,
+			timerBase = 934656,
 			timeup = false,
 			type = 6,
 			useDefaultJob = true,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 100,
-			collect = false,
-			cordial = true,
-			id = 27837,
-			job = 17,
-			mapid = 814,
-			p_detail = "Kholusia / Scree / X:14 Y:13",
-			point = 625,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1610137773,
-			tasktype = 1,
-			timerValue = 994036,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 1,
-			collect = false,
-			cordial = true,
-			id = 12878,
-			job = 17,
-			mapid = 398,
-			p_detail = "The Dravanian Forelands / Chocobo Forest / X:36 Y:20",
-			point = 297,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1610137773,
-			tasktype = 1,
-			timerValue = 1031986,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 85,
-			collect = false,
-			cordial = true,
-			id = 27824,
-			job = 17,
-			mapid = 816,
-			p_detail = "Il Mheg / The Woolen Way / X:11 Y:22",
-			point = 617,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1610137773,
-			tasktype = 1,
-			timerValue = 1099243,
-			timeup = false,
 		},
 	},
 	goCollectTurnInAtDone = false,
 	grind = 
 	{
 		[6149] = 2,
-		[12888] = 51,
+		[12888] = 75,
 		[19878] = 1,
 	},
 	isProgenProf = true,
@@ -426,7 +429,7 @@ local tbl =
 		},
 		
 		{
-			amount = 50,
+			amount = 75,
 			collect = false,
 			itemid = 31089,
 			job = 7,
@@ -447,7 +450,7 @@ local tbl =
 	},
 	miner = 
 	{
-		[27782] = 200,
+		[27782] = 225,
 	},
 	orders = 
 	{
@@ -487,7 +490,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 17,
+			amount = 25,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -617,7 +620,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 17,
+			amount = 25,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -692,7 +695,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 25,
-			amount = 50,
+			amount = 75,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -769,6 +772,8 @@ local tbl =
 			usequick = false,
 		},
 	},
+	potId = 0,
+	potName = "Use Default",
 	profileRepeat = true,
 	profileType = "RunGather",
 	profileType_num = 2,
@@ -849,9 +854,9 @@ local tbl =
 	},
 	shards = 
 	{
-		[2] = 124,
-		[8] = 2216,
-		[13] = 1406,
+		[2] = 180,
+		[8] = 2439,
+		[13] = 1581,
 	},
 	skill = 
 	{
@@ -930,6 +935,8 @@ local tbl =
 	unspoilTimeline = 
 	{
 	},
+	useFood = false,
+	usePot = false,
 	withdraw = 
 	{
 	},
