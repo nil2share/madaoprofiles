@@ -3,14 +3,21 @@ local tbl =
 	backtoLocation = true,
 	btn = 
 	{
-		[27687] = 20,
-		[27750] = 8,
+		[27687] = 384,
+		[27750] = 12,
+		[27759] = 28,
 	},
 	buy = 
 	{
 	},
 	cant = 
 	{
+		[27695] = 12,
+		[27718] = 78,
+		[27719] = 6,
+		[27737] = 16,
+		[27744] = 8,
+		[27762] = 16,
 	},
 	ephs = 
 	{
@@ -19,132 +26,499 @@ local tbl =
 		},
 		[4] = 
 		{
+			
+			{
+				HQamount = 0,
+				amount = 65,
+				c_w_amount = true,
+				c_w_cluster = false,
+				c_w_crystal = false,
+				cordial = true,
+				crystal = 0,
+				crystalId = 10,
+				id = 27809,
+				job = 17,
+				mapid = 817,
+				name = "Sweet Marjoram",
+				node_crystal = 10,
+				okgp = 600,
+				p_detail = "The Rak'tika Greatwood / The K'mul Astropolis / X:21 Y:11",
+				point = 624,
+				sand = 27812,
+				sand_id = 27812,
+				sands = 
+				{
+					[27812] = "Scuroglow Aethersand",
+				},
+				shard = 4,
+				skillname = "Collect_Default.lua",
+				sname = "Scuroglow Aethersand",
+				useGift = true,
+			},
 		},
 		[8] = 
 		{
+			
+			{
+				HQamount = 0,
+				amount = 65,
+				c_w_amount = true,
+				c_w_cluster = false,
+				c_w_crystal = false,
+				cordial = true,
+				crystal = 0,
+				crystalId = 12,
+				id = 27806,
+				job = 16,
+				mapid = 813,
+				name = "Solarite",
+				node_crystal = 12,
+				okgp = 600,
+				p_detail = "Lakeland / The Exarch Gate / X:35 Y:29",
+				point = 599,
+				sand = 27812,
+				sand_id = 27812,
+				sands = 
+				{
+					[27812] = "Scuroglow Aethersand",
+				},
+				shard = 6,
+				skillname = "Collect_Default.lua",
+				sname = "Scuroglow Aethersand",
+				useGift = true,
+			},
 		},
 		[12] = 
 		{
+			
+			{
+				HQamount = 0,
+				amount = 10,
+				c_w_amount = true,
+				c_w_cluster = false,
+				c_w_crystal = false,
+				cordial = true,
+				crystal = 0,
+				crystalId = 9,
+				id = 27810,
+				job = 17,
+				mapid = 813,
+				name = "Bog Sage",
+				node_crystal = 11,
+				okgp = 600,
+				p_detail = "Lakeland / The Bridges / X:31 Y:36",
+				point = 622,
+				sand = 27814,
+				sand_id = 27814,
+				sands = 
+				{
+					[27814] = "Agewood Aethersand",
+				},
+				shard = 3,
+				skillname = "Collect_Default.lua",
+				sname = "Agewood Aethersand",
+				useGift = true,
+			},
 		},
 		[16] = 
 		{
+			
+			{
+				HQamount = 0,
+				amount = 10,
+				c_w_amount = true,
+				c_w_cluster = false,
+				c_w_crystal = false,
+				cordial = true,
+				crystal = 0,
+				crystalId = 8,
+				id = 27807,
+				job = 16,
+				mapid = 814,
+				name = "Shade Quartz",
+				node_crystal = 8,
+				okgp = 600,
+				p_detail = "Kholusia / Komra / X:33 Y:20",
+				point = 601,
+				sand = 27813,
+				sand_id = 27813,
+				sands = 
+				{
+					[27813] = "Agedeep Aethersand",
+				},
+				shard = 2,
+				skillname = "Collect_Default.lua",
+				sname = "Agedeep Aethersand",
+				useGift = true,
+			},
 		},
 		[20] = 
 		{
 		},
 	},
 	filename = "Crafting Gear 460 BIS",
+	fish_1 = 
+	{
+	},
+	fish_2 = 
+	{
+	},
+	fish_3 = 
+	{
+		
+		{
+			HQamount = 0,
+			amount = 1,
+			baits = "27590,",
+			collect = true,
+			cordial = true,
+			fish_loc = 236,
+			fish_sk = "Default.lua",
+			fish_sknum = 1,
+			hold = false,
+			id = 27815,
+			job = 18,
+			reserve = false,
+			skip = false,
+			substr = "",
+			tasktype = "fish",
+			v_lure = true,
+		},
+	},
 	glist = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 5,
+			amount = 12,
 			collect = false,
 			cordial = true,
-			id = 12534,
+			id = 12531,
 			job = 16,
-			markerid = 3973112,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
+			mapid = 397,
+			p_detail = "Coerthas Western Highlands / Twinpools / X:16 Y:12",
+			point = 288,
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1585332283,
+			started = 1612800549,
 			tasktype = 1,
-			timerValue = 1042103,
+			timerValue = 1065926,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 20,
-			collect = false,
-			cordial = true,
-			id = 27703,
-			job = 16,
-			markerid = 8133514,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
-			skillname = "Leveling.lua",
-			skip = false,
-			srange = 0,
-			started = 1585332283,
-			tasktype = 1,
-			timerValue = 960417,
-			timeup = false,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 2,
+			amount = 3,
 			collect = false,
 			cordial = true,
 			id = 5491,
 			job = 16,
-			markerid = 1531519,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
+			mapid = 153,
+			p_detail = "South Shroud / Upper Paths / X:15 Y:19",
+			point = 47,
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1585332283,
+			started = 1612800549,
 			tasktype = 1,
-			timerValue = 911343,
+			timerValue = 1030201,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 20,
+			amount = 187,
+			collect = false,
+			cordial = true,
+			id = 12534,
+			job = 16,
+			mapid = 397,
+			p_detail = "Coerthas Western Highlands / Gorgagne Holding / X:31 Y:12",
+			point = 285,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1612800549,
+			tasktype = 1,
+			timerValue = 1116795,
+			timeup = false,
+		},
+		
+		{
+			amount = 91,
+			collect = false,
+			consumed = false,
+			countHQ = false,
+			done = false,
+			grindAmount = 91,
+			grindItemId = 27773,
+			grindItemMobData = 
+			{
+			},
+			grindItemMobNum = 1,
+			grindItemNum = 0,
+			grindTag = 1612800549,
+			grindTimer = 1079,
+			id = 27773,
+			idnum = 1,
+			job = 98,
+			jobNum = 1,
+			level = 74,
+			lvler = false,
+			mapId = 817,
+			markers = 
+			{
+				
+				{
+					s = "9.6,21.39",
+					x = -590.93,
+					y = 0.2,
+					z = 0.19,
+				},
+				
+				{
+					s = "10.1,20.39",
+					x = -565.84,
+					y = 0.2,
+					z = -52.51,
+				},
+			},
+			maxtime = 1079793,
+			mobId = 8613,
+			mobIds = 
+			{
+				[8613] = true,
+			},
+			mskill = true,
+			name = "Vampire Cup <<The Rak'tika>><<74>><<9.6,20.5>>",
+			prio = 1,
+			prioCount = false,
+			priodo = false,
+			rcount = 0,
+			skill = 1,
+			srange = 0,
+			taskJob = 35,
+			tasktype = "grind",
+			timerBase = 1079793,
+			timeup = false,
+			type = 6,
+			useDefaultJob = true,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 91,
+			collect = false,
+			cordial = true,
+			id = 27782,
+			job = 16,
+			mapid = 813,
+			p_detail = "Lakeland / The Church of the First Light / X:35 Y:14",
+			point = 598,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1612800549,
+			tasktype = 1,
+			timerValue = 914191,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 321,
+			collect = false,
+			cordial = true,
+			id = 27702,
+			job = 16,
+			mapid = 815,
+			p_detail = "Amh Araeng / Mount Biran Mines / X:16 Y:11",
+			point = 602,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1612800549,
+			tasktype = 1,
+			timerValue = 1039521,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 748,
+			collect = false,
+			cordial = true,
+			id = 27703,
+			job = 16,
+			mapid = 813,
+			p_detail = "Lakeland / The Church of the First Light / X:35 Y:14",
+			point = 598,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1612800549,
+			tasktype = 1,
+			timerValue = 943287,
+			timeup = false,
+		},
+		
+		{
+			amount = 24,
+			collect = false,
+			consumed = false,
+			countHQ = false,
+			done = false,
+			grindAmount = 24,
+			grindItemId = 27736,
+			grindItemMobData = 
+			{
+			},
+			grindItemMobNum = 1,
+			grindItemNum = 0,
+			grindTag = 1612800549,
+			grindTimer = 1485,
+			id = 27736,
+			idnum = 1,
+			job = 98,
+			jobNum = 1,
+			level = 79,
+			lvler = false,
+			mapId = 818,
+			markers = 
+			{
+				
+				{
+					s = "28,16.29",
+					x = 330.75,
+					y = 346.38,
+					z = -256.81,
+				},
+				
+				{
+					s = "26.79,14.3",
+					x = 267.86,
+					y = 336.02,
+					z = -354.05,
+				},
+				
+				{
+					s = "28,12.69",
+					x = 326.03,
+					y = 354.53,
+					z = -435.69,
+				},
+				
+				{
+					s = "31,13.89",
+					x = 480.1,
+					y = 373.29,
+					z = -378.55,
+				},
+			},
+			maxtime = 1485081,
+			mobId = 8630,
+			mobIds = 
+			{
+				[8630] = true,
+			},
+			mskill = true,
+			name = "Tempest Swallow <<The Tempest>><<79>><<27.5,16.7>>",
+			prio = 1,
+			prioCount = false,
+			priodo = false,
+			rcount = 0,
+			skill = 1,
+			srange = 0,
+			taskJob = 35,
+			tasktype = "grind",
+			timerBase = 1485081,
+			timeup = false,
+			type = 6,
+			useDefaultJob = true,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 384,
 			collect = false,
 			cordial = true,
 			id = 27687,
 			job = 17,
-			markerid = 8131210,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
+			mapid = 813,
+			p_detail = "Lakeland / Hare Among Giants / X:12 Y:10",
+			point = 621,
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1585332283,
+			started = 1612800549,
 			tasktype = 1,
-			timerValue = 1010617,
+			timerValue = 1075649,
 			timeup = false,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 8,
+			amount = 12,
 			collect = false,
 			cordial = true,
 			id = 27750,
 			job = 17,
-			markerid = 8161122,
-			markername = "",
-			maxlvl = 999,
-			minlvl = 0,
-			notinlistcaseid = 0,
+			mapid = 816,
+			p_detail = "Il Mheg / The Woolen Way / X:11 Y:22",
+			point = 617,
 			skillname = "Leveling.lua",
 			skip = false,
 			srange = 0,
-			started = 1585332283,
+			started = 1612800549,
 			tasktype = 1,
-			timerValue = 1073489,
+			timerValue = 1122608,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 28,
+			collect = false,
+			cordial = true,
+			id = 27759,
+			job = 17,
+			mapid = 814,
+			p_detail = "Kholusia / Scree / X:14 Y:13",
+			point = 625,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1612800549,
+			tasktype = 1,
+			timerValue = 990695,
+			timeup = false,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 6,
+			collect = false,
+			cordial = true,
+			id = 27817,
+			job = 16,
+			mapid = 815,
+			p_detail = "Amh Araeng / The Inn at Journey's Head / X:30 Y:22",
+			point = 591,
+			skillname = "Leveling.lua",
+			skip = false,
+			srange = 0,
+			started = 1612800549,
+			tasktype = 1,
+			timerValue = 975377,
 			timeup = false,
 		},
 	},
 	goCollectTurnInAtDone = false,
 	grind = 
 	{
+		[27736] = 24,
+		[27773] = 91,
 	},
 	isProgenProf = true,
 	listed = 
@@ -412,9 +786,13 @@ local tbl =
 	},
 	miner = 
 	{
-		[5491] = 2,
-		[12534] = 5,
-		[27703] = 20,
+		[5491] = 3,
+		[12531] = 12,
+		[12534] = 187,
+		[27702] = 321,
+		[27703] = 748,
+		[27782] = 91,
+		[27817] = 6,
 	},
 	normalType = "Amountbase",
 	orders = 
@@ -422,8 +800,74 @@ local tbl =
 		
 		{
 			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 7,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3854,
+			ings = 
+			{
+				[27759] = 4,
+			},
+			ingsHQ = 
+			{
+				[27759] = 0,
+			},
+			item = 27758,
+			madaoprofile = "None",
+			name = "Dwarven Cotton Thread",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[12] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 47,
+			amount = 39,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33327,
+			ings = 
+			{
+				[27704] = 4,
+				[27718] = 2,
+			},
+			ingsHQ = 
+			{
+				[27704] = 0,
+				[27718] = 0,
+			},
+			item = 27716,
+			madaoprofile = "None",
+			name = "Tungsten Steel Ingot",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[14] = 2,
+				[17] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 48,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -457,98 +901,32 @@ local tbl =
 		},
 		
 		{
-			HQingAuto = false,
+			HQingAuto = true,
 			HQingAutoVal = 35,
-			amount = 2,
+			amount = 4,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3848,
+			id = 33330,
 			ings = 
 			{
-				[5491] = 1,
-				[27750] = 4,
+				[27737] = 4,
+				[27744] = 2,
 			},
 			ingsHQ = 
 			{
-				[5491] = 0,
-				[27750] = 0,
+				[27737] = 0,
+				[27744] = 0,
 			},
-			item = 27749,
+			item = 27743,
 			madaoprofile = "None",
-			name = "Iridescent Silk Thread",
+			name = "Chalicotherium Leather",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[12] = 3,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 6,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33326,
-			ings = 
-			{
-				[27688] = 4,
-				[27695] = 2,
-			},
-			ingsHQ = 
-			{
-				[27688] = 0,
-				[27695] = 0,
-			},
-			item = 27694,
-			madaoprofile = "None",
-			name = "Sandalwood Lumber",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[15] = 2,
 				[16] = 2,
-			},
-			skillprofile = "None",
-			skilltype = 2,
-			skip = false,
-			usequick = false,
-		},
-		
-		{
-			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 32,
-			amountInBag = 0,
-			amountInBagHQ = 0,
-			collect = false,
-			id = 33327,
-			ings = 
-			{
-				[27704] = 4,
-				[27718] = 2,
-			},
-			ingsHQ = 
-			{
-				[27704] = 0,
-				[27718] = 0,
-			},
-			item = 27716,
-			madaoprofile = "None",
-			name = "Tungsten Steel Ingot",
-			requiredcp = 0,
-			reserved = false,
-			shards = 
-			{
-				[14] = 2,
 				[17] = 2,
 			},
 			skillprofile = "None",
@@ -593,30 +971,33 @@ local tbl =
 		
 		{
 			HQingAuto = false,
-			HQingAutoVal = 35,
-			amount = 5,
+			HQingAutoVal = 25,
+			amount = 91,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
-			id = 3821,
+			id = 3867,
 			ings = 
 			{
-				[12534] = 1,
-				[27703] = 4,
+				[27702] = 3,
+				[27773] = 1,
+				[27782] = 1,
 			},
 			ingsHQ = 
 			{
-				[12534] = 0,
-				[27703] = 0,
+				[27702] = 0,
+				[27773] = 0,
+				[27782] = 0,
 			},
-			item = 27714,
+			item = 27781,
 			madaoprofile = "None",
-			name = "Dwarven Mythril Ingot",
+			name = "Enchanted Dimythrite Ink",
+			noStop = true,
 			requiredcp = 0,
 			reserved = false,
 			shards = 
 			{
-				[8] = 7,
+				[13] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -627,7 +1008,7 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 10,
+			amount = 17,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -663,7 +1044,210 @@ local tbl =
 		{
 			HQingAuto = false,
 			HQingAutoVal = 35,
-			amount = 5,
+			amount = 187,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3821,
+			ings = 
+			{
+				[12534] = 1,
+				[27703] = 4,
+			},
+			ingsHQ = 
+			{
+				[12534] = 0,
+				[27703] = 0,
+			},
+			item = 27714,
+			madaoprofile = "None",
+			name = "Dwarven Mythril Ingot",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[8] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 6,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33326,
+			ings = 
+			{
+				[27688] = 4,
+				[27695] = 2,
+			},
+			ingsHQ = 
+			{
+				[27688] = 0,
+				[27695] = 0,
+			},
+			item = 27694,
+			madaoprofile = "None",
+			name = "Sandalwood Lumber",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[15] = 2,
+				[16] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 12,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3831,
+			ings = 
+			{
+				[12531] = 1,
+				[27702] = 4,
+			},
+			ingsHQ = 
+			{
+				[12531] = 0,
+				[27702] = 0,
+			},
+			item = 27715,
+			madaoprofile = "None",
+			name = "Dwarven Mythril Nugget",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[10] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 6,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3844,
+			ings = 
+			{
+				[27736] = 4,
+				[27817] = 1,
+			},
+			ingsHQ = 
+			{
+				[27736] = 0,
+				[27817] = 0,
+			},
+			item = 27742,
+			madaoprofile = "None",
+			name = "Sea Swallow Leather",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[11] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = true,
+			HQingAutoVal = 35,
+			amount = 8,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 33331,
+			ings = 
+			{
+				[27761] = 4,
+				[27762] = 2,
+			},
+			ingsHQ = 
+			{
+				[27761] = 0,
+				[27762] = 0,
+			},
+			item = 27760,
+			madaoprofile = "None",
+			name = "Ethereal Silk",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[16] = 2,
+				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 3,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3848,
+			ings = 
+			{
+				[5491] = 1,
+				[27750] = 4,
+			},
+			ingsHQ = 
+			{
+				[5491] = 0,
+				[27750] = 0,
+			},
+			item = 27749,
+			madaoprofile = "None",
+			name = "Iridescent Silk Thread",
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[12] = 3,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 35,
+			amount = 96,
 			amountInBag = 0,
 			amountInBagHQ = 0,
 			collect = false,
@@ -684,6 +1268,38 @@ local tbl =
 			shards = 
 			{
 				[10] = 7,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = false,
+			HQingAutoVal = 25,
+			amount = 6,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 3853,
+			ings = 
+			{
+				[27758] = 3,
+			},
+			ingsHQ = 
+			{
+				[27758] = 0,
+			},
+			item = 27757,
+			madaoprofile = "None",
+			name = "Dwarven Cotton",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[12] = 4,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -924,6 +1540,43 @@ local tbl =
 			{
 				[16] = 2,
 				[18] = 2,
+			},
+			skillprofile = "None",
+			skilltype = 2,
+			skip = false,
+			usequick = false,
+		},
+		
+		{
+			HQingAuto = true,
+			HQingAutoVal = 25,
+			amount = 91,
+			amountInBag = 0,
+			amountInBagHQ = 0,
+			collect = false,
+			id = 34429,
+			ings = 
+			{
+				[27693] = 1,
+				[27714] = 2,
+				[27781] = 1,
+			},
+			ingsHQ = 
+			{
+				[27693] = 0,
+				[27714] = 0,
+				[27781] = 0,
+			},
+			item = 31658,
+			madaoprofile = "None",
+			name = "Rarefied Dwarven Mythril Grimoire",
+			noStop = true,
+			requiredcp = 0,
+			reserved = false,
+			shards = 
+			{
+				[12] = 7,
+				[13] = 7,
 			},
 			skillprofile = "None",
 			skilltype = 2,
@@ -1707,8 +2360,99 @@ local tbl =
 			usequick = false,
 		},
 	},
+	profileRepeat = false,
 	profileType = "OneTime",
+	profileType_num = 1,
 	reserve = 
+	{
+		[3816] = 1,
+		[3821] = 1,
+		[3831] = 1,
+		[3844] = 1,
+		[3848] = 1,
+		[3853] = 1,
+		[3854] = 1,
+		[3867] = 1,
+		[4457] = 1,
+		[4458] = 1,
+		[4459] = 1,
+		[4460] = 1,
+		[4461] = 1,
+		[5491] = 1,
+		[12531] = 1,
+		[12534] = 1,
+		[27687] = 1,
+		[27688] = 1,
+		[27693] = 1,
+		[27694] = 1,
+		[27695] = 1,
+		[27702] = 1,
+		[27703] = 1,
+		[27704] = 1,
+		[27705] = 1,
+		[27714] = 1,
+		[27715] = 1,
+		[27716] = 1,
+		[27717] = 1,
+		[27718] = 1,
+		[27719] = 1,
+		[27736] = 1,
+		[27737] = 1,
+		[27742] = 1,
+		[27743] = 1,
+		[27744] = 1,
+		[27749] = 1,
+		[27750] = 1,
+		[27757] = 1,
+		[27758] = 1,
+		[27759] = 1,
+		[27760] = 1,
+		[27761] = 1,
+		[27762] = 1,
+		[27773] = 1,
+		[27781] = 1,
+		[27782] = 1,
+		[27812] = 1,
+		[27813] = 1,
+		[27814] = 1,
+		[27815] = 1,
+		[27817] = 1,
+		[28714] = 1,
+		[28715] = 1,
+		[28716] = 1,
+		[28717] = 1,
+		[28718] = 1,
+		[33326] = 1,
+		[33327] = 1,
+		[33329] = 1,
+		[33330] = 1,
+		[33331] = 1,
+		[33498] = 1,
+		[33499] = 1,
+		[33500] = 1,
+		[33501] = 1,
+		[33502] = 1,
+		[33503] = 1,
+		[33504] = 1,
+		[33505] = 1,
+		[33509] = 1,
+		[33510] = 1,
+		[33511] = 1,
+		[33512] = 1,
+		[33513] = 1,
+		[33519] = 1,
+		[33520] = 1,
+		[33521] = 1,
+		[33522] = 1,
+		[33523] = 1,
+		[33524] = 1,
+		[33525] = 1,
+		[33526] = 1,
+		[33529] = 1,
+		[33530] = 1,
+		[34429] = 1,
+	},
+	reserve2 = 
 	{
 		[5491] = 1,
 		[12534] = 1,
@@ -1743,19 +2487,48 @@ local tbl =
 		[28717] = 1,
 		[28718] = 1,
 	},
-	reserve2 = false,
+	s_c = 
+	{
+		[28718] = 104,
+	},
+	s_g = 
+	{
+	},
+	scripitemdemands = 
+	{
+		craft = 
+		{
+			white = 
+			{
+				[28718] = 104,
+			},
+			yellow = 
+			{
+			},
+		},
+		gather = 
+		{
+			white = 
+			{
+			},
+			yellow = 
+			{
+			},
+		},
+	},
 	shards = 
 	{
-		[8] = 63,
-		[10] = 70,
-		[11] = 7,
-		[12] = 6,
-		[14] = 188,
+		[8] = 1337,
+		[10] = 791,
+		[11] = 49,
+		[12] = 691,
+		[13] = 1274,
+		[14] = 204,
 		[15] = 20,
-		[16] = 128,
-		[17] = 94,
-		[18] = 26,
-		[19] = 20,
+		[16] = 154,
+		[17] = 116,
+		[18] = 56,
+		[19] = 34,
 	},
 	skill = 
 	{
@@ -1766,61 +2539,99 @@ local tbl =
 	tmlist = 
 	{
 		[27688] = 24,
-		[27704] = 128,
+		[27704] = 156,
 		[27705] = 12,
-		[28716] = 30,
-		[28717] = 141,
+		[27761] = 32,
+		[27812] = 65,
+		[27813] = 10,
+		[27814] = 10,
+		[28716] = 51,
+		[28717] = 144,
 	},
 	unspoil = 
 	{
 		
 		{
 			HQamount = 0,
-			amount = 30,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 28716,
+			amount = 32,
+			cordi = true,
+			id = 27761,
 			job = 17,
-			mapid = 817,
-			markerid = 8172436,
-			name = "Sandalwood Sap",
+			mapid = 813,
+			name = "Ethereal Cocoon",
 			okgp = 0,
+			p_detail = "Lakeland / Inviolate Witness / X:27 Y:10",
+			point = 634,
 			reserve = false,
 			skillname = "Leveling.lua",
 			skip = false,
-			slot = 4,
+			timeChecks = 
+			{
+				[8] = true,
+				[9] = true,
+				[20] = true,
+				[21] = true,
+			},
 			timeoks = 
 			{
-				2,
-				3,
-				14,
-				15,
+				8,
+				9,
+				20,
+				21,
 			},
-			x = 24,
-			y = 36,
+		},
+		
+		{
+			HQamount = 0,
+			amount = 12,
+			cordi = true,
+			id = 27705,
+			job = 16,
+			mapid = 816,
+			name = "Prismstone",
+			okgp = 0,
+			p_detail = "Il Mheg / Saint Fathric's Temple / X:30 Y:20",
+			point = 609,
+			reserve = false,
+			skillname = "Leveling.lua",
+			skip = false,
+			timeChecks = 
+			{
+				[4] = true,
+				[5] = true,
+				[16] = true,
+				[17] = true,
+			},
+			timeoks = 
+			{
+				4,
+				16,
+				17,
+				5,
+			},
 		},
 		
 		{
 			HQamount = 0,
 			amount = 24,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
+			cordi = true,
 			id = 27688,
 			job = 17,
 			mapid = 817,
-			markerid = 8172436,
 			name = "Sandalwood Log",
 			okgp = 0,
+			p_detail = "The Rak'tika Greatwood / Mjrl's Regret / X:24 Y:36",
+			point = 633,
 			reserve = false,
 			skillname = "Leveling.lua",
 			skip = false,
-			slot = 6,
+			timeChecks = 
+			{
+				[2] = true,
+				[3] = true,
+				[14] = true,
+				[15] = true,
+			},
 			timeoks = 
 			{
 				2,
@@ -1828,28 +2639,59 @@ local tbl =
 				14,
 				15,
 			},
-			x = 24,
-			y = 36,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 128,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 27704,
-			job = 16,
-			mapid = 818,
-			markerid = 8183207,
-			name = "Tungsten Ore",
+			amount = 51,
+			cordi = true,
+			id = 28716,
+			job = 17,
+			mapid = 817,
+			name = "Sandalwood Sap",
 			okgp = 0,
+			p_detail = "The Rak'tika Greatwood / Mjrl's Regret / X:24 Y:36",
+			point = 633,
 			reserve = false,
 			skillname = "Leveling.lua",
 			skip = false,
-			slot = 3,
+			timeChecks = 
+			{
+				[2] = true,
+				[3] = true,
+				[14] = true,
+				[15] = true,
+			},
+			timeoks = 
+			{
+				2,
+				3,
+				14,
+				15,
+			},
+		},
+		
+		{
+			HQamount = 0,
+			amount = 156,
+			cordi = true,
+			id = 27704,
+			job = 16,
+			mapid = 818,
+			name = "Tungsten Ore",
+			okgp = 0,
+			p_detail = "The Tempest / Where the Dry Return / X:32 Y:7",
+			point = 610,
+			reserve = false,
+			skillname = "Leveling.lua",
+			skip = false,
+			timeChecks = 
+			{
+				[10] = true,
+				[11] = true,
+				[22] = true,
+				[23] = true,
+			},
 			timeoks = 
 			{
 				10,
@@ -1857,168 +2699,45 @@ local tbl =
 				22,
 				23,
 			},
-			x = 32,
-			y = 7,
 		},
 		
 		{
 			HQamount = 0,
-			amount = 12,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
-			id = 27705,
-			job = 16,
-			mapid = 816,
-			markerid = 8163020,
-			name = "Prismstone",
-			okgp = 0,
-			reserve = false,
-			skillname = "Leveling.lua",
-			skip = false,
-			slot = 7,
-			timeoks = 
-			{
-				4,
-				5,
-				16,
-				17,
-			},
-			x = 30,
-			y = 20,
-		},
-		
-		{
-			HQamount = 0,
-			amount = 141,
-			collect = false,
-			cordial = true,
-			expansion = "Shadow",
-			folklore = true,
-			hold = false,
+			amount = 144,
+			cordi = true,
 			id = 28717,
 			job = 16,
 			mapid = 816,
-			markerid = 8163020,
 			name = "Beryllium Ore",
 			okgp = 0,
+			p_detail = "Il Mheg / Saint Fathric's Temple / X:30 Y:20",
+			point = 609,
 			reserve = false,
 			skillname = "Leveling.lua",
 			skip = false,
-			slot = 5,
+			timeChecks = 
+			{
+				[4] = true,
+				[5] = true,
+				[16] = true,
+				[17] = true,
+			},
 			timeoks = 
 			{
 				4,
-				5,
 				16,
 				17,
+				5,
 			},
-			x = 30,
-			y = 20,
 		},
 	},
 	unspoilTimeline = 
 	{
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		},
-		
-		{
-		}, 
-		[0] = 
-		{
-		},
 	},
 	withdraw = 
 	{
-		[5491] = 2,
-		[27688] = 24,
-		[27695] = 6,
-		[27704] = 128,
-		[27716] = 3,
-		[27718] = 6,
-		[27719] = 6,
-		[27750] = 8,
-		[27760] = 3,
-		[28717] = 141,
-		[28718] = 5,
-		[1027715] = 1,
-		[1027716] = 1,
-		[1027742] = 1,
-		[1027743] = 2,
-		[1027749] = 1,
-		[1027757] = 1,
-		[1027758] = 1,
-		[1027760] = 2,
-		[1028714] = 1,
-		[1028715] = 4,
-		[1028716] = 10,
 	},
+	withpdata = true,
 }
 
 
